@@ -1,0 +1,48 @@
+Abstract Factory Pattern
+=============================
+define an interface or abstract class for creating families of related (or dependent) objects
+but without specifying their concrete sub-classes.
+That means Abstract Factory lets a class returns a factory of classes.
+So, this is the reason that Abstract Factory Pattern is one level higher than the Factory Pattern.
+
+An Abstract Factory Pattern is also known as Kit.
+
+
+Advantage
+--------------
+* isolates the client code from concrete (implementation) classes.
+* It eases the exchanging of object families.
+* It promotes consistency among objects.
+
+
+Usage
+--------------
+* When the system needs to be independent of how its object are created, composed, and represented.
+* When the family of related objects has to be used together, then this constraint needs to be enforced.
+* When you want to provide a library of objects that does not show implementations and only reveals interfaces.
+* When the system needs to be configured with one of a multiple family of objects.
+
+
+e.g.:  calculating the loan payment for different banks like HDFC, ICICI, SBI etc.
+Step 1: Create a Bank interface
+Step 2: Create concrete classes that implement the Bank interface.
+Step 3: Create the Loan abstract class.
+Step 4: Create concrete classes that extend the Loan abstract class..
+Step 5: Create an abstract class (i.e AbstractFactory) to get the factories for Bank and Loan Objects.
+Step 6: Create the factory classes that inherit AbstractFactory class
+to generate the object of concrete class based on given information.
+Step 7: Create a FactoryCreator class to get the factories by passing an information such as Bank or Loan.
+Step 8: Use the FactoryCreator to get AbstractFactory in order to get factories of concrete classes by passing an information such as type.
+
+l
+
+
+
+
+
+
+
+
+
+
+
