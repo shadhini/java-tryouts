@@ -10,5 +10,8 @@ public class ReferenceTypes {
         byte age = 29;
         Date now = new Date();
         System.out.println(now);
+        /* Output:
+        Mon Sep 09 17:31:20 IST 2024
+         */
     }
 }
