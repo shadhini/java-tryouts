@@ -1,7 +1,7 @@
 package com.shadhini.java.tryouts.basics;
 
 /**
- * About Primitive data types of Java
+ * About Primitive data types of Java.
  */
 public class PrimitiveTypes {
 

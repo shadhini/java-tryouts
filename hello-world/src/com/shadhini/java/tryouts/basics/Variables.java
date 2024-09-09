@@ -1,7 +1,7 @@
 package com.shadhini.java.tryouts.basics;
 
 /**
- * About declaring and initializing variables
+ * About declaring and initializing variables.
  */
 public class Variables {
     public static void main(String[] args) {

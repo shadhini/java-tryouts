@@ -3,7 +3,7 @@ package com.shadhini.java.tryouts.basics;
 import java.awt.*;
 
 /**
- * Difference between Primitive Types and Reference Types
+ * Difference between Primitive types and Reference types.
  */
 public class PrimitiveVsReference {
 

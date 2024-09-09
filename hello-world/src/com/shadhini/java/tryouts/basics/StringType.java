@@ -1,7 +1,7 @@
 package com.shadhini.java.tryouts.basics;
 
 /**
- * About Java String Type
+ * About Java String type.
  */
 public class StringType {
 
