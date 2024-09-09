@@ -7,3 +7,5 @@
 5. PrimitiveVsReference: Difference between Primitive types and Reference types
 6. StringType: Java String Type
 7. EscapeSequences: Escape ('\') sequences for including special characters
+8. ArraysType: Java Arrays
+9. 
