@@ -94,7 +94,7 @@ public class ArithmeticExpressions {
         // Decrement
         // ============================================================================================================
 
-        // Augmented Assignment Operator
+        // Augmented/Compound Assignment Operator
         // ============================================================================================================
         int c = 1;
         c = c +2; // c=3

@@ -2,6 +2,7 @@ package com.shadhini.java.tryouts.basics;
 
 /**
  * About Java String type.
+ * [java.lang.String]
  */
 public class StringType {
 

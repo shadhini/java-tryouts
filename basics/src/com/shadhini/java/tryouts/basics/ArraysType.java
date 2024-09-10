@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * About Java Arrays.
+ * [java.util.Arrays]
  */
 public class ArraysType {
 
