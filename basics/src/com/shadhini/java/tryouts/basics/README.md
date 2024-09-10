@@ -14,4 +14,5 @@
 12. CastingNTypeConversion: Java casting and type conversion
 13. MathClass: [`java.lang.Math`] functionalities of java.lang.Math class
 14. FormattingNumbers: [`java.text.NumberFormat`] formatting numbers in Java
-15. 
+15. ReadingInput: [`java.util.Scanner`] reading user input from terminal in Java
+16. 

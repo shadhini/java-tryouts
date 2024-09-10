@@ -23,3 +23,6 @@
 hs_err_pid*
 replay_pid*
 /.idea/
+/tools/.idea/
+/tools/mortgage-calculator/mortgage-calculator.iml
+/java-tryouts.iml

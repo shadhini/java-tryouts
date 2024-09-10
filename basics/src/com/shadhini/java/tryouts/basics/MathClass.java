@@ -60,6 +60,9 @@ public class MathClass {
         int random3 = (int) (Math.random() * 100);
         System.out.println(random3); // Sample Output: 56 [changes every time]
 
-
+        // Power
+        // ===========================================================================================================
+        // 2^3 = 2x2x2 = 8
+        System.out.println(Math.pow(2,3)); // Output: 8.0
     }
 }
