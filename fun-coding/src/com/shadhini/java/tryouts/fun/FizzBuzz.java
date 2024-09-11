@@ -22,6 +22,7 @@ public class FizzBuzz {
         System.out.print("Number: ");
         int number = scanner.nextInt();
 
+        // Programming is all about trade-offs.
         fizzBuzzMoreReadable(number);
         fizzBuzzNoRepetition(number);
 

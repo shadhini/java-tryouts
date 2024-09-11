@@ -20,7 +20,10 @@
 ## Control Flow
 1. ComparisonOperators: Java comparison operators 
 2. LogicalOperators: Java logical operators
-3. IfStatements: If statements
-4. TernaryOperator: the Ternary operator
-5. SwitchStatement: Switch statement
-6. 
+3. IfStatements: [`if`] If statements
+4. TernaryOperator: [`ternary`] the Ternary operator
+5. SwitchStatement: [`switch`] Switch statement
+6. ForLoops: [`for`] Java For loops
+7. WhileLoops: [`while`] Java While loops
+8. DoWhileLoops: [`do...while`] Java Do While loops
+9. 
