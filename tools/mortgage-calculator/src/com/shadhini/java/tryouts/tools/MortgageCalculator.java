@@ -5,11 +5,8 @@ import java.util.Scanner;
 
 public class MortgageCalculator {
 
-    //TODO: Make code more readable and understandable by breaking it down to small parts
-
     public static void main(String[] args) {
-        final byte MONTHS_IN_YEAR = 12;
-        final byte PERCENT = 100;
+
         final int MIN_PRINCIPAL = 1000;
         final int MAX_PRINCIPAL = 1_000_000;
         final byte MIN_PERIOD = 1;
@@ -17,44 +14,51 @@ public class MortgageCalculator {
         final byte MIN_INTEREST_RATE = 1;
         final byte MAX_INTEREST_RATE = 30;
 
-        int principal = 0;
-        byte period = 0;
-        int numOfPayments = 0;
-        float annualInterestRate = 0;
-        float monthlyInterestRate = 0;
-        Scanner scanner = new Scanner(System.in);
+        int principal = (int) readNumber("Principal($1K - $1M): ", MIN_PRINCIPAL, MAX_PRINCIPAL);
+        float annualInterestRate = (float) readNumber(
+                "Annual Interest Rate: ", MIN_INTEREST_RATE, MAX_INTEREST_RATE);
+        byte period = (byte) readNumber("Period (Years): ", MIN_PERIOD, MAX_PERIOD);
 
-        while (true) {
-            System.out.print("Principal($1K - $1M): ");
-            principal = scanner.nextInt();
-            if (principal >= MIN_PRINCIPAL && principal <= MAX_PRINCIPAL)
-                break;
-            System.out.println("Enter a number between " + MIN_PRINCIPAL + " and " + MAX_PRINCIPAL + ".");
-        }
+        double mortgage = calculateMortgage(principal, annualInterestRate, period);
 
-        while (true) {
-            System.out.print("Annual Interest Rate: ");
-            annualInterestRate = scanner.nextFloat();
-            if (annualInterestRate >= MIN_INTEREST_RATE && annualInterestRate <= MAX_INTEREST_RATE) {
-                monthlyInterestRate = annualInterestRate / PERCENT / MONTHS_IN_YEAR;
-                break;
-            }
-            System.out.println("Enter a value between " + MIN_INTEREST_RATE + " and " + MAX_INTEREST_RATE + ".");
-        }
-
-        while (true) {
-            System.out.print("Period (Years): ");
-            period = scanner.nextByte(); // Maximum would be 30
-            if (period >= MIN_PERIOD && period <= MAX_PERIOD) {
-                numOfPayments = period * MONTHS_IN_YEAR;
-                break;
-            }
-            System.out.println("Enter a value between " + MIN_PERIOD + " and " + MAX_PERIOD + ".");
-        }
-
-        // Mortgage calculation
-        double power = Math.pow(1  + monthlyInterestRate, numOfPayments);
-        double mortgage = (principal * monthlyInterestRate * power) / (power - 1);
         System.out.println("Mortgage: " + NumberFormat.getCurrencyInstance().format(mortgage));
+    }
+
+    /**
+     * Calculate mortgage
+     * @param principal principal amount of the loan
+     * @param annualInterestRate annual interest rate of the loan
+     * @param period loan payment period in years
+     * @return monthly payment as a double
+     */
+    public static double calculateMortgage(int principal, float annualInterestRate, byte period) {
+        final byte MONTHS_IN_YEAR = 12;
+        final byte PERCENT = 100;
+
+        float monthlyInterestRate = annualInterestRate / PERCENT / MONTHS_IN_YEAR;
+        short numOfPayments = (short) (period * MONTHS_IN_YEAR);
+
+        double intermediateCalc = Math.pow(1  + monthlyInterestRate, numOfPayments);
+        return  (principal * monthlyInterestRate * intermediateCalc) / (intermediateCalc - 1);
+    }
+
+    /**
+     * Reads a number input from the terminal
+     * @param prompt prompt
+     * @param min minimum value of the input
+     * @param max maximum value of the input
+     * @return user input as a double
+     */
+    public static double readNumber(String prompt, double min, double max) {
+        Scanner scanner = new Scanner(System.in);
+        double value = 0;
+        while (true) {
+            System.out.print(prompt);
+            value = scanner.nextDouble();
+            if (value >= min && value <= max)
+                break;
+            System.out.println("Enter a number between " + min + " and " + max + ".");
+        }
+        return value;
     }
 }
