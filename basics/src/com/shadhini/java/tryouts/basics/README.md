@@ -1,18 +1,26 @@
 # Java Basics 
 
+## Getting Started
 1. Main: `Main` class and `main` method
-2. Variables: declaring and initializing variables
-3. PrimitiveTypes: Java primitive data types
-4. ReferenceTypes: Java reference data type
-5. PrimitiveVsReference: Difference between Primitive types and Reference types
-6. StringType: [`java.lang.String`] Java String Type
-7. EscapeSequences: Escape `'\'` sequences for including special characters
-8. ArraysType: [`java.util.Arrays`] Java Arrays
-9. MultiDimensionalArrays: create/declare multidimensional arrays in Java
-10. Constants: declaring constants
-11. ArithmeticExpressions: arithmetic expressions in Java
-12. CastingNTypeConversion: Java casting and type conversion
-13. MathClass: [`java.lang.Math`] functionalities of java.lang.Math class
-14. FormattingNumbers: [`java.text.NumberFormat`] formatting numbers in Java
-15. ReadingInput: [`java.util.Scanner`] reading user input from terminal in Java
-16. 
+## Types
+1. Variables: declaring and initializing variables 
+2. PrimitiveTypes: Java primitive data types 
+3. ReferenceTypes: Java reference data type 
+4. PrimitiveVsReference: Difference between Primitive types and Reference types 
+5. StringType: [`java.lang.String`] Java String Type 
+6. EscapeSequences: Escape `'\'` sequences for including special characters 
+7. ArraysType: [`java.util.Arrays`] Java Arrays 
+8. MultiDimensionalArrays: create/declare multidimensional arrays in Java 
+9. Constants: declaring constants 
+10. ArithmeticExpressions: arithmetic expressions in Java 
+11. CastingNTypeConversion: Java casting and type conversion 
+12. MathClass: [`java.lang.Math`] functionalities of java.lang.Math class 
+13. FormattingNumbers: [`java.text.NumberFormat`] formatting numbers in Java 
+14. ReadingInput: [`java.util.Scanner`] reading user input from terminal in Java
+## Control Flow
+1. ComparisonOperators: Java comparison operators 
+2. LogicalOperators: Java logical operators
+3. IfStatements: If statements
+4. TernaryOperator: the Ternary operator
+5. SwitchStatement: Switch statement
+6. 
