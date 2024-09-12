@@ -28,4 +28,4 @@
 8. DoWhileLoops: [`do...while`] Java Do While loops
 9. BreakAndContinueStatements: [`break`] [`continue`] Java Break and Continue statements
 10. ForEachLoops: [`for each`] For Each loops in Java
-11. 
+11. CreatingMethods: creating methods
