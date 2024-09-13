@@ -6,3 +6,15 @@ Enjoy your journey through Java with me!
 
 Visit [Java Tryouts](https://shadhini-jayatilake.gitbook.io/java-tryouts) for complete documentation!
 
+# Main Topics Covered
+
+1. [Java Basics]()
+2. [OOP: Object-Oriented Programming with Java]()
+3. 
+
+
+
+# Other
+
+1. Simple Tools
+2. `Fun Coding`: Coding challenges
