@@ -1,8 +1,12 @@
-package com.shadhini.java.tryouts.tools;
+package com.shadhini.java.tryouts.tools.procedural;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
 
+/**
+ * Mortgage Calculator
+ * [Procedural Programming]
+ */
 public class MortgageCalculator {
 
     final static byte MONTHS_IN_YEAR = 12;
