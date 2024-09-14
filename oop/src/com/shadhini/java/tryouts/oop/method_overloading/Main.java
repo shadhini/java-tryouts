@@ -1,5 +1,8 @@
 package com.shadhini.java.tryouts.oop.method_overloading;
 
+/**
+ * Demonstration of Method overloading.
+ */
 public class Main {
 
     // In this scenario not using method overloading and just passing 0 as in A is better
