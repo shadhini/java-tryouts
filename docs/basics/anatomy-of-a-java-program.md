@@ -25,11 +25,10 @@ Functions don't exist on their own. Every function should belong to a class.
 
 e.g:
 
-```java
-public static void sendEmail(String receiver, String subject, String content) {
-    // Function Implementation
+<pre class="language-java"><code class="lang-java">public static void sendEmail(String receiver, String subject, String content) {
+    <a data-footnote-ref href="#user-content-fn-5">// Function Implementation</a>
 }
-```
+</code></pre>
 
 ## Class
 
@@ -37,7 +36,7 @@ public static void sendEmail(String receiver, String subject, String content) {
 
 ### Syntax of a Class
 
-<pre class="language-java"><code class="lang-java">&#x3C;ACCESS_MODIFIER> class &#x3C;<a data-footnote-ref href="#user-content-fn-5">CLASS_NAME</a>> {
+<pre class="language-java"><code class="lang-java">&#x3C;ACCESS_MODIFIER> class &#x3C;<a data-footnote-ref href="#user-content-fn-6">CLASS_NAME</a>> {
     // implementation
 }
 </code></pre>
@@ -74,18 +73,19 @@ Every Java  program should have at least one Java class that contains the `main(
 * This is the `entry point` for Java programs
 * Whenever a Java program is executed, `main()` method gets called and code inside the function gets executed.
 
-```java
-package com.shadhini.java.tryouts.basics;
+<pre class="language-java"><code class="lang-java">package com.shadhini.java.tryouts.basics;
 
 /**
  * `Main` class and `main` method.
  */
 public class Main {
-    public static void main(String[] args) {
+    <a data-footnote-ref href="#user-content-fn-7">public</a> static <a data-footnote-ref href="#user-content-fn-8">void</a> main(String[] args) {
         System.out.println("Hello World!");
     }
 }
-```
+</code></pre>
+
+* Main method in the program should always be `static`.
 
 ## Access Modifiers
 
@@ -121,15 +121,14 @@ e.g:&#x20;
 
 ## Structure of a Java Program
 
-```java
-package com.shadhini.java.tryouts.basics;
-
+<pre class="language-java"><code class="lang-java"><strong>package com.shadhini.java.tryouts.basics;
+</strong>
 public class Main { // Main class
     public static void main(String[] args) { // main method
         System.out.println("Hello World!");
     }
 }
-```
+</code></pre>
 
 
 
@@ -152,4 +151,10 @@ public class Main { // Main class
 
     * parameter names in camelCase
 
-[^5]: use PascalNamingConvention
+[^5]: commented line; don't get executed
+
+[^6]: use PascalNamingConvention
+
+[^7]: accessible from other parts of the program
+
+[^8]: return type; this method won't return any value

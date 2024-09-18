@@ -1,11 +1,8 @@
 ---
-icon: browser
-description: Command Line Application using IntelliJIDEA IDE
+icon: file-plus
 ---
 
-# First Java Program
-
-## @IntelliJIDEA   &#x20;
+# Create New Project
 
 1.  File -> New Project --> Java \[left panel]
 
@@ -42,37 +39,3 @@ With `gradle` as a Build System
 <figure><img src="../.gitbook/assets/first-java-program-add-package-later-1.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/first-java-program-add-package-later-2.png" alt=""><figcaption></figcaption></figure>
-
-## About First Java Program
-
-<pre class="language-java"><code class="lang-java">package com.shadhini.java.tryouts.basics;
-
-public class Main {
-    <a data-footnote-ref href="#user-content-fn-1">public</a> <a data-footnote-ref href="#user-content-fn-2">static</a> <a data-footnote-ref href="#user-content-fn-3">void</a> main(<a data-footnote-ref href="#user-content-fn-4">String[] args</a>) {
-        <a data-footnote-ref href="#user-content-fn-5">System</a>.<a data-footnote-ref href="#user-content-fn-6">out</a>.<a data-footnote-ref href="#user-content-fn-7">println</a>(<a data-footnote-ref href="#user-content-fn-8">"Hello World!"</a>);
-    }
-}
-</code></pre>
-
-### Note
-
-* All Java files should have the `.java` extension.
-*
-
-
-
-[^1]: accessible from other parts of the program
-
-[^2]: Main method in the program should always be `static`.
-
-[^3]: return type; this method won't return any value
-
-[^4]: one parameter
-
-[^5]: a class defined in the java.lang package
-
-[^6]: field of `System` class of type `PrintStream`; `PrintStream` is another class defined in Java
-
-[^7]: method of `PrintStream` class
-
-[^8]: a string

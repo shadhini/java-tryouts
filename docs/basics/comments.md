@@ -4,6 +4,8 @@ icon: comment-dots
 
 # Comments
 
+> **Comments don't get executed**
+
 ```java
 // Line comment
 
