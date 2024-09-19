@@ -1,9 +1,9 @@
 # Java Basics 
 
 ## Getting Started
-1. Main: `Main` class and `main` method
+1. [Main](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Main.java): `Main` class and `main` method
 ## Types
-1. Variables: declaring and initializing variables 
+1. [Variables](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Variables.java): declaring and initializing variables 
 2. PrimitiveTypes: Java primitive data types 
 3. ReferenceTypes: Java reference data type 
 4. PrimitiveVsReference: Difference between Primitive types and Reference types 
