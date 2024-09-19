@@ -4,11 +4,16 @@
 
 ## BASICS
 
-* [Setting up the Development Environment](basics/setting-up-the-development-environment.md)
-* [Anatomy of a Java Program](basics/anatomy-of-a-java-program.md)
-* [First Java Program](basics/first-java-program.md)
+* [Getting Started](basics/getting-started/README.md)
+  * [Setting up the Development Environment](basics/getting-started/setting-up-the-development-environment.md)
+  * [Anatomy of a Java Program](basics/getting-started/anatomy-of-a-java-program.md)
+  * [First Java Program](basics/getting-started/first-java-program.md)
+  * [How Java Code gets Executed](basics/getting-started/how-java-code-gets-executed.md)
+  * [Interesting Facts about Java](basics/getting-started/interesting-facts-about-java.md)
+  * [Textual Data](basics/getting-started/textual-data.md)
+  * [Comments](basics/getting-started/comments.md)
+* [Variables](basics/variables.md)
 * [\`java.lang\` package](basics/java.lang-package.md)
-* [Comments](basics/comments.md)
 * [Reserved Keywords](basics/reserved-keywords.md)
 
 ## OOP
@@ -18,10 +23,12 @@
 ## BEST PRACTICE
 
 * [Naming Convention](best-practice/naming-convention.md)
+* [Coding](best-practice/coding.md)
 
 ## IntelliJIDEA IDE SUPPORT <a href="#intellijidea" id="intellijidea"></a>
 
-* [Create New Project](intellijidea/create-new-project.md)
-* [View info with . and hovering cursor](intellijidea/view-info-with-.-and-hovering-cursor.md)
 * [Shortcuts](intellijidea/shortcuts.md)
 * [Icons](intellijidea/icons.md)
+* [Create New Project](intellijidea/create-new-project.md)
+* [View info with . and hovering cursor](intellijidea/view-info-with-.-and-hovering-cursor.md)
+* [Terminal](intellijidea/terminal.md)

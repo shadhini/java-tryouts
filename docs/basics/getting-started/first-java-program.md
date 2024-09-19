@@ -23,27 +23,33 @@ description: Command Line Application using IntelliJIDEA IDE
 
 With `IntelliJ` as Build System
 
-<figure><img src="../.gitbook/assets/first-java-progrem-SS-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/first-java-progrem-SS-1.png" alt=""><figcaption></figcaption></figure>
 
 With `Maven` as Build System
 
-<figure><img src="../.gitbook/assets/first-java-progrem-SS-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/first-java-progrem-SS-2.png" alt=""><figcaption></figcaption></figure>
 
 With `gradle` as a Build System
 
-<figure><img src="../.gitbook/assets/first-java-progrem-SS-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/first-java-progrem-SS-3.png" alt=""><figcaption></figcaption></figure>
 
 ## After creating the project with `IntelliJ` as build system
 
-<figure><img src="../.gitbook/assets/first-java-program-SS-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/first-java-program-SS-4.png" alt=""><figcaption></figcaption></figure>
 
 ## Adding package after creating the project with \`IntelliJ\` as build system
 
-<figure><img src="../.gitbook/assets/first-java-program-add-package-later-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/first-java-program-add-package-later-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/first-java-program-add-package-later-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/first-java-program-add-package-later-2.png" alt=""><figcaption></figcaption></figure>
 
 ## About First Java Program
+
+<figure><img src="../../.gitbook/assets/intelliJ-info-class-package-to-be-imported.png" alt=""><figcaption><p>Call <code>System</code> class from java.lang package</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/intelliJ-info-class-memebers.png" alt=""><figcaption><p>Check accessible members of <code>System</code> class</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/intelliJ-info-object-members.png" alt=""><figcaption><p>Check accessible members of <code>out</code> filed of type <code>PrintStream</code></p></figcaption></figure>
 
 <pre class="language-java"><code class="lang-java">package com.shadhini.java.tryouts.basics;
 
@@ -57,7 +63,6 @@ public class Main {
 ### Note
 
 * All Java files should have the `.java` extension.
-*
 
 
 
