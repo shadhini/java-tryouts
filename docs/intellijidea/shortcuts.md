@@ -61,6 +61,34 @@ See method parameter info: `command` + `P`&#x20;
 
 
 
+## Quick Method Generation
+
+To generate following code snippet of `main` method,&#x20;
+
+```java
+public static void main(String[] args) {
+        
+}
+```
+
+type `psvm` and press `return`
+
+***
+
+To generate following code snippet to print a string,
+
+```java
+System.out.println();
+```
+
+type `sout` and press `return`
+
+***
+
+
+
+
+
 ## View Usage
 
 

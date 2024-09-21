@@ -2,7 +2,9 @@
 icon: icons
 ---
 
-# Icons
+# Icons & Colour Code
+
+## Icons
 
 Icon that indicates a `Class`
 
@@ -37,4 +39,8 @@ Icon that indicates a `Field`
 </div>
 
 
+
+## Coloured words
+
+* Orange colour words: Reserved keywords
 

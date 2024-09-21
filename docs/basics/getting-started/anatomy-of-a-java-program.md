@@ -102,8 +102,23 @@ Access Modifiers:
 ## Package
 
 > **used to group related classes**
+>
+> **create namespace for classes**
 
 Classes should be properly organized into packages.
+
+<details>
+
+<summary>❗We can have classes with same name in different packages; they don't conflict. Thus, packages create <code>namespace for classes</code>.</summary>
+
+```
+Date     from java.util package
+Date     from java.sql package
+```
+
+</details>
+
+* To use a class from a package other than the current package from the current class, we need to `import` that other  package first.
 
 ### **Base Package**
 
