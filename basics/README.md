@@ -1,12 +1,16 @@
 # Java Basics 
 
 ## Getting Started
-1. [Main](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Main.java): `Main` class and `main` method
+| # | Topic                                                                                                                                                | Description                    |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| 1 | [Main](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Main.java) | `Main` class and `main` method |
 ## Types
-1. [Variables](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Variables.java): declaring and initializing variables 
-2. PrimitiveTypes: Java primitive data types 
-3. ReferenceTypes: Java reference data type 
-4. PrimitiveVsReference: Difference between Primitive types and Reference types 
+| # | Topic                                                                                                                                                                                | Description                                            |
+|---|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| 1 | [Variables](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Variables.java)                       | declaring and initializing variables                   |
+| 2 | [PrimitiveTypes](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/PrimitiveTypes.java)             | Java primitive data types                              |
+| 3 | [ReferenceTypes](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/ReferenceTypes.java)             | Java reference data type                               |
+| 4 | [PrimitiveVsReference](https://github.com/shadhini/java-tryouts/blob/32cd54499f12ceff861f103d42cd48656f3700ed/basics/src/com/shadhini/java/tryouts/basics/PrimitiveVsReference.java) | Difference between Primitive types and Reference types | 
 5. StringType: [`java.lang.String`] Java String Type 
 6. EscapeSequences: Escape `'\'` sequences for including special characters 
 7. ArraysType: [`java.util.Arrays`] Java Arrays 
@@ -18,6 +22,8 @@
 13. FormattingNumbers: [`java.text.NumberFormat`] formatting numbers in Java 
 14. ReadingInput: [`java.util.Scanner`] reading user input from terminal in Java
 ## Control Flow
+| # | Topic                                                                                                                                              | Path from repository root                                                                                |
+|---|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 1. ComparisonOperators: Java comparison operators 
 2. LogicalOperators: Java logical operators
 3. IfStatements: [`if`] If statements
