@@ -4,6 +4,7 @@
 | # | Topic                                                                                                                                                | Description                    |
 |---|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | 1 | [Main](https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Main.java) | `Main` class and `main` method |
+
 ## Types
 | #  | Topic                                                                                                                                                                                    | Description                                                    |
 |----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -21,17 +22,18 @@
 | 12 | [MathClass](https://github.com/shadhini/java-tryouts/blob/78ebb90c7b4577759b35fac18fb45a9e38e77270/basics/src/com/shadhini/java/tryouts/basics/MathClass.java)                           | [`java.lang.Math`] functionalities of java.lang.Math class     |        
 | 13 | [FormattingNumbers](https://github.com/shadhini/java-tryouts/blob/0c9a12dbea3f5934de8dae3991bed9524a341bc9/basics/src/com/shadhini/java/tryouts/basics/FormattingNumbers.java)           | [`java.text.NumberFormat`] formatting numbers in Java          |     
 | 14 | [ReadingInput](https://github.com/shadhini/java-tryouts/blob/212756e20b892d86d44d8c3a567abd99d0300051/basics/src/com/shadhini/java/tryouts/basics/ReadingInput.java)                     | [`java.util.Scanner`] reading user input from terminal in Java | 
+
 ## Control Flow
-| # | Topic                                                                                                                                              | Path from repository root                                                                                |
-|---|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-1. ComparisonOperators: Java comparison operators 
-2. LogicalOperators: Java logical operators
-3. IfStatements: [`if`] If statements
-4. TernaryOperator: [`ternary`] the Ternary operator
-5. SwitchStatement: [`switch`] Switch statement
-6. ForLoops: [`for`] Java For loops
-7. WhileLoops: [`while`] Java While loops
-8. DoWhileLoops: [`do...while`] Java Do While loops
-9. BreakAndContinueStatements: [`break`\] [`continue`] Java Break and Continue statements
-10. ForEachLoops: [`for each`] For Each loops in Java
-11. CreatingMethods: creating methods
+| #  | Topic                                                                                                                                                                                            | Path from repository root                                  |
+|----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| 1  | [ComparisonOperators](https://github.com/shadhini/java-tryouts/blob/f8e74ea5d514f52f462bc6fb63b0610b5b0116b3/basics/src/com/shadhini/java/tryouts/basics/ComparisonOperators.java)               | Java comparison operators                                  |
+| 2  | [LogicalOperators](https://github.com/shadhini/java-tryouts/blob/f8e74ea5d514f52f462bc6fb63b0610b5b0116b3/basics/src/com/shadhini/java/tryouts/basics/LogicalOperators.java)                     | Java logical operators                                     |
+| 3  | [IfStatements](https://github.com/shadhini/java-tryouts/blob/129ed1b5c97f759404f20c2aab3415156117a2d6/basics/src/com/shadhini/java/tryouts/basics/IfStatements.java)                             | [`if`] If statements                                       |
+| 4  | [TernaryOperator](https://github.com/shadhini/java-tryouts/blob/129ed1b5c97f759404f20c2aab3415156117a2d6/basics/src/com/shadhini/java/tryouts/basics/TernaryOperator.java)                       | [`ternary`] the Ternary operator                           | 
+| 5  | [SwitchStatement](https://github.com/shadhini/java-tryouts/blob/129ed1b5c97f759404f20c2aab3415156117a2d6/basics/src/com/shadhini/java/tryouts/basics/SwitchStatement.java)                       | [`switch`] Switch statement                                |
+| 6  | [ForLoops](https://github.com/shadhini/java-tryouts/blob/ed12da19862cce3c9d031bdd3a70ea3dd1ef740f/basics/src/com/shadhini/java/tryouts/basics/ForLoops.java)                                     | [`for`] Java For loops                                     |
+| 7  | [WhileLoops](https://github.com/shadhini/java-tryouts/blob/ed12da19862cce3c9d031bdd3a70ea3dd1ef740f/basics/src/com/shadhini/java/tryouts/basics/WhileLoops.java)                                 | [`while`] Java While loops                                 |
+| 8  | [DoWhileLoops](https://github.com/shadhini/java-tryouts/blob/ed12da19862cce3c9d031bdd3a70ea3dd1ef740f/basics/src/com/shadhini/java/tryouts/basics/DoWhileLoops.java)                             | [`do...while`] Java Do While loops                         |
+| 9  | [BreakAndContinueStatements](https://github.com/shadhini/java-tryouts/blob/b712fd4fa13f6ecb505356f8cc770333d1cefc29/basics/src/com/shadhini/java/tryouts/basics/BreakAndContinueStatements.java) | [`break`\] [`continue`] Java Break and Continue statements |
+| 10 | [ForEachLoops](https://github.com/shadhini/java-tryouts/blob/b712fd4fa13f6ecb505356f8cc770333d1cefc29/basics/src/com/shadhini/java/tryouts/basics/ForEachLoops.java)                             | [`for each`] For Each loops in Java                        |
+| 11 | [CreatingMethods](https://github.com/shadhini/java-tryouts/blob/88c61749b690ff57ba9f6cb1255dd982c1ce450f/basics/src/com/shadhini/java/tryouts/basics/CreatingMethods.java)                       | creating methods                                           |
