@@ -18,7 +18,7 @@ public class CastingNTypeConversion {
         System.out.println(s); // Output: 3.1
 
         // Explicit Casting
-        int t = (int) r + 2;
+        int t = (int) r + 2; // Without explicit casting, you get a CastException here
         System.out.println(t); // Output: 3
 
         String a = "1";
