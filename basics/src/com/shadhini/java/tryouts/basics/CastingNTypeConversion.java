@@ -8,7 +8,7 @@ public class CastingNTypeConversion {
     public static void main(String[] args) {
 
         // Implicit Casting
-        // byte > short > int > long > float > double
+        // byte -> short -> int -> long -> float -> double
         short x = 1;
         int y = x + 2;
         System.out.println(y); // Output: 3
