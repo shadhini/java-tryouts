@@ -4,6 +4,9 @@ icon: square-code
 
 # Coding
 
+* Programming is driven by the basic rule **`"Don't repeat yourself".`**
+* Programming and problem solving is **`all about trade offs`**.
+
 ## Variable
 
 ### Variable Naming
@@ -92,7 +95,92 @@ int precipitation = 20;
 
 
 
+## If Statements
 
+{% content-ref url="../basics/control-flow/if-statements/simplifying-if-statements.md" %}
+[simplifying-if-statements.md](../basics/control-flow/if-statements/simplifying-if-statements.md)
+{% endcontent-ref %}
+
+{% content-ref url="../basics/control-flow/ternary-operator.md" %}
+[ternary-operator.md](../basics/control-flow/ternary-operator.md)
+{% endcontent-ref %}
+
+
+
+***
+
+✅️  When there are multiple conditions, we should have most specific conditions on top, and most generic ones at the bottom.
+
+e.g: FizzBuzz readable version
+
+```java
+if (number % 5 == 0 && number % 3 == 0) // the most specific conditions comes to top
+    System.out.println("FizzBuzz");
+else if (number % 5 == 0)
+    System.out.println("Fizz");
+else if (number % 3 == 0)
+    System.out.println("Buzz");
+else
+    System.out.println(number); // the most generic conditions goes to bottom
+```
+
+
+
+❗The more you `nest the if else statements`, the more **`complicated`** and confusing your code is going to be to other people.
+
+
+
+## Loops
+
+✅️  In situations where you know in ahead of time that how many times you have to execute set of statements&#x20;
+
+**``╰┈➤ use `for` loop``**
+
+✅️  In situations where you don't know exactly how many times you want to repeat something
+
+**``╰┈➤ use `while` loop``**
+
+* e.g: run a program till user enter `quit`.
+
+✅️  In situations where you don't know exactly how many times you want to repeat something, but you want the loop body to execute at least once
+
+**``╰┈➤ use `do... while` loop``**
+
+✅️  In situations where you simply want to iterate over array of items and don't need the access to idex of each item&#x20;
+
+**``╰┈➤ use `for each` loop``**
+
+***
+
+
+
+❌ Don't create unnecessary objects inside loops.
+
+* Unless that object need to be created in every iteration, declare and create it outside the loop and reuse it inside the loop.
+
+❗**`while (true)`** loops must have a `break` statement
+
+* They are dangerous in terms of memory consumption, if break condition is not met. => infinite loop
+
+
+
+## Methods
+
+✅️  You need to break down your code into small methods and improve code readability and reusability.
+
+✅️  Ideally methods should be between 5-10 lines of code. Not more than 20 lines of code.
+
+✅️  Extract repetitive patterns and highly related statements into methods and classes.
+
+
+
+## Classes
+
+✅️  Extract repetitive patterns and highly related statements into methods and classes.
+
+✅ Logically related methods should be defined next to each other for better organisation of code.
+
+✅ Define repeated constants on methods @ class level as final variables. Make them final static if variables belong to the class.
 
 
 

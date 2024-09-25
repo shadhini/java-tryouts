@@ -22,3 +22,17 @@ sendEmail()
 
 * **`PascalNamingConvention`**: first letter of every word should be uppercase
 
+
+
+## Variable Names
+
+* **`camelNamingConvention`**: first letter of every word should be uppercase except the first word
+
+### If the variable is a constant; a final variable,
+
+* UPPERCASE: all uppercase letters are used and words are separated with underscores (`_`)
+
+```
+MAXIMUM_INTEREST_RATE
+```
+

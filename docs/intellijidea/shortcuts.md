@@ -73,6 +73,12 @@ public static void main(String[] args) {
 
 type `psvm` and press `return`
 
+<div align="left">
+
+<figure><img src="../.gitbook/assets/psvm.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
 ***
 
 To generate following code snippet to print a string,
@@ -82,6 +88,12 @@ System.out.println();
 ```
 
 type `sout` and press `return`
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/sout.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ***
 

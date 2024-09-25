@@ -62,6 +62,26 @@ public class TextBox {
 
 Functions defined inside a class belongs to that class. They are referred as `"methods"`.
 
+
+
+Methods improves readability/ understandability and code reusability.
+
+* Can reuse code with sending the method different arguments.
+
+## Arguments vs Parameters
+
+`@ the declaration` of the method, we have **`parameters`**.
+
+<pre class="language-java"><code class="lang-java">public static void sendEmail(<a data-footnote-ref href="#user-content-fn-7">String receiver, String subject, String content</a>) {
+    // Method Implementation
+}
+</code></pre>
+
+`@ calling point of method`, we send actual values which are called as **`arguments`**.
+
+<pre class="language-java"><code class="lang-java">sendEmail(<a data-footnote-ref href="#user-content-fn-8">"abc@gmail.com", "Quick Update Request", "Hi Abc, Could you please provide a quick update on Project Y?\nBest, Pqr"</a>)
+</code></pre>
+
 ## main() Method in Main class
 
 > **Entry point for Java programs**
@@ -79,7 +99,7 @@ Every Java  program should have at least one Java class that contains the `main(
  * `Main` class and `main` method.
  */
 public class Main {
-    <a data-footnote-ref href="#user-content-fn-7">public</a> static <a data-footnote-ref href="#user-content-fn-8">void</a> main(String[] args) {
+    <a data-footnote-ref href="#user-content-fn-9">public</a> static <a data-footnote-ref href="#user-content-fn-10">void</a> main(String[] args) {
         System.out.println("Hello World!");
     }
 }
@@ -132,6 +152,12 @@ e.g:&#x20;
 
 
 
+## Module
+
+> **multiple packages can be combined into a module**
+
+
+
 
 
 ## Structure of a Java Program
@@ -170,6 +196,10 @@ public class Main { // Main class
 
 [^6]: use PascalNamingConvention
 
-[^7]: accessible from other parts of the program
+[^7]: parameters
 
-[^8]: return type; this method won't return any value
+[^8]: arguments
+
+[^9]: accessible from other parts of the program
+
+[^10]: return type; this method won't return any value

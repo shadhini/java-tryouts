@@ -23,7 +23,7 @@ public class ReferenceTypes {
 }
 </code></pre>
 
-* `new` operator is used to allocate memory for the `now` variable of Date type.
+* `new` operator is used to allocate memory.
   * When declaring **Primitive Types**, we don't need to allocate memory. But, when dealing with **Reference Types**, we should always `allocate` memory.
 * `now` variable is an instance of `Date` class.
 * These classes/objects have `members` we can access using `dot` operator.

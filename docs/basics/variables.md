@@ -8,6 +8,7 @@ icon: square-root-variable
 
 * We always have to initialise variables before reading them.
 * We can copy value of a variable to another variable.
+* We can only declare variables inside code blocks; i.e. curly braces ( `{ }` ).
 
 ## Variable Declaration and Initialisation
 

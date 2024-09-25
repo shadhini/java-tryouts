@@ -14,5 +14,17 @@ icon: list-tree
 [reference-types.md](reference-types.md)
 {% endcontent-ref %}
 
+{% content-ref url="memory-management-primitive-types-and-reference-types.md" %}
+[memory-management-primitive-types-and-reference-types.md](memory-management-primitive-types-and-reference-types.md)
+{% endcontent-ref %}
+
+{% content-ref url="primitive-types-vs-reference-types.md" %}
+[primitive-types-vs-reference-types.md](primitive-types-vs-reference-types.md)
+{% endcontent-ref %}
+
+{% content-ref url="strings-java.lang.string/" %}
+[strings-java.lang.string](strings-java.lang.string/)
+{% endcontent-ref %}
+
 
 
