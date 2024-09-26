@@ -28,7 +28,7 @@ sendEmail()
 
 * **`camelNamingConvention`**: first letter of every word should be uppercase except the first word
 
-### If the variable is a constant; a final variable,
+### If the variable is a constant; a final static variable,
 
 * UPPERCASE: all uppercase letters are used and words are separated with underscores (`_`)
 
@@ -36,3 +36,8 @@ sendEmail()
 MAXIMUM_INTEREST_RATE
 ```
 
+
+
+## Fields
+
+* **`camelNamingConvention`**: first letter of every word should be uppercase except the first word

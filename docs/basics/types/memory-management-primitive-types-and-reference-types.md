@@ -6,12 +6,12 @@ icon: database
 
 > **Primitive Types**
 >
-> * Memory allocation & release -> by JRE
+> * Memory allocation & release -> by JRE on stack
 >
 > **Reference Types**
 >
-> * Memory allocation -> by Developer
-> * Memory release/ deallocation -> by JRE
+> * Memory allocation -> by Developer on stack and heap
+> * Memory release/ deallocation -> by JRE on stack and heap (@heap by Garbage Collection)
 
 When declaring **Primitive Types**, we don't need to allocate memory.
 
@@ -97,6 +97,18 @@ point1.x = 3;
 ```
 
 This means, if this `Point` object is updated through either of these variables, the changes will be visible to the other variable.
+
+
+
+
+
+## More on Memory Allocation...
+
+{% content-ref url="../../oop/memory-allocation.md" %}
+[memory-allocation.md](../../oop/memory-allocation.md)
+{% endcontent-ref %}
+
+
 
 
 

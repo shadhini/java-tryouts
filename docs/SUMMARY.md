@@ -53,7 +53,14 @@
 
 ## OOP
 
-* [Class & Object](oop/class-and-object.md)
+* [Programming Paradigms](oop/programming-paradigms/README.md)
+  * [Object Oriented vs Function](oop/programming-paradigms/object-oriented-vs-function.md)
+  * [Procedural Programming](oop/programming-paradigms/procedural-programming.md)
+* [OOP: Object Oriented Programming](oop/oop-object-oriented-programming/README.md)
+  * [Benefits of Object Oriented Programming](oop/oop-object-oriented-programming/benefits-of-object-oriented-programming.md)
+* [Classes & Objects](oop/classes-and-objects.md)
+* [Memory Allocation](oop/memory-allocation.md)
+* [UML: Unified Modeling Language](oop/uml-unified-modeling-language.md)
 * [Static](oop/static.md)
 
 ## BEST PRACTICE
@@ -71,4 +78,4 @@
 * [Refactoring](intellijidea/refactoring.md)
 * [Debugging](intellijidea/debugging.md)
 * [Packaging Java Applications](intellijidea/packaging-java-applications.md)
-* [Re assign Directories](intellijidea/re-assign-directories.md)
+* [Assigning Directories](intellijidea/assigning-directories.md)

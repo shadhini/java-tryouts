@@ -85,6 +85,39 @@ int precipitation = 20;
 
 
 
+✅  \[available since Java 11] Use **`var`** keyword for cleaner code and let the compiler determine the type of the variable.&#x20;
+
+<details>
+
+<summary>❌ </summary>
+
+```java
+TextBox textBox1 = new TextBox();
+```
+
+</details>
+
+<details>
+
+<summary>✅  </summary>
+
+```java
+var textBox1 = new TextBox();
+```
+
+</details>
+
+
+
+### Variable Initialisation
+
+✅️ Make sure variables are initialised.&#x20;
+
+* If we don't initialise a variable of `Reference Type`, they are set to **`null`**. i.e. it doesn't reference a real object in memory.
+* ❗ `Nulls` are dangerous, they can crash programs with **`java.lang.NullPointerException.`**
+
+
+
 ## Numbers
 
 ✅️ Use `_` to separate every 3 digits of large numbers.
@@ -181,6 +214,17 @@ else
 ✅ Logically related methods should be defined next to each other for better organisation of code.
 
 ✅ Define repeated constants on methods @ class level as final variables. Make them final static if variables belong to the class.
+
+
+
+### Fields
+
+❗In Java we should **not** declare fields as **public**.
+
+✅️ Make sure fields of a class are initialised.&#x20;
+
+* If we don't initialise a variable of `Reference Type`, they are set to **`null`**. i.e. it doesn't reference a real object in memory.
+* ❗ `Nulls` are dangerous, they can crash programs with **`java.lang.NullPointerException.`**
 
 
 
