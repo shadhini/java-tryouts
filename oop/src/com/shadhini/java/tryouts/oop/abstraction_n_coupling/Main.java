@@ -1,5 +1,8 @@
-package com.shadhini.java.tryouts.oop.abstraction;
+package com.shadhini.java.tryouts.oop.abstraction_n_coupling;
 
+/**
+ * Demonstration of coupling.
+ */
 public class Main {
 
     // Main class is dependent on the Browser class

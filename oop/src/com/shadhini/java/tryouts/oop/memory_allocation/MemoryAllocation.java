@@ -3,7 +3,7 @@ package com.shadhini.java.tryouts.oop.memory_allocation;
 import com.shadhini.java.tryouts.oop.classes_n_objects.TextBox;
 
 /**
- * About memory allocation and deallocation in Java; how memory is allocated for reference types and primitives.
+ * About memory allocation and de-allocation in Java; how memory is allocated for reference types and primitives.
  */
 public class MemoryAllocation {
 

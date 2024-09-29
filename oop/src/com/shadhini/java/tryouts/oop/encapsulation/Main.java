@@ -1,5 +1,8 @@
 package com.shadhini.java.tryouts.oop.encapsulation;
 
+/**
+ * Demonstration of Encapsulation.
+ */
 public class Main {
 
     // Main class is dependent on the Employee class
