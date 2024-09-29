@@ -10,6 +10,8 @@ We cannot use these reserved keywords to name variables, methods and classes.
 
 `class`: used to declare a class
 
+`this`: reference to the current object
+
 ## Method Return Types
 
 `void`: when there's nothing to return

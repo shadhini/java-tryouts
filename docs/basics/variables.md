@@ -5,6 +5,10 @@ icon: square-root-variable
 # Variables
 
 > **used to temporarily store data in computer's memory**
+>
+> **have static type**
+>
+> **use of `var` keyword is recommended**
 
 * We always have to initialise variables before reading them.
 * We can copy value of a variable to another variable.
@@ -25,11 +29,35 @@ We can initialise multiple variables in the same line. \[`not recommended`]
 int ageMom = 59, ageDad = 68;
 ```
 
+
+
+If we don't initialise a variable of `Reference Type`, they are set to **`null`**. i.e. it doesn't reference a real object in memory.
+
+\-> `Nulls` are dangerous, they can crash programs with **`java.lang.NullPointerException.`**
+
+
+
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Variables.java" %}
 
 &#x20;
 
+## `var` keyword
 
+```java
+var textBox1 = new TextBox();
+```
+
+When `var` is used, Java compiler will detect the type of this `textBox1` variable based on what we have on the right side of the assignment.
+
+This `var` is different from what we have in languages like JavaScript.&#x20;
+
+* In JavaScript, when we use `var`, we can declare a variable and give it different types of values.
+* In Java, variables have a **`static type`**.
+  * So, once we set the type of a variable, we cannot change it throughout the lifetime of the programme.
+
+✅  \[available since Java 11] Use **`var`** keyword for cleaner code and let the compiler determine the type of the variable.&#x20;
+
+&#x20;
 
 
 
