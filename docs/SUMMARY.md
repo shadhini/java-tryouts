@@ -45,6 +45,7 @@
   * [Loops Usage Guide](basics/control-flow/loops-usage-guide.md)
 * [Reserved Keywords](basics/reserved-keywords.md)
 * [Refactoring](basics/refactoring.md)
+* [Exceptions](basics/exceptions.md)
 * [Debugging and Deploying Applications](basics/debugging-and-deploying-applications/README.md)
   * [Types of Errors](basics/debugging-and-deploying-applications/types-of-errors.md)
   * [Common Syntax Errors](basics/debugging-and-deploying-applications/common-syntax-errors.md)
@@ -60,22 +61,29 @@
   * [Benefits of Object Oriented Programming](oop/oop-object-oriented-programming/benefits-of-object-oriented-programming.md)
 * [Classes & Objects](oop/classes-and-objects.md)
 * [Memory Allocation](oop/memory-allocation.md)
+* [Encapsulation](oop/encapsulation/README.md)
+  * [Getters and Setters](oop/encapsulation/getters-and-setters.md)
+* [Abstraction](oop/abstraction.md)
+* [Coupling](oop/coupling.md)
+* [Constructors](oop/constructors.md)
+* [Method Overloading](oop/method-overloading/README.md)
+  * [Constructor Overloading](oop/method-overloading/constructor-overloading.md)
+* [Static Members](oop/static-members.md)
 * [UML: Unified Modeling Language](oop/uml-unified-modeling-language.md)
-* [Static](oop/static.md)
 
 ## BEST PRACTICE
 
 * [Naming Convention](best-practice/naming-convention.md)
 * [Coding](best-practice/coding.md)
 
-## IntelliJIDEA IDE SUPPORT <a href="#intellijidea" id="intellijidea"></a>
+## IntelliJIDEA IDE SUPPORT
 
-* [Shortcuts](intellijidea/shortcuts.md)
-* [Icons & Colour Code](intellijidea/icons-and-colour-code.md)
-* [Create New Project](intellijidea/create-new-project.md)
-* [View info with . and hovering cursor](intellijidea/view-info-with-.-and-hovering-cursor.md)
-* [Terminal](intellijidea/terminal.md)
-* [Refactoring](intellijidea/refactoring.md)
-* [Debugging](intellijidea/debugging.md)
-* [Packaging Java Applications](intellijidea/packaging-java-applications.md)
-* [Assigning Directories](intellijidea/assigning-directories.md)
+* [Shortcuts](intellijidea-ide-support/shortcuts.md)
+* [Icons & Colour Code](intellijidea-ide-support/icons-and-colour-code.md)
+* [Create New Project](intellijidea-ide-support/create-new-project.md)
+* [View info with . and hovering cursor](intellijidea-ide-support/view-info-with-.-and-hovering-cursor.md)
+* [Terminal](intellijidea-ide-support/terminal.md)
+* [Refactoring](intellijidea-ide-support/refactoring.md)
+* [Debugging](intellijidea-ide-support/debugging.md)
+* [Packaging Java Applications](intellijidea-ide-support/packaging-java-applications.md)
+* [Assigning Directories](intellijidea-ide-support/assigning-directories.md)

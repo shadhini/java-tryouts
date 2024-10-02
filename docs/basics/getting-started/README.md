@@ -4,31 +4,31 @@ icon: '1'
 
 # Getting Started
 
-{% content-ref url="setting-up-the-development-environment.md" %}
-[setting-up-the-development-environment.md](setting-up-the-development-environment.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/setting-up-the-development-environment" %}
+[Setting up the Development Environment](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/setting-up-the-development-environment)
 {% endcontent-ref %}
 
-{% content-ref url="anatomy-of-a-java-program.md" %}
-[anatomy-of-a-java-program.md](anatomy-of-a-java-program.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/anatomy-of-a-java-program" %}
+[Anatomy of a Java Program](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/anatomy-of-a-java-program)
 {% endcontent-ref %}
 
-{% content-ref url="first-java-program.md" %}
-[first-java-program.md](first-java-program.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/first-java-program" %}
+[First Java Program](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/first-java-program)
 {% endcontent-ref %}
 
-{% content-ref url="how-java-code-gets-executed.md" %}
-[how-java-code-gets-executed.md](how-java-code-gets-executed.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/how-java-code-gets-executed" %}
+[How Java Code gets Executed](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/how-java-code-gets-executed)
 {% endcontent-ref %}
 
-{% content-ref url="interesting-facts-about-java.md" %}
-[interesting-facts-about-java.md](interesting-facts-about-java.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/interesting-facts-about-java" %}
+[Interesting Facts about Java](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/interesting-facts-about-java)
 {% endcontent-ref %}
 
-{% content-ref url="textual-data.md" %}
-[textual-data.md](textual-data.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/textual-data" %}
+[Textual Data](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/textual-data)
 {% endcontent-ref %}
 
-{% content-ref url="comments.md" %}
-[comments.md](comments.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/comments" %}
+[Comments](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/getting-started/comments)
 {% endcontent-ref %}
 

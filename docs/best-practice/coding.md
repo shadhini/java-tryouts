@@ -6,6 +6,11 @@ icon: square-code
 
 * Programming is driven by the basic rule **`"Don't repeat yourself".`**
 * Programming and problem solving is **`all about trade offs`**.
+* **`Don't overuse method overloading`**.&#x20;
+  * Should not use it, if the gain of method overloading is tiny.
+  * But it's necessary if the method parameters are of different types.
+
+
 
 ## Variable
 
@@ -130,12 +135,12 @@ var textBox1 = new TextBox();
 
 ## If Statements
 
-{% content-ref url="../basics/control-flow/if-statements/simplifying-if-statements.md" %}
-[simplifying-if-statements.md](../basics/control-flow/if-statements/simplifying-if-statements.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/if-statements/simplifying-if-statements" %}
+[Simplifying If Statements](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/if-statements/simplifying-if-statements)
 {% endcontent-ref %}
 
-{% content-ref url="../basics/control-flow/ternary-operator.md" %}
-[ternary-operator.md](../basics/control-flow/ternary-operator.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/ternary-operator" %}
+[Ternary Operator](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/ternary-operator)
 {% endcontent-ref %}
 
 
@@ -207,24 +212,60 @@ else
 
 
 
+### Parameters
+
+❗ Frequently changing values should be method parameters instead of class's fields.
+
+
+
 ## Classes
 
 ✅️  Extract repetitive patterns and highly related statements into methods and classes.
 
+
+
+✅  ✨
+
+> **private fields**/data members&#x20;
+>
+> **public setter** methods with field **data validation** logic to set values for these fields&#x20;
+>
+> **public getters**; if it is necessary to access the data field values
+
+
+
+### Methods
+
 ✅ Logically related methods should be defined next to each other for better organisation of code.
+
+✅  ✨ Less methods in class & Private methods -> Hide implementation -> Reduce Coupling -> Reduce impact of changes
+
+❗ Frequently changing values should be method parameters instead of class's fields.
+
+
+
+
+
+### Fields & Constructors
+
+❗In Java we should **not** declare fields as **public**. They should be **private**.
 
 ✅ Define repeated constants on methods @ class level as final variables. Make them final static if variables belong to the class.
 
+✅ Interface of a class should be as simple as possible. You should reduce the **`guess work`**.
 
+✅️ Make sure fields of a class are initialised in the **`constructors`**.
 
-### Fields
-
-❗In Java we should **not** declare fields as **public**.
-
-✅️ Make sure fields of a class are initialised.&#x20;
-
+* ❌ We don't initialise values in a class as it is only a blueprint.&#x20;
+* ✅️  Instead, when later objects are created, field values should be set for each object.
+* ✅ Setters can be called inside the constructor to put an object created on a valid state form the beginning.
+* ❌ An object shouldn't go to an `invalid state` after creation.
 * If we don't initialise a variable of `Reference Type`, they are set to **`null`**. i.e. it doesn't reference a real object in memory.
 * ❗ `Nulls` are dangerous, they can crash programs with **`java.lang.NullPointerException.`**
+
+❗ Frequently changing values should be method parameters instead of class's fields.
+
+
 
 
 

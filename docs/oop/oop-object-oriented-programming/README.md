@@ -35,7 +35,7 @@ In OOP, objects interact with each other to perform tasks.
 
 
 
-{% content-ref url="benefits-of-object-oriented-programming.md" %}
-[benefits-of-object-oriented-programming.md](benefits-of-object-oriented-programming.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/oop-object-oriented-programming/benefits-of-object-oriented-programming" %}
+[Benefits of Object Oriented Programming](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/oop-object-oriented-programming/benefits-of-object-oriented-programming)
 {% endcontent-ref %}
 

@@ -1,6 +1,6 @@
 ---
-icon: browser
 description: Command Line Application using IntelliJIDEA IDE
+icon: browser
 ---
 
 # First Java Program

@@ -1,6 +1,6 @@
 ---
-icon: hammer
 description: Necessary tools to build Java applications
+icon: hammer
 ---
 
 # Setting up the Development Environment

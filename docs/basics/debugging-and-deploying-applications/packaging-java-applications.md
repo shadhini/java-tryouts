@@ -23,8 +23,8 @@ Anyone who have installed Java Runtime Environment (`JRE`), can execute a `jar` 
 
 ## Using IntelliJIDEA IDE
 
-{% content-ref url="../../intellijidea/packaging-java-applications.md" %}
-[packaging-java-applications.md](../../intellijidea/packaging-java-applications.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/packaging-java-applications" %}
+[Packaging Java Applications](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/packaging-java-applications)
 {% endcontent-ref %}
 
 

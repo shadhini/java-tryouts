@@ -100,8 +100,8 @@ x %= 2 → x = x % 2
 
 
 
-{% content-ref url="order-of-operations.md" %}
-[order-of-operations.md](order-of-operations.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/arithmetic-expressions/order-of-operations" %}
+[Order of Operations](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/arithmetic-expressions/order-of-operations)
 {% endcontent-ref %}
 
 

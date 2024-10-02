@@ -23,8 +23,8 @@ In Java, **`Strings are immutable`**.
 
 
 
-{% content-ref url="escape-sequence.md" %}
-[escape-sequence.md](escape-sequence.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/strings-java.lang.string/escape-sequence" %}
+[Escape Sequence](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/strings-java.lang.string/escape-sequence)
 {% endcontent-ref %}
 
 

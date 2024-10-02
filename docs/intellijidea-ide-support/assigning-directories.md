@@ -2,7 +2,7 @@
 icon: folder
 ---
 
-# Re assign Directories
+# Assigning Directories
 
 ## Make an existing directory a module
 

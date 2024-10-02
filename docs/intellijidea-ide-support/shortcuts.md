@@ -1,6 +1,6 @@
 ---
-icon: square-up-right
 description: Keyboard shortcut keys are applicable to MacOS
+icon: square-up-right
 ---
 
 # Shortcuts
@@ -96,6 +96,11 @@ type `sout` and press `return`
 </div>
 
 ***
+
+## Getter Setter Generation
+
+1. put the cursor at the field declaration
+2. check options with `Option` + `return`
 
 
 

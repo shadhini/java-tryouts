@@ -104,8 +104,8 @@ This means, if this `Point` object is updated through either of these variables,
 
 ## More on Memory Allocation...
 
-{% content-ref url="../../oop/memory-allocation.md" %}
-[memory-allocation.md](../../oop/memory-allocation.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/memory-allocation" %}
+[Memory Allocation](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/memory-allocation)
 {% endcontent-ref %}
 
 

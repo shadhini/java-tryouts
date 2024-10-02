@@ -22,8 +22,8 @@ We need braces ( `{ }` ) in a if block, only if there are multiple statements in
 
 
 
-{% content-ref url="simplifying-if-statements.md" %}
-[simplifying-if-statements.md](simplifying-if-statements.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/if-statements/simplifying-if-statements" %}
+[Simplifying If Statements](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/if-statements/simplifying-if-statements)
 {% endcontent-ref %}
 
 

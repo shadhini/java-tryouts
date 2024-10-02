@@ -43,7 +43,11 @@ In a situation where a name of a (method) parameter is same as the name od (clas
 
 * Because, every class we declare in Java, automatically inherits some members from **`Object`** class.
 
+<div align="left">
 
+<figure><img src="../.gitbook/assets/java-this-keyword.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ## Fields
 

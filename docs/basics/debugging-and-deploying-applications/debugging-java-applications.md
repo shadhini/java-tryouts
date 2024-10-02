@@ -10,12 +10,12 @@ Java `breakpoints` will stop the execution @ the breakpoint before executing tha
 
 ## Using IntelliJIDEA IDE
 
-{% content-ref url="../../intellijidea/refactoring.md" %}
-[refactoring.md](../../intellijidea/refactoring.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/refactoring" %}
+[Refactoring](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/refactoring)
 {% endcontent-ref %}
 
-{% content-ref url="../../intellijidea/debugging.md" %}
-[debugging.md](../../intellijidea/debugging.md)
+{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/debugging" %}
+[Debugging](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/debugging)
 {% endcontent-ref %}
 
 
