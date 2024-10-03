@@ -4,6 +4,14 @@ public class UIControl {
 
     private boolean isEnabled = true;
 
+    public UIControl() {
+    }
+
+    public UIControl(boolean isEnabled) {
+        this.isEnabled = isEnabled;
+        System.out.println("UI Control created.");
+    }
+
     public void enable() {
         isEnabled = true;
     }
