@@ -10,5 +10,5 @@
 7. method_overloading: Method Overloading
 8. constructor_overloading: Constructor Overloading
 9. static_members: Static Members
-10. inheritance: [`Inheritance`] Inheritance and `Object` class
+10. inheritance: [`Inheritance`][`Method Overriding`] Inheritance, `Object` class, Method Overriding and inheritance & constructors
 
