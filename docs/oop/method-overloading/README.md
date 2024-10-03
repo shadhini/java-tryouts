@@ -10,7 +10,7 @@ icon: gear-code
 >
 > **➡️ Different number/types of parameters**
 
-
+`Declaring a method multiple times with different method signatures/ different parameters`
 
 ## Default Values for Method Parameters
 
@@ -57,3 +57,4 @@ But overloading is necessary if you are dealing with completely different types 
 
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/1c5fd36975b97201cebfdccf1146ae846d3b3bf8/oop/src/com/shadhini/java/tryouts/oop/method_overloading/Employee.java" %}
 
+<figure><img src="../../.gitbook/assets/java_method_overloading_same_signature.png" alt=""><figcaption></figcaption></figure>

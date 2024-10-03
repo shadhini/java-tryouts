@@ -158,7 +158,11 @@ e.g:&#x20;
 
 
 
+## Annotation
 
+> A **`label`** we attach to a class member; with this we give **extra information** to the `Java Compiler.`
+
+These annotations help Java Compiler to double check our code for **correctness**.
 
 ## Structure of a Java Program
 

@@ -31,7 +31,7 @@ Using this `Car` **template (i.e. class), we can create car objects;** `car1`, `
 
 These classes/objects have members we can access using dot operator.
 
-<figure><img src="../.gitbook/assets/java-classes-uml.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/java-uml-classes.png" alt=""><figcaption></figcaption></figure>
 
 ## `this` keyword
 

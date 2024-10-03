@@ -4,6 +4,8 @@ icon: person-digging
 
 # Constructors
 
+> ❗**Used to initialise instances.**
+>
 > **A special method that is called when we create/construct a new object.**
 >
 > \-> Reduce guess work when initialising an object to valid state by initialising fields in the constructor.

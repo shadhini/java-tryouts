@@ -69,6 +69,12 @@
 * [Method Overloading](oop/method-overloading/README.md)
   * [Constructor Overloading](oop/method-overloading/constructor-overloading.md)
 * [Static Members](oop/static-members.md)
+* [Inheritance](oop/inheritance/README.md)
+  * [Object Class](oop/inheritance/object-class.md)
+  * [Constructors](oop/inheritance/constructors.md)
+  * [Overriding Methods](oop/inheritance/overriding-methods.md)
+* [Access Modifiers](oop/access-modifiers.md)
+* [Refactoring Towards an Object Oriented Design](oop/refactoring-towards-an-object-oriented-design.md)
 * [UML: Unified Modeling Language](oop/uml-unified-modeling-language.md)
 
 ## BEST PRACTICE
