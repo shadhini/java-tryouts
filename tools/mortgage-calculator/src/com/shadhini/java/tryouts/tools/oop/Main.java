@@ -2,7 +2,7 @@ package com.shadhini.java.tryouts.tools.oop;
 
 /**
  * Mortgage Calculator
- * [Procedural Programming]
+ * [Object-Oriented Programming]
  */
 public class Main {
 
