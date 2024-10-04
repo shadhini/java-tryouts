@@ -16,5 +16,8 @@
     * `Object` class
     * Method Overriding
     * Upcasting & Downcasting
-11.
+11. comparing_objects: Comparing Objects; equals() and hashCode() methods 
+12. polymorphism: [`Polymorphism`]
+13. abstract_final_classes_n_methods: [`abstract`][`final`] Abstract/Final classes and methods
+14. 
 

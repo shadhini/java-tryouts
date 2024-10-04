@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.abstract_classes_n_methods;
+package com.shadhini.java.tryouts.oop.abstract_final_classes_n_methods;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.abstract_classes_n_methods;
+package com.shadhini.java.tryouts.oop.abstract_final_classes_n_methods;
 
 public abstract class UIControl { // Abstract Class
 
@@ -14,9 +14,9 @@ public abstract class UIControl { // Abstract Class
 
     public abstract void render(); // Abstract Method
 
-    public void enable() {
+    public final void enable() {
         isEnabled = true;
-    }
+    } // Final Method
 
     public void disable() {
         isEnabled = false;

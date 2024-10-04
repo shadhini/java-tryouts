@@ -70,7 +70,7 @@ public class Main {
     public static void show(UIControl uiControl) {
         System.out.println(uiControl);
         TextBox2 textBox = (TextBox2) uiControl; // -- A
-        textBox.setText("Happy Upcasting...");
+        textBox.setText("Happy Downcasting...");
         System.out.println(textBox);
     }
 
@@ -79,7 +79,7 @@ public class Main {
         System.out.println(uiControl);
         if (uiControl instanceof TextBox) {
             TextBox2 textBox = (TextBox2) uiControl;
-            textBox.setText("Happy Upcasting...");
+            textBox.setText("Happy Downcasting...");
             System.out.println(textBox);
         }
     }
