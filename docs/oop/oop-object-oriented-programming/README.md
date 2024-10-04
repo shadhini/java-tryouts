@@ -39,3 +39,12 @@ In OOP, objects interact with each other to perform tasks.
 [Benefits of Object Oriented Programming](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/oop-object-oriented-programming/benefits-of-object-oriented-programming)
 {% endcontent-ref %}
 
+
+
+## Main Concepts
+
+1. [Encapsulation](../encapsulation/)
+2. [Abstraction](../abstraction.md)
+3. [Inheritance](../inheritance/)
+4. Polymorphism
+

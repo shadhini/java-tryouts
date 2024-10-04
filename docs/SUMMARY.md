@@ -73,7 +73,13 @@
   * [Object Class](oop/inheritance/object-class.md)
   * [Constructors](oop/inheritance/constructors.md)
   * [Overriding Methods](oop/inheritance/overriding-methods.md)
+  * [Upcasting & Downcasting](oop/inheritance/upcasting-and-downcasting.md)
 * [Access Modifiers](oop/access-modifiers.md)
+* [Comparing Objects](oop/comparing-objects.md)
+* [Polymorphism](oop/polymorphism.md)
+* [Abstract Classes and Methods](oop/abstract-classes-and-methods.md)
+* [Final Classes and Methods](oop/final-classes-and-methods.md)
+* [Hash](oop/hash.md)
 * [Refactoring Towards an Object Oriented Design](oop/refactoring-towards-an-object-oriented-design.md)
 * [UML: Unified Modeling Language](oop/uml-unified-modeling-language.md)
 

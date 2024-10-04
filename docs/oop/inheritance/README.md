@@ -7,6 +7,8 @@ icon: family
 > **common behaviour -> Super class**
 >
 > sub classes inherit this common behavior by extending the super class.
+>
+> Represents a **`IS-A`** relationship.
 
 When implementing, we don't want to implement **common behaviours** in every single class.&#x20;
 
@@ -28,17 +30,25 @@ We define **common behaviour** in a **`super class`** and have other classes inh
 
 <figure><img src="../../.gitbook/assets/java-inheritance.png" alt="" width="326"><figcaption></figcaption></figure>
 
+#### IS-A Relationship:
+
+* Here, every `text box` object **`is a`** `UI control` object.
+
 
 
 ## Example&#x20;
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/129de3806d2d5b830b4799e7f78f26e63aa5f3d2/oop/src/com/shadhini/java/tryouts/oop/inheritance/Main.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/87f282efb117be75c54d8dae4798c5efe0725390/oop/src/com/shadhini/java/tryouts/oop/inheritance/Main.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/b3377238e1fc8e0574b550f419c55a78369f4fad/oop/src/com/shadhini/java/tryouts/oop/inheritance/UIControl.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/fb2a27a68469b8ae8fd2fe9fcbffd783a6897869/oop/src/com/shadhini/java/tryouts/oop/inheritance/UIControl.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/b3377238e1fc8e0574b550f419c55a78369f4fad/oop/src/com/shadhini/java/tryouts/oop/inheritance/TextBox.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/fb2a27a68469b8ae8fd2fe9fcbffd783a6897869/oop/src/com/shadhini/java/tryouts/oop/inheritance/TextBox.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/fb2a27a68469b8ae8fd2fe9fcbffd783a6897869/oop/src/com/shadhini/java/tryouts/oop/inheritance/TextBox2.java" %}
+
+
 
 ## More On ..
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Object Class</strong></td><td><a href="object-class.md">object-class.md</a></td></tr><tr><td><strong>Constructors &#x26; Inheritance</strong></td><td><a href="constructors.md">constructors.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Object Class</strong></td><td><a href="object-class.md">object-class.md</a></td></tr><tr><td><strong>Constructors &#x26; Inheritance</strong></td><td><a href="constructors.md">constructors.md</a></td></tr><tr><td>Overriding Methods</td><td><a href="overriding-methods.md">overriding-methods.md</a></td></tr><tr><td><strong>Upcasting &#x26; Downcasting</strong></td><td><a href="upcasting-and-downcasting.md">upcasting-and-downcasting.md</a></td></tr></tbody></table>
 

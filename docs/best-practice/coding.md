@@ -280,6 +280,18 @@ else
 
 
 
+## Downcasting
+
+✅  Use **`instanceof`** to check whether the object passed in the runtime is actually an instance of the class to which it will be downcasted, to avoid `java.lang.ClassCastException` at runtime.
+
+
+
+## Overriding Methods
+
+✅  Whenever we override `equals()` method of `Object` class we should also override the `hashCode()` method of `Object` class.
+
+
+
 [^1]: magic number
 
 [^2]: magic number

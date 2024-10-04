@@ -12,6 +12,16 @@ We cannot use these reserved keywords to name variables, methods and classes.
 
 `this`: reference to the current object
 
+`abstract`:  used for classes that can be extended, but cannot be instantiated
+
+`final`: used for classes that cannot be extended, but can be instantiated
+
+## Method Declaration
+
+`abstract`:  subclasses must implement this method
+
+`final`:&#x20;
+
 ## Method Return Types
 
 `void`: when there's nothing to return
@@ -45,6 +55,10 @@ We cannot use these reserved keywords to name variables, methods and classes.
 `false`: boolean value "False"
 
 
+
+## Other
+
+`instanceof`: used to check whether an object at runtime is an instance of a specific class
 
 
 

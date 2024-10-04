@@ -47,7 +47,7 @@ See method parameter info: `command` + `P`&#x20;
 
 
 
-## Quick Code Snippet Generation
+## 💻 Quick Code Snippet Generation
 
 To generate following code snippet of `main` method,&#x20;
 
@@ -83,7 +83,7 @@ type `sout` and press `return`
 
 ***
 
-## 🛠️ Generate Getters Setters & Constructors
+## 🛠️ Generate Getters Setters & Constructors, Override Methods inherited, Override equals() and hashCode() methods based on the content
 
 1. put the cursor at the field declaration
 2. check options with `Option` + `return`
@@ -97,6 +97,18 @@ OR
 1. `Command` + `N`
 
 
+
+### Method Overriding
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intelliJ-method-overriding-1.png" alt="" width="217"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/ntelliJ-method-overriding-2.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 ## ƒ Create Method
 
@@ -152,7 +164,7 @@ OR
 
 
 
-## View Usage
+## 📊 View Usage
 
 
 
