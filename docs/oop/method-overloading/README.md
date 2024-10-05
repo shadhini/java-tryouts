@@ -69,5 +69,3 @@ But overloading is necessary if you are dealing with completely different types 
 
 
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Constructor Overloading</strong></td><td><a href="constructor-overloading.md">constructor-overloading.md</a></td></tr></tbody></table>
-
