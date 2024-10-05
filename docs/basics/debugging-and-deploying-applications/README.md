@@ -4,7 +4,21 @@ icon: person-walking-luggage
 
 # Debugging and Deploying Applications
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/debugging-and-deploying-applications/types-of-errors" %}
-[Types of Errors](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/debugging-and-deploying-applications/types-of-errors)
+{% content-ref url="types-of-errors.md" %}
+[types-of-errors.md](types-of-errors.md)
 {% endcontent-ref %}
+
+{% content-ref url="common-syntax-errors.md" %}
+[common-syntax-errors.md](common-syntax-errors.md)
+{% endcontent-ref %}
+
+{% content-ref url="debugging-java-applications.md" %}
+[debugging-java-applications.md](debugging-java-applications.md)
+{% endcontent-ref %}
+
+{% content-ref url="packaging-java-applications.md" %}
+[packaging-java-applications.md](packaging-java-applications.md)
+{% endcontent-ref %}
+
+
 

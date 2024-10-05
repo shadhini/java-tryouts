@@ -41,7 +41,13 @@ Instead of passing values around we should encapsulate these values along with t
 
 
 
-## More On ...
+## Getters and Settters
+
+{% content-ref url="getters-and-setters.md" %}
+[getters-and-setters.md](getters-and-setters.md)
+{% endcontent-ref %}
+
+
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getters and Setters</strong>     </td><td><a href="getters-and-setters.md">getters-and-setters.md</a></td></tr></tbody></table>
 

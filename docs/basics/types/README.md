@@ -6,24 +6,24 @@ icon: list-tree
 
 <figure><img src="../../.gitbook/assets/java-types.png" alt="" width="563"><figcaption></figcaption></figure>
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/primitive-types" %}
-[Primitive Types](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/primitive-types)
+{% content-ref url="primitive-types.md" %}
+[primitive-types.md](primitive-types.md)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/reference-types" %}
-[Reference Types](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/reference-types)
+{% content-ref url="reference-types.md" %}
+[reference-types.md](reference-types.md)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/memory-management-primitive-types-and-reference-types" %}
-[Memory Management: Primitive types & Reference types](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/memory-management-primitive-types-and-reference-types)
+{% content-ref url="memory-management-primitive-types-and-reference-types.md" %}
+[memory-management-primitive-types-and-reference-types.md](memory-management-primitive-types-and-reference-types.md)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/primitive-types-vs-reference-types" %}
-[Primitive Types vs Reference Types](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/primitive-types-vs-reference-types)
+{% content-ref url="primitive-types-vs-reference-types.md" %}
+[primitive-types-vs-reference-types.md](primitive-types-vs-reference-types.md)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/strings-java.lang.string" %}
-[Strings \[java.lang.String\]](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/strings-java.lang.string)
+{% content-ref url="strings-java.lang.string/" %}
+[strings-java.lang.string](strings-java.lang.string/)
 {% endcontent-ref %}
 
 {% content-ref url="arrays.md" %}

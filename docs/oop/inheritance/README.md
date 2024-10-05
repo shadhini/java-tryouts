@@ -64,7 +64,7 @@ We can use it to access the members (fields and methods) or call the constructor
 
 
 
-## More On ..
+## More On ...
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Object Class</strong></td><td><a href="object-class.md">object-class.md</a></td></tr><tr><td><strong>Constructors &#x26; Inheritance</strong></td><td><a href="constructors.md">constructors.md</a></td></tr><tr><td><strong>Overriding Methods</strong></td><td><a href="overriding-methods.md">overriding-methods.md</a></td></tr><tr><td><strong>Upcasting &#x26; Downcasting</strong></td><td><a href="upcasting-and-downcasting.md">upcasting-and-downcasting.md</a></td></tr><tr><td><strong>Polymorphism</strong></td><td><a href="../polymorphism.md">polymorphism.md</a></td></tr><tr><td><strong>Deep Inheritance</strong></td><td><a href="deep-inheritance.md">deep-inheritance.md</a></td></tr><tr><td><strong>Multiple Inheritance</strong></td><td><a href="multiple-inheritance.md">multiple-inheritance.md</a></td></tr></tbody></table>
 
