@@ -19,5 +19,7 @@
 11. comparing_objects: Comparing Objects; equals() and hashCode() methods 
 12. polymorphism: [`Polymorphism`]
 13. abstract_final_classes_n_methods: [`abstract`][`final`] Abstract/Final classes and methods
-14. 
+14. interfaces: [`interface'] Interfaces
+    * interfaces.tightly_coupled: Tightly coupled code
+    * interfaces.loosely_coupled.constructor_injection: Constructor Injection
 
