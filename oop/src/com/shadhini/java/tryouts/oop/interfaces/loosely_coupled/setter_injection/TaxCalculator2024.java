@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.interfaces.loosely_coupled.constructor_injection;
+package com.shadhini.java.tryouts.oop.interfaces.loosely_coupled.setter_injection;
 
 public class TaxCalculator2024 implements TaxCalculator {
 

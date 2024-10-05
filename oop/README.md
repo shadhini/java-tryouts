@@ -22,4 +22,6 @@
 14. interfaces: [`interface'] Interfaces
     * interfaces.tightly_coupled: Tightly coupled code
     * interfaces.loosely_coupled.constructor_injection: Constructor Injection
+    * interfaces.loosely_coupled.setter_injection: Setter Injection
+    * interfaces.loosely_coupled.
 
