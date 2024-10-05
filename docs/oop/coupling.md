@@ -6,7 +6,7 @@ icon: nfc-symbol
 
 
 
-> **About the level of dependency between classes**
+> **About the level of dependency between software entities (eg classes)**
 >
 > Reduce coupling -> Reduce impact of changes
 >
@@ -72,3 +72,4 @@ The more methods a class provides, the more other classes are going to get coupl
 
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/342adcd12be38a038fd2f883c9690742795386a1/oop/src/com/shadhini/java/tryouts/oop/abstraction_n_coupling/Browser.java" %}
 
+<figure><img src="../.gitbook/assets/java_access_memebers_of_class.png" alt=""><figcaption></figcaption></figure>

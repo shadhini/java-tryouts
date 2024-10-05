@@ -12,6 +12,18 @@ We cannot use these reserved keywords to name variables, methods and classes.
 
 `this`: reference to the current object
 
+`super`: reference to the base or parent class
+
+`abstract`:  used for classes that can be extended, but cannot be instantiated
+
+`final`: used for classes that cannot be extended, but can be instantiated
+
+## Method Declaration
+
+`abstract`:  subclasses must implement this method
+
+`final`: cannot be overriden by subclasses
+
 ## Method Return Types
 
 `void`: when there's nothing to return
@@ -45,6 +57,12 @@ We cannot use these reserved keywords to name variables, methods and classes.
 `false`: boolean value "False"
 
 
+
+## Other
+
+`instanceof`: used to check whether an object at runtime is an instance of a specific class
+
+`new`: operator used for instantiating
 
 
 

@@ -1,9 +1,15 @@
 ---
-description: What happens when we create new objects in Java.
 icon: sd-card
+description: What happens when we create new objects in Java.
 ---
 
 # Memory Allocation
+
+> Stack is used for storing primitive types and variables that store references to objects in the heap.&#x20;
+>
+> * Variables stored in the **`stack`** are immediately cleared when they go **`out of scope`** (eg when a method finishes execution).&#x20;
+> * Objects stored in the **`heap`** get removed later on when they’re no longer references.&#x20;
+>   * This is done by Java’s garbage collector.
 
 Java manages 2 different areas of memory.
 

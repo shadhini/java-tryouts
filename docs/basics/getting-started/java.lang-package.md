@@ -27,6 +27,22 @@ Fields in `System` class
 
 
 
+#### `System.out.println()` method
+
+Calls the toString() method of any object.
+
+Thus, no need to call toString() method inside the `System.out.println()` method.
+
+```java
+var textBox = new TextBox();
+System.out.println(textBox.toString()); // -- A
+System.out.println(textBox); // -- B
+```
+
+Here, both line `A` and line `B` will give the same output.
+
+
+
 ### `String` class
 
 <pre class="language-java"><code class="lang-java">package com.shadhini.java.tryouts.basics;
@@ -51,6 +67,16 @@ public class Main {
     }
 }
 ```
+
+
+
+### `Object` class
+
+#### More On ..
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Object Class</strong></td><td><a href="../../oop/inheritance/object-class.md">object-class.md</a></td></tr></tbody></table>
+
+
 
 [^1]: System class
 

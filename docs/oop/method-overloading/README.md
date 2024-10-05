@@ -4,11 +4,11 @@ icon: gear-code
 
 # Method Overloading
 
-> Creating different implementations of a method with different parameters.
+> Declaring a method multiple times with different method signatures.
 >
 > ➡️ **Same method name**
 >
-> **➡️ Different number/types of parameters**
+> **➡️ Different number/types and order of parameters**
 
 
 
@@ -56,4 +56,16 @@ But overloading is necessary if you are dealing with completely different types 
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/d75e8b86147c079847c3971a97600d1ad2a0df8e/oop/src/com/shadhini/java/tryouts/oop/method_overloading/Main.java" %}
 
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/1c5fd36975b97201cebfdccf1146ae846d3b3bf8/oop/src/com/shadhini/java/tryouts/oop/method_overloading/Employee.java" %}
+
+<figure><img src="../../.gitbook/assets/java_method_overloading_same_signature.png" alt=""><figcaption></figcaption></figure>
+
+
+
+## Constructor Overloading
+
+{% content-ref url="constructor-overloading.md" %}
+[constructor-overloading.md](constructor-overloading.md)
+{% endcontent-ref %}
+
+
 

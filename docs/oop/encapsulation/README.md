@@ -39,3 +39,13 @@ Instead of passing values around we should encapsulate these values along with t
 
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/a5bce2c44dac9094e79126048fc91fcaa2427a71/oop/src/com/shadhini/java/tryouts/oop/encapsulation/Employee.java" %}
 
+
+
+## Getters and Settters
+
+{% content-ref url="getters-and-setters.md" %}
+[getters-and-setters.md](getters-and-setters.md)
+{% endcontent-ref %}
+
+
+

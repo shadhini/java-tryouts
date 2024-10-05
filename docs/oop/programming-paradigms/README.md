@@ -1,6 +1,6 @@
 ---
-description: Programming styles; ways of writing programs
 icon: container-storage
+description: Programming styles; ways of writing programs
 ---
 
 # Programming Paradigms
@@ -34,6 +34,20 @@ icon: container-storage
 |                  |     JavaScript     |
 
 
+
+## Object Oriented vs Function
+
+{% content-ref url="object-oriented-vs-function.md" %}
+[object-oriented-vs-function.md](object-oriented-vs-function.md)
+{% endcontent-ref %}
+
+
+
+## Procedural Programming
+
+{% content-ref url="procedural-programming.md" %}
+[procedural-programming.md](procedural-programming.md)
+{% endcontent-ref %}
 
 
 

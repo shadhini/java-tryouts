@@ -1,6 +1,6 @@
 ---
-description: Keyboard shortcut keys are applicable to MacOS
 icon: square-up-right
+description: Keyboard shortcut keys are applicable to MacOS
 ---
 
 # Shortcuts
@@ -20,20 +20,6 @@ Multiple line comment: type `/*` -> return
 ## 💡View Hints; Bulb Options; Suggestions @ Cursor
 
 `option` + `return`
-
-
-
-## ▶️ Run & 🐞 Debug
-
-Execute/Run a program:   `control ^` + `R`
-
-<figure><img src="../.gitbook/assets/IntelliJ-run-app.png" alt=""><figcaption><p>Note red circles for <code>Run</code> icon</p></figcaption></figure>
-
-Debug a program: `control ^` + `D`
-
-<figure><img src="../.gitbook/assets/IntelliJ-debug.png" alt=""><figcaption><p>Note red circles for <code>Debug</code> icon</p></figcaption></figure>
-
-Debug Breakpoints Console: `command` + `fn` + `shift` + `F8`
 
 
 
@@ -61,7 +47,7 @@ See method parameter info: `command` + `P`&#x20;
 
 
 
-## Quick Method Generation
+## 💻 Quick Code Snippet Generation
 
 To generate following code snippet of `main` method,&#x20;
 
@@ -97,16 +83,88 @@ type `sout` and press `return`
 
 ***
 
-## Getter Setter Generation
+## 🛠️ Generate Getters Setters & Constructors, Override Methods inherited, Override equals() and hashCode() methods based on the content
 
 1. put the cursor at the field declaration
 2. check options with `Option` + `return`
 
+OR
+
+1. Code  -> Generate
+
+OR
+
+1. `Command` + `N`
 
 
 
+### Method Overriding
 
-## View Usage
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intelliJ-method-overriding-1.png" alt="" width="217"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/ntelliJ-method-overriding-2.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+## ƒ Create Method
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-1.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-3.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-4.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+## 🇻 Create Variable
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-2.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-4.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+
+
+## 📊 View Usage
 
 
 

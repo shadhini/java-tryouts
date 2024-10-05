@@ -9,8 +9,6 @@ icon: face-hand-peeking
 > * Hide implementation details of a class and treat it like a black box.
 > * Expose a simple interface (bunch of methods) to work with to the outside.
 
-
-
 ### Metaphor: Car and Engine
 
 * Car has an engine.&#x20;
@@ -20,7 +18,7 @@ icon: face-hand-peeking
 
 ### In abstraction,
 
-* We hide implementation details of the lass and treat it like a black box.
+* We hide implementation details of the class and treat it like a black box.
 * We don't care what's inside, we just have simple interface to work with,
 * Just like car key/buttons to turn it on, lock, unlock.
 
