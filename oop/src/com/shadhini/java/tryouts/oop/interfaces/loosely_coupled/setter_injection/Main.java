@@ -8,7 +8,7 @@ public class Main {
         var report = new TaxReport(calculator); // Constructor Injection
         report.show(); // Output: 30000.0
 
-        report.setCalculator(new TaxCalculator2025());
+        report.setCalculator(new TaxCalculator2025()); // Setter Injection
         report.show(); // Output: 0.0
     }
 }
