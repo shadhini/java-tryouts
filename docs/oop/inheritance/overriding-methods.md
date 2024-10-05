@@ -4,9 +4,9 @@ icon: delete-left
 
 # Overriding Methods
 
-> Used to change the behaviour of inherited methods from super/parent classes at **`runtime`**
+> **Changing the implementation of an inherited method in a subclass.**
 
-Used in situations where we inherit methods from super class/es, but we are not happy with that implementation and we want to change it.
+Used in situations where we inherit methods from super/parent class/es, but we are not happy with that implementation and we want to change the behaviour of inherited methods from super/parent classes at **`runtime`**.
 
 We can override any method inherited from parent/grand parent ... classes.
 
@@ -59,7 +59,8 @@ public class Main {
 }
 ```
 
-With **`@Override`** annotation Java Compiler will make sure that this method has the exact same signature as the inherited method.
+With **`@Override`** annotation `Java Compiler` will make sure that this method has the exact same signature as the inherited method.
 
-* These annotations help Java Compiler to double check our code for correctness.
+* Also, if we remove this method from the base class, the compiler will let us know and we can remove the method in the subclass as well.
 
+➡ These annotations help Java Compiler to double check our code for correctness.

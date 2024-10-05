@@ -6,7 +6,9 @@ icon: not-equal
 
 > The **default** implementation of **`equals()`** method in `Object` class compares 2 objects based on their **reference**.&#x20;
 >
-> Thus, if you want to compare objects based on the content, then you have to **`override`** `equals()` method in the Class of interest.
+> **`hashCode()`** method of `Object` class returns a **numeric value** that is calculated based on the **address** of the object in memory.
+>
+> If you want to compare objects based on the content, then you have to **`override`** `equals()` method in the Class of interest.
 
 ## Best Practice
 

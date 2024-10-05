@@ -33,13 +33,13 @@ icon: person-digging
 
 ╰┈➤ reference types -> `null`
 
-<pre class="language-java"><code class="lang-java">public class Employee {
+<pre class="language-java"><code class="lang-java">public class Employee { // no parameters
     public <a data-footnote-ref href="#user-content-fn-1">Employee</a>() {
     }
 }
 </code></pre>
 
-This default constructor is automatically created by Java Compiler.&#x20;
+This default constructor is automatically added by `Java Compiler` if we haven't create any constructors.&#x20;
 
 * Thus, there's no need to add it to the code.
 
@@ -53,7 +53,7 @@ This default constructor is automatically created by Java Compiler.&#x20;
 }
 </code></pre>
 
-* Constructors don't have a return type; not even void.
+* Constructors don't have a return type; not even `void`.
 
 ❗ We need to initialise the fields  within the constructor based on the parameters we receive.&#x20;
 

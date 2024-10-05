@@ -4,7 +4,9 @@ icon: people-roof
 
 # Polymorphism
 
-> allows an object to take many forms
+> allows an object to take many forms and behave differently.
+>
+> \-> helps to build extensible applications
 
 ```
 Poly    -    morph    -    ism 

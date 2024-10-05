@@ -39,3 +39,9 @@ Instead of passing values around we should encapsulate these values along with t
 
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/a5bce2c44dac9094e79126048fc91fcaa2427a71/oop/src/com/shadhini/java/tryouts/oop/encapsulation/Employee.java" %}
 
+
+
+## More On ...
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getters and Setters</strong>     </td><td><a href="getters-and-setters.md">getters-and-setters.md</a></td></tr></tbody></table>
+

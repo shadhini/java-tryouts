@@ -6,7 +6,7 @@ icon: nfc-symbol
 
 
 
-> **About the level of dependency between classes**
+> **About the level of dependency between software entities (eg classes)**
 >
 > Reduce coupling -> Reduce impact of changes
 >

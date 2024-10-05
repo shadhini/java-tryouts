@@ -74,6 +74,8 @@
   * [Constructors](oop/inheritance/constructors.md)
   * [Overriding Methods](oop/inheritance/overriding-methods.md)
   * [Upcasting & Downcasting](oop/inheritance/upcasting-and-downcasting.md)
+  * [Deep Inheritance](oop/inheritance/deep-inheritance.md)
+  * [Multiple Inheritance](oop/inheritance/multiple-inheritance.md)
 * [Access Modifiers](oop/access-modifiers.md)
 * [Comparing Objects](oop/comparing-objects.md)
 * [Polymorphism](oop/polymorphism.md)

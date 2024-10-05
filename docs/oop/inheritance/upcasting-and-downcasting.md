@@ -126,3 +126,11 @@ public class Main {
 }
 ```
 
+### **`instanceof` Operator**
+
+> **tells us if an object is an instance of a class.**
+
+We use it before casting an object to a different type to make sure we don’t get a casting exception.
+
+
+

@@ -26,5 +26,15 @@ icon: list-tree
 [Strings \[java.lang.String\]](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/types/strings-java.lang.string)
 {% endcontent-ref %}
 
+{% content-ref url="arrays.md" %}
+[arrays.md](arrays.md)
+{% endcontent-ref %}
+
+{% content-ref url="multi-dimensional-arrays.md" %}
+[multi-dimensional-arrays.md](multi-dimensional-arrays.md)
+{% endcontent-ref %}
+
+
+
 
 

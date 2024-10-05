@@ -4,7 +4,7 @@ icon: a
 
 # Abstract Classes and Methods
 
-> **`Abstract Classes`**
+> **`Abstract Classes:`** a partially-implemented (half-cooked) class
 >
 > * can only be extended
 > * cannot be instantiated
@@ -40,7 +40,7 @@ public abstract class UIControl { // Abstract Class
 ```
 
 * cannot instantiate
-* can be extended by other classes
+* can be extended by other classes; can be use to share some common code across subclasses
 
 
 
@@ -65,7 +65,7 @@ public abstract class UIControl {
 
 When method is declared as abstract, it forces any of the subclasses derived from that class to implement this method.
 
-Abstract methods can be declared only in abstract classes.
+❗ An abstract class does not need abstract methods. But if we mark a method as abstract, we should mark the class as abstract as well.
 
 ## Example
 

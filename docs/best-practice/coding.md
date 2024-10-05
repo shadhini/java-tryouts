@@ -292,6 +292,12 @@ else
 
 
 
+## Inheritance
+
+❗ Inheritance is good up to **`1, and 2 levels.`** Not more than 3 levels.
+
+
+
 [^1]: magic number
 
 [^2]: magic number
