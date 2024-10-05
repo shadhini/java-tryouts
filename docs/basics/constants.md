@@ -6,6 +6,8 @@ icon: clock-twelve-thirty
 
 > **Use `final` variables when value of a variable should be fixed; unchangeable.**
 
+ℹ️ `Final variables` -> cannot change once set
+
 <pre class="language-java"><code class="lang-java">final float <a data-footnote-ref href="#user-content-fn-1">PI</a> = 3.14F;
 </code></pre>
 

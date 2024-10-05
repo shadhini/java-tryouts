@@ -123,6 +123,8 @@ var textBox1 = new TextBox();
 
 
 
+
+
 ## Numbers
 
 ✅️ Use `_` to separate every 3 digits of large numbers.
@@ -202,25 +204,15 @@ else
 
 
 
-## Methods
-
-✅️  You need to break down your code into small methods and improve code readability and reusability.
-
-✅️  Ideally methods should be between 5-10 lines of code. Not more than 20 lines of code.
-
-✅️  Extract repetitive patterns and highly related statements into methods and classes.
-
-
-
-### Parameters
-
-❗ Frequently changing values should be method parameters instead of class's fields.
-
 
 
 ## Classes
 
+✅  ✨ A class should have only a single responsibility.
+
 ✅️  Extract repetitive patterns and highly related statements into methods and classes.
+
+✅ Keep everything that's not needed outside as private members.
 
 
 
@@ -234,6 +226,13 @@ else
 
 
 
+### Organization of the Class Declaration
+
+1. Fields
+2. Constructors
+3. Public Methods
+4. Getters and Setters
+
 ### Methods
 
 ✅ Logically related methods should be defined next to each other for better organisation of code.
@@ -242,7 +241,19 @@ else
 
 ❗ Frequently changing values should be method parameters instead of class's fields.
 
+✅ Move all the getters and setters to the bottom of the class.
 
+
+
+✅️  You need to break down your code into small methods and improve code readability and reusability.
+
+✅️  Ideally methods should be between 5-10 lines of code. Not more than 20 lines of code.
+
+✅️  Extract repetitive patterns and highly related statements into methods and classes.
+
+#### Parameters
+
+❗ Frequently changing values should be method parameters instead of class's fields.
 
 
 
@@ -266,6 +277,24 @@ else
 ❗ Frequently changing values should be method parameters instead of class's fields.
 
 
+
+
+
+## Downcasting
+
+✅  Use **`instanceof`** to check whether the object passed in the runtime is actually an instance of the class to which it will be downcasted, to avoid `java.lang.ClassCastException` at runtime.
+
+
+
+## Overriding Methods
+
+✅  Whenever we override `equals()` method of `Object` class we should also override the `hashCode()` method of `Object` class.
+
+
+
+## Inheritance
+
+❗ Inheritance is good up to **`1, and 2 levels.`** Not more than 3 levels.
 
 
 

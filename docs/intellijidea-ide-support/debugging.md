@@ -4,6 +4,24 @@ icon: bug-slash
 
 # Debugging
 
+## ▶️ Run & 🐞 Debug
+
+Execute/Run a program:   `control ^` + `R`
+
+<figure><img src="../.gitbook/assets/IntelliJ-run-app.png" alt=""><figcaption><p>Note red circles for <code>Run</code> icon</p></figcaption></figure>
+
+Debug a program: `control ^` + `D`
+
+<figure><img src="../.gitbook/assets/IntelliJ-debug.png" alt=""><figcaption><p>Note red circles for <code>Debug</code> icon</p></figcaption></figure>
+
+Debug Breakpoints Console: `command` + `fn` + `shift` + `F8`
+
+
+
+
+
+## 🐞 Debugging
+
 <figure><img src="../.gitbook/assets/intellij-debugging-with-notes.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/intelliJ-debug console.png" alt=""><figcaption><p>IntelliJ - Debug Console</p></figcaption></figure>

@@ -35,7 +35,20 @@ In OOP, objects interact with each other to perform tasks.
 
 
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/oop-object-oriented-programming/benefits-of-object-oriented-programming" %}
-[Benefits of Object Oriented Programming](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/oop-object-oriented-programming/benefits-of-object-oriented-programming)
+## Benefits of Object Oriented Programming
+
+{% content-ref url="benefits-of-object-oriented-programming.md" %}
+[benefits-of-object-oriented-programming.md](benefits-of-object-oriented-programming.md)
 {% endcontent-ref %}
+
+
+
+## Main Concepts
+
+1. [Encapsulation](../encapsulation/) : bundling the data and operations on the data inside a single unit (class).
+2. [Abstraction](../abstraction.md) :  educing complexity by hiding unnecessary details
+   1. metaphor: the implementation detail of a remote control is hidden from us. We only work with its public interface.
+3. [Inheritance](../inheritance/) : a mechanism for reusing code.
+4. [Polymorphism](../polymorphism.md) : a mechanism that allows an object to take many forms and behave differently.
+   1. helps to build extensible applications
 

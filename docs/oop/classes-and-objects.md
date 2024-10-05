@@ -31,7 +31,7 @@ Using this `Car` **template (i.e. class), we can create car objects;** `car1`, `
 
 These classes/objects have members we can access using dot operator.
 
-<figure><img src="../.gitbook/assets/java-classes-uml.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/java-uml-classes.png" alt=""><figcaption></figcaption></figure>
 
 ## `this` keyword
 
@@ -53,11 +53,15 @@ In a situation where a name of a (method) parameter is same as the name od (clas
 
 ❗In Java we should **not** declare fields as **public**.
 
-
+* How we store data in an object is considered an implementation detail.&#x20;
+* We may change how we store the data internally.&#x20;
+* Plus, we don’t want our objects to go into a bad state (hold bad data).&#x20;
+* That’s why we should declare fields as private and provide getters and or setters only if required.&#x20;
+* These setters can ensure our objects don’t go into a bad state by validating the values that are passed to them.
 
 ## Declaring & Instantiating Classes
 
-
+**`Instantiating Class`** -> creating an instance of a class with `new` operator
 
 {% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/bbd8de7cf159f48344a78431d47a41f78787d130/oop/src/com/shadhini/java/tryouts/oop/classes_n_objects/Main.java" %}
 
