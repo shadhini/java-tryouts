@@ -23,6 +23,7 @@
     * interfaces.tightly_coupled: Tightly coupled code
     * interfaces.loosely_coupled.constructor_injection: Constructor Injection
     * interfaces.loosely_coupled.setter_injection: Setter Injection
-    * interfaces.loosely_coupled.method_injection: Method Injection
-15. interfaces.interface_segregation: Interface Segregation Principle
-
+    * interfaces.loosely_coupled.method_injection: Method Injection 
+    * interfaces.interface_segregation: Interface Segregation Principle 
+    * interfaces.fields: Fields in interfaces
+    * interfaces.new_features: New Java features related to interfaces
