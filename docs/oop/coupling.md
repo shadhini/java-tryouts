@@ -8,11 +8,9 @@ icon: nfc-symbol
 
 > **About the level of dependency between software entities (eg classes)**
 >
-> Reduce coupling -> Reduce impact of changes
+> Less methods in class & Private methods -> Hide implementation -> Reduce Coupling -> Reduce impact of changes
 >
 > * The more classes coupled to each other, the more costly the changes are going to be.
->
-> Less methods in class & Private methods -> Hide implementation -> Reduce Coupling
 
 
 
@@ -39,16 +37,22 @@ icon: nfc-symbol
 
 Here,
 
-* Class A is using class B; so it's coupled to class B.
-* If we change class B, class A may have to be modified or at least it has to be recompiled.
-* Also any other class that are dependent on class A may have to be modified or at least recompiled.
+* Class A is using class B; so A is coupled to class B; A is dependent on B.
+* If we change class B, class A may have to be modified or if there aren't any breaking changes then at least it has to be recompiled & redeployed.
+* Also any other class that are dependent on class A may have to be modified or at least recompiled & redeployed.
 
 This is a huge issue in large applications with 1000 of many classes.
 
 * If you change a class you might end up with 100 broken classes&#x20;
 * The more classes coupled to each other, the more costly the changes are going to be.
 
-**`Reduce coupling -> Reduce impact of changes`**
+**`Tightly coupled code`**
+
+╰┈➤ Changing one class may result in several **cascading, breaking changes** in the code
+
+
+
+&#x20;**`Reduce coupling -> Reduce impact of changes`**
 
 
 

@@ -18,11 +18,15 @@ We cannot use these reserved keywords to name variables, methods and classes.
 
 `final`: used for classes that cannot be extended, but can be instantiated
 
+## Interface Declaration
+
+`interface`: used to declare an interface
+
 ## Method Declaration
 
 `abstract`:  subclasses must implement this method
 
-`final`: cannot be overriden by subclasses
+`final`: cannot be overridden by subclasses
 
 ## Method Return Types
 
@@ -63,6 +67,8 @@ We cannot use these reserved keywords to name variables, methods and classes.
 `instanceof`: used to check whether an object at runtime is an instance of a specific class
 
 `new`: operator used for instantiating
+
+`extends`: keyword used to extend a class from another class
 
 
 

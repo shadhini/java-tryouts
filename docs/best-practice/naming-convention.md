@@ -24,6 +24,19 @@ sendEmail()
 
 
 
+## Interface Names
+
+* **`PascalNamingConvention`**: first letter of every word should be uppercase
+* In C# we prefixes interfaces with capital `I` to indicate that it is an interface.&#x20;
+  * But this convention is not popular in Java.&#x20;
+* In Java,
+  * we sometimes use `Can` prefix.
+    * e.g: CanCalculateTax
+  * use `able` postfix
+    * e.g: Draggable, Resizable
+
+
+
 ## Variable Names
 
 * **`camelNamingConvention`**: first letter of every word should be uppercase except the first word

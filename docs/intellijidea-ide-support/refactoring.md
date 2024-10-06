@@ -4,39 +4,38 @@ icon: rotate-exclamation
 
 # Refactoring
 
+## IntelliJ Refactor Functionality
+
+cursor on the member name -> Refactor -> Refactor This &#x20;
+
+OR&#x20;
+
+cursor on method name -> `control` + `T`
+
 #### Extract code to a new method.
 
 1. select the lines need to be extracted
 2. right click -> Refactor -> Extract Method
 
-
-
 #### Move members to another class
 
-1. cursor on method name -> Refactor -> Refactor This &#x20;
-   1. OR cursor on method name -> `control` + `T`
-2. Move members -> Tick the member to move
-3. Visibility -> .....
-
-
+1. Visibility -> .....
 
 #### Extract field from local variable
 
-cursor on method name -> Refactor -> Refactor This &#x20;
-
-OR&#x20;
-
-cursor on method name -> `control` + `T`
-
-
-
 #### Convert methode to  instance method
 
-cursor on method name -> Refactor -> Refactor This &#x20;
+#### Move method to another interface
 
-OR&#x20;
+#### Extract interface and implementation from a class
 
-cursor on method name -> `control` + `T`
+<figure><img src="../.gitbook/assets/intellij-refactor-extract-interface-from-class-1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/intellij-refactor-extract-interface-from-class-2.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/intellij-refactor-extract-interface-from-class-3.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/intellij-refactor-extract-interface-from-class-4.png" alt=""><figcaption></figcaption></figure>
 
 
 
