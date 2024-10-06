@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.tools.my_tube;
+package com.shadhini.java.tryouts.tools.my_tube_improved;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +7,11 @@ public class Main {
         video.setTitle("Jennifer's Birthday");
         video.setUser(new User("john@domain.com"));
 
-        var processor = new VideoProcessor();
+        var processor = new VideoProcessor(
+                new DefaultVideoEncoder(),
+                new DefaultVideoDatabase(),
+                new DefaultEmailService()
+        );
         processor.process(video);
     }
 }
