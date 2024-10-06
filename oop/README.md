@@ -24,5 +24,5 @@
     * interfaces.loosely_coupled.constructor_injection: Constructor Injection
     * interfaces.loosely_coupled.setter_injection: Setter Injection
     * interfaces.loosely_coupled.method_injection: Method Injection
-15. 
+15. interfaces.interface_segregation: Interface Segregation Principle
 
