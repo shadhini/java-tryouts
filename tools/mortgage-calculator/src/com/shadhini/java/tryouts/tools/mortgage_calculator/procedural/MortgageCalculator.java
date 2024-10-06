@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.tools.procedural;
+package com.shadhini.java.tryouts.tools.mortgage_calculator.procedural;
 
 import java.text.NumberFormat;
 import java.util.Scanner;

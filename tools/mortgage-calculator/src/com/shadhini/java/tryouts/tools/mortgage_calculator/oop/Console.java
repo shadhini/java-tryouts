@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.tools.oop;
+package com.shadhini.java.tryouts.tools.mortgage_calculator.oop;
 
 import java.util.Scanner;
 
