@@ -121,7 +121,7 @@ var textBox1 = new TextBox();
 * If we don't initialise a variable of `Reference Type`, they are set to **`null`**. i.e. it doesn't reference a real object in memory.
 * ❗ `Nulls` are dangerous, they can crash programs with **`java.lang.NullPointerException.`**
 
-
+✅️  Variables should be initialised before accessing them.
 
 
 
@@ -273,7 +273,7 @@ else
 
 * ❌ We don't initialise values in a class as it is only a blueprint.&#x20;
 * ✅️  Instead, when later objects are created, field values should be set for each object.
-* ✅ Setters can be called inside the constructor to put an object created on a valid state form the beginning.
+* ✅ Setters can be called inside the constructor to put an object created on a valid state from the beginning.
 * ❌ An object shouldn't go to an `invalid state` after creation.
 * If we don't initialise a variable of `Reference Type`, they are set to **`null`**. i.e. it doesn't reference a real object in memory.
 * ❗ `Nulls` are dangerous, they can crash programs with **`java.lang.NullPointerException.`**
@@ -321,6 +321,41 @@ else
 ❌ If you need to add some implementation details that needs to be inherited by all children, then use **`abstract classes,`** not methods in interfaces.&#x20;
 
 * If you want to make sure only subclasses can inherit the method, then you can declare the static method as a **`protected`** method.
+
+
+
+## Exception Handling
+
+✅ You should either prevent exceptions or should anticipate and handle exceptions.
+
+✅️ Anticipate and handle edge cases.
+
+✅️ It's best to log exceptions somewhere (e.g. file or database)&#x20;
+
+✅️ If you are not printing an error message for the user to see when you catch an exception, then it's best  to re-throw them, so that somewhere else in the application a generic exception handler that catches all kinds of exceptions can get it and display a generic error message.&#x20;
+
+
+
+## OS Resources
+
+Resources like file handles, database connections, network connections.. are operating system resources.&#x20;
+
+✅️  Whenever we acquire, occupy  external resources, we should always release them.&#x20;
+
+* Otherwise other processes may not be able to access these resources.&#x20;
+
+✅️  If the classes we use to acquire, occupy external resources implements `AutoCloseable` interface, then use try with resources statement.
+
+
+
+## Data Validation
+
+✅️  Use defensive programming if you are developing a framework for others to use or when data is received from external systems or user.
+
+* If you are developing an application, you should have level of trust in your code. Your methods should trust each other. Don't pollute every method with data validation logic.&#x20;
+* Perform this kind of data validation only when you receive input from the user or external systems. That is at the boundary of your application. Not within the application itself.
+
+
 
 [^1]: magic number
 

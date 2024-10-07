@@ -95,6 +95,16 @@
 * [Refactoring Towards an Object Oriented Design](oop/refactoring-towards-an-object-oriented-design.md)
 * [UML: Unified Modeling Language](oop/uml-unified-modeling-language.md)
 
+## Advanced
+
+* [Exceptions](advanced/exceptions/README.md)
+  * [Types of Exceptions](advanced/exceptions/types-of-exceptions/README.md)
+    * [Exceptions Glossary](advanced/exceptions/types-of-exceptions/exceptions-glossary.md)
+  * [Exceptions Hierarchy](advanced/exceptions/exceptions-hierarchy.md)
+  * [Handle Exceptions](advanced/exceptions/handle-exceptions.md)
+  * [Custom Exceptions](advanced/exceptions/custom-exceptions.md)
+  * [Chaining Exceptions](advanced/exceptions/chaining-exceptions.md)
+
 ## BEST PRACTICE
 
 * [Naming Convention](best-practice/naming-convention.md)
