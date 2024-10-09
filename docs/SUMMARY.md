@@ -90,6 +90,7 @@
   * [Fields in Interfaces](oop/interfaces/fields-in-interfaces.md)
   * [New Features introduced to Interfaces](oop/interfaces/new-features-introduced-to-interfaces.md)
   * [When to use Interfaces](oop/interfaces/when-to-use-interfaces.md)
+  * [Interfaces Glossary](oop/interfaces/interfaces-glossary.md)
 * [Interfaces and Abstract Classes](oop/interfaces-and-abstract-classes.md)
 * [Hash](oop/hash.md)
 * [Refactoring Towards an Object Oriented Design](oop/refactoring-towards-an-object-oriented-design.md)
@@ -104,6 +105,13 @@
   * [Handle Exceptions](advanced/exceptions/handle-exceptions.md)
   * [Custom Exceptions](advanced/exceptions/custom-exceptions.md)
   * [Chaining Exceptions](advanced/exceptions/chaining-exceptions.md)
+* [Generics](advanced/generics/README.md)
+  * [Need for Generics](advanced/generics/need-for-generics.md)
+  * [Generic Classes](advanced/generics/generic-classes.md)
+  * [Generics and Primitive Types](advanced/generics/generics-and-primitive-types.md)
+  * [Constraints](advanced/generics/constraints.md)
+  * [Type Erasure](advanced/generics/type-erasure.md)
+  * [Comparable Interface](advanced/generics/comparable-interface.md)
 
 ## BEST PRACTICE
 
@@ -121,3 +129,4 @@
 * [Debugging](intellijidea-ide-support/debugging.md)
 * [Packaging Java Applications](intellijidea-ide-support/packaging-java-applications.md)
 * [Assigning Directories](intellijidea-ide-support/assigning-directories.md)
+* [View Byte Code](intellijidea-ide-support/view-byte-code.md)
