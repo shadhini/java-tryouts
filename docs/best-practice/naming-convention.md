@@ -54,3 +54,10 @@ MAXIMUM_INTEREST_RATE
 ## Fields
 
 * **`camelNamingConvention`**: first letter of every word should be uppercase except the first word
+
+
+
+## Custom Exception Classes
+
+* **`PascalNamingConvention`**: first letter of every word should be uppercase
+* use **`Exception`** postfix always&#x20;

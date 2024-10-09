@@ -57,6 +57,8 @@ This `var` is different from what we have in languages like JavaScript.&#x20;
 
 ✅  \[available since Java 11] Use **`var`** keyword for cleaner code and let the compiler determine the type of the variable.&#x20;
 
+📌 var can be used only when we are initialising a variable in the same line.
+
 &#x20;
 
 

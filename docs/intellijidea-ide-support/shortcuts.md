@@ -21,7 +21,11 @@ Multiple line comment: type `/*` -> return
 
 `option` + `return`
 
+Can be used to&#x20;
 
+* surround a checked exception with try catch block
+* to add variable declaration&#x20;
+* and many more ...
 
 ## 📑 Duplicate Code
 
