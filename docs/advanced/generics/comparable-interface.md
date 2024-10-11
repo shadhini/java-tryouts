@@ -62,5 +62,45 @@ public class User implements Comparable<User> {
 
 ╰┈➤ `We should always specify generic type argument when implementing`` `**`Comparable`**` ``interface`.
 
+***
+
+ℹ️ `<` is used only to compare numbers and characters.
+
+```java
+public class User implements Comparable<User> {
+
+    private int points;
+
+    public User(int points) {
+        this.points = points;
+    }
+
+    @Override
+    public int compareTo(User other) {
+        // this < other     -> -1
+        // this == other    -> 0
+        // this > other     -> 1
+        return points - other.points;
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        var user1 = new User(10);
+        var user2 = new User(20);
+        
+        if ((user1.compareTo(user2)) < 0) {
+            System.out.println("User1 < User2");
+        } else if ((user1.compareTo(user2)) == 0) {
+            System.out.println("User1 == User2");
+        } else {
+            System.out.println("User1 > User2");
+        }
+
+    }
+}
+```
+
 
 

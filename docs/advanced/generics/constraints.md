@@ -34,7 +34,7 @@ e.g: We want to store only numbers in a generic list. Say this list is gonna hav
 
 <figure><img src="../../.gitbook/assets/java-ad-generics-5-number-class.png" alt=""><figcaption></figcaption></figure>
 
-Now, when instantiating this generic list, we can pass only Number type or any class that has been derived from the Number class as the type parameter.
+Now, when instantiating this `GenericList,` we can pass only Number type or any class that has been derived from the Number class as the type parameter.
 
 <figure><img src="../../.gitbook/assets/java-ad-generics-6-constraints.png" alt=""><figcaption></figcaption></figure>
 
@@ -59,7 +59,7 @@ public class GenericList<T extends Comparable & Cloneable> {
 
 Now, we are saying that we can send only the classes that implement both `Comparable` & `Cloneable`  as the type parameter to `GenericList` class.&#x20;
 
-i.e This generic list can store objects that are only comparable and cloneable.
+i.e This `GenericList` can store objects that are only comparable and cloneable.
 
 
 

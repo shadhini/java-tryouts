@@ -112,6 +112,10 @@
   * [Constraints](advanced/generics/constraints.md)
   * [Type Erasure](advanced/generics/type-erasure.md)
   * [Comparable Interface](advanced/generics/comparable-interface.md)
+  * [Generic Methods](advanced/generics/generic-methods.md)
+  * [Multiple Type Parameters](advanced/generics/multiple-type-parameters.md)
+  * [Generic classes & Inheritance](advanced/generics/generic-classes-and-inheritance.md)
+  * [Wildcards](advanced/generics/wildcards.md)
 
 ## BEST PRACTICE
 
