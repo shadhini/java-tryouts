@@ -23,7 +23,19 @@ Polymorphism allows us&#x20;
   * Then every sub class will have their own render() method with that class specific implementation.
   * ╰┈➤ `This is Encapsulation`; biding the object and operations on it together as a single unit
 
+You can assign an instance of a particular class or any of it's derivatives to a variable of that particular type.
 
+```java
+public class Instructor extends User {
+    // ...
+}
+
+public class Main {
+    public static void main(String[] args) {
+        User user = new Instructor();
+    }
+}
+```
 
 ## Example
 

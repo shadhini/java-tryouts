@@ -1,6 +1,6 @@
 ---
-description: 2 steps process
 icon: gears
+description: 2 steps process
 ---
 
 # How Java Code gets Executed
@@ -11,9 +11,11 @@ icon: gears
 
 IntelliJ uses `Java compiler` to compile the code (`source code`) into a different format called `Java Byte Code`.
 
+This `Java complier` comes with the `Java Development Kit (JDK)`.
+
 The `Java Byte Code` with `*.class` extension is **platform independent**; i.e. it can run on any operating system that has `JRE` (Java Runtime Environment).
 
-This `Java complier` comes with the `Java Development Kit (JDK)`.
+
 
 
 
@@ -48,7 +50,7 @@ This architecture is what makes Java applications **`portable`** or **`platform 
 * A Java program can be developed on Mac and then can be executed on any other operating system (OS) which has `JRE`.
 * `C#` and `Python` also have the same architecture. That is why they are platform independent.
 
-
+We have different `JVMs` for different operating systems.
 
 ### Invoke JVM to run Java program
 
