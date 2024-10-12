@@ -116,6 +116,8 @@
   * [Multiple Type Parameters](advanced/generics/multiple-type-parameters.md)
   * [Generic classes & Inheritance](advanced/generics/generic-classes-and-inheritance.md)
   * [Wildcards](advanced/generics/wildcards.md)
+* [Collections](advanced/collections/README.md)
+  * [Iterables](advanced/collections/iterables.md)
 
 ## BEST PRACTICE
 

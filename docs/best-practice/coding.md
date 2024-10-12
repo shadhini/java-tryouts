@@ -137,12 +137,12 @@ var textBox1 = new TextBox();
 
 ## If Statements
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/if-statements/simplifying-if-statements" %}
-[Simplifying If Statements](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/if-statements/simplifying-if-statements)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/ternary-operator" %}
-[Ternary Operator](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/basics/control-flow/ternary-operator)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 

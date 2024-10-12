@@ -1,6 +1,6 @@
 ---
-description: Deploying Command Line Applications
 icon: box-open-full
+description: Deploying Command Line Applications
 ---
 
 # Packaging Java Applications
@@ -23,8 +23,8 @@ Anyone who have installed Java Runtime Environment (`JRE`), can execute a `jar` 
 
 ## Using IntelliJIDEA IDE
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/packaging-java-applications" %}
-[Packaging Java Applications](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/intellijidea/packaging-java-applications)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 
