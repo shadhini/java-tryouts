@@ -1,14 +1,19 @@
 package com.shadhini.java.tryouts.advanced;
 
+import com.shadhini.java.tryouts.advanced.collections.GenericList;
+/*
+import com.shadhini.java.tryouts.advanced.exceptions.ExceptionsDemo;
 import com.shadhini.java.tryouts.advanced.generics.GenericList;
 import com.shadhini.java.tryouts.advanced.generics.Instructor;
 import com.shadhini.java.tryouts.advanced.generics.User;
 import com.shadhini.java.tryouts.advanced.generics.Utils;
+ */
 
 public class Main {
 
     public static void main(String[] args) {
 
+        // =============================================================================================================
         // Exceptions --------------------------------------------------------------------------------------------------
         /*
         try {
@@ -19,6 +24,7 @@ public class Main {
 
          */
 
+        // =============================================================================================================
         // Generics ----------------------------------------------------------------------------------------------------
         /*
         var genericList = new GenericList<Integer>();
@@ -61,10 +67,34 @@ public class Main {
          */
 
         // Generics: Inheritance & Wildcards----------------------------------------------------------------------------
+        /*
         var instructors = new GenericList<Instructor>();
         var users = new GenericList<User>();
         Utils.readUsers(instructors);
         Utils.readUsers(users);
         Utils.addUsers(users);
+
+         */
+
+        // =============================================================================================================
+        // Collections -------------------------------------------------------------------------------------------------
+
+        // Collections: Iterables --------------------------------------------------------------------------------------
+        var list = new GenericList<String>();
+        list.add("A");
+        list.add("B");
+        /*
+        var iterator = list.iterator();
+
+        while (iterator.hasNext()) {
+            var current = iterator.next();
+            System.out.println(current);
+        }
+
+         */
+
+        for (var item: list)
+            System.out.println(item);
+
     }
 }
