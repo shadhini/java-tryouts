@@ -1,8 +1,8 @@
 package com.shadhini.java.tryouts.advanced;
 
-import com.shadhini.java.tryouts.advanced.collections.CollectionsDemo;
-import com.shadhini.java.tryouts.advanced.collections.GenericList;
+import com.shadhini.java.tryouts.advanced.collections.ListDemo;
 /*
+import com.shadhini.java.tryouts.advanced.collections.CollectionDemo;
 import com.shadhini.java.tryouts.advanced.exceptions.ExceptionsDemo;
 import com.shadhini.java.tryouts.advanced.generics.GenericList;
 import com.shadhini.java.tryouts.advanced.generics.Instructor;
@@ -102,7 +102,10 @@ public class Main {
          */
 
         // Collections: Collection Interface ---------------------------------------------------------------------------
-        CollectionsDemo.show();
+        // CollectionDemo.show();
+
+        // Collections: List Interface ---------------------------------------------------------------------------------
+        ListDemo.show();
 
     }
 }
