@@ -1,7 +1,8 @@
 package com.shadhini.java.tryouts.advanced;
 
-import com.shadhini.java.tryouts.advanced.collections.ListDemo;
+
 /*
+import com.shadhini.java.tryouts.advanced.collections.ListDemo;
 import com.shadhini.java.tryouts.advanced.collections.CollectionDemo;
 import com.shadhini.java.tryouts.advanced.exceptions.ExceptionsDemo;
 import com.shadhini.java.tryouts.advanced.generics.GenericList;
@@ -9,6 +10,8 @@ import com.shadhini.java.tryouts.advanced.generics.Instructor;
 import com.shadhini.java.tryouts.advanced.generics.User;
 import com.shadhini.java.tryouts.advanced.generics.Utils;
  */
+
+import com.shadhini.java.tryouts.advanced.collections.SortingDemo;
 
 public class Main {
 
@@ -105,7 +108,10 @@ public class Main {
         // CollectionDemo.show();
 
         // Collections: List Interface ---------------------------------------------------------------------------------
-        ListDemo.show();
+        // ListDemo.show();
+
+        // Collections: Comparable Interface & Sorting -----------------------------------------------------------------
+        SortingDemo.show();
 
     }
 }
