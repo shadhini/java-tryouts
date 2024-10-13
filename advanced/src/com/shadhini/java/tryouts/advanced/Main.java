@@ -1,5 +1,6 @@
 package com.shadhini.java.tryouts.advanced;
 
+import com.shadhini.java.tryouts.advanced.collections.CollectionsDemo;
 import com.shadhini.java.tryouts.advanced.collections.GenericList;
 /*
 import com.shadhini.java.tryouts.advanced.exceptions.ExceptionsDemo;
@@ -80,6 +81,7 @@ public class Main {
         // Collections -------------------------------------------------------------------------------------------------
 
         // Collections: Iterables --------------------------------------------------------------------------------------
+        /*
         var list = new GenericList<String>();
         list.add("A");
         list.add("B");
@@ -93,8 +95,14 @@ public class Main {
 
          */
 
+        /*
         for (var item: list)
             System.out.println(item);
+
+         */
+
+        // Collections: Collection Interface ---------------------------------------------------------------------------
+        CollectionsDemo.show();
 
     }
 }
