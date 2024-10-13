@@ -11,6 +11,6 @@
 * [Generic List with Iterable Interface](https://github.com/shadhini/java-tryouts/blob/c6174c0e9cb260881b38fd04ac99a0d3bf969307/advanced/src/com/shadhini/java/tryouts/advanced/collections/GenericList.java)
 * [Collection Interface](https://github.com/shadhini/java-tryouts/blob/0b2bf9689b27275b0bd78780cf6292eca2d708d4/advanced/src/com/shadhini/java/tryouts/advanced/collections/CollectionDemo.java)
 * [List Interface](https://github.com/shadhini/java-tryouts/blob/0b2bf9689b27275b0bd78780cf6292eca2d708d4/advanced/src/com/shadhini/java/tryouts/advanced/collections/ListDemo.java)
-* [Comparable, Comparator Interfaces & Sorting]()
-* 
+* [Comparable, Comparator Interfaces & Sorting](https://github.com/shadhini/java-tryouts/blob/abe5c6c584e74e69c0b261e1fdc6243ffebf6abd/advanced/src/com/shadhini/java/tryouts/advanced/collections/SortingDemo.java)
+* [Queue Interface]()
 

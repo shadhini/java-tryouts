@@ -11,6 +11,7 @@ import com.shadhini.java.tryouts.advanced.generics.User;
 import com.shadhini.java.tryouts.advanced.generics.Utils;
  */
 
+import com.shadhini.java.tryouts.advanced.collections.QueueDemo;
 import com.shadhini.java.tryouts.advanced.collections.SortingDemo;
 
 public class Main {
@@ -111,7 +112,10 @@ public class Main {
         // ListDemo.show();
 
         // Collections: Comparable Interface & Sorting -----------------------------------------------------------------
-        SortingDemo.show();
+        // SortingDemo.show();
+
+        // Collections: Queue Interface --------------------------------------------------------------------------------
+        QueueDemo.show();
 
     }
 }
