@@ -13,5 +13,6 @@
 * [List Interface](https://github.com/shadhini/java-tryouts/blob/0b2bf9689b27275b0bd78780cf6292eca2d708d4/advanced/src/com/shadhini/java/tryouts/advanced/collections/ListDemo.java)
 * [Comparable, Comparator Interfaces & Sorting](https://github.com/shadhini/java-tryouts/blob/abe5c6c584e74e69c0b261e1fdc6243ffebf6abd/advanced/src/com/shadhini/java/tryouts/advanced/collections/SortingDemo.java)
 * [Queue Interface](https://github.com/shadhini/java-tryouts/blob/376b3b08d7b0f879c77fb51fafd32874492d289d/advanced/src/com/shadhini/java/tryouts/advanced/collections/QueueDemo.java)
-* [Set Interface]()
+* [Set Interface](https://github.com/shadhini/java-tryouts/blob/bd1c59a71b9caf67976d334a29d907b95a4cb04d/advanced/src/com/shadhini/java/tryouts/advanced/collections/SetDemo.java)
+* [Hash Tables & Map Interface]()
 
