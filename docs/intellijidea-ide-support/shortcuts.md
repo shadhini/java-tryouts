@@ -27,6 +27,60 @@ Can be used to&#x20;
 * to add variable declaration&#x20;
 * and many more ...
 
+### ƒ Create Method
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-1.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-3.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-method-4.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+### 🇻 Create Variable
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-2.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/intellij-sc-create-variable-4.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+
+
 ## 📑 Duplicate Code
 
 Select the code snippet to be duplicated.
@@ -114,63 +168,19 @@ OR
 
 </div>
 
-## ƒ Create Method
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-method-1.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-method-2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-method-3.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-method-4.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-## 🇻 Create Variable
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-variable-1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-variable-2.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-variable-3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../.gitbook/assets/intellij-sc-create-variable-4.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-
-
 ## 📊 View Usage
 
 
+
+## ℹ️ View Info
+
+Parameter Info:&#x20;
+
+╰┈➤ `command` + `P`
+
+Go to **`documentation`** on element at carrot:&#x20;
+
+╰┈➤ `fn` + `F1`
 
 
 

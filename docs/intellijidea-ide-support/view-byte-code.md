@@ -1,5 +1,6 @@
 ---
 description: 'Byte Code: platform independent representation of Java code'
+icon: file-binary
 ---
 
 # View Byte Code
