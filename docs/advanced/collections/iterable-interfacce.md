@@ -1,8 +1,9 @@
 ---
 icon: arrow-rotate-left
+description: java.lang package
 ---
 
-# Iterables
+# Iterable Interfacce
 
 > **Represents an object that is iterable;** i.e we can iterate or loop over it.
 >
@@ -179,6 +180,94 @@ As you can see, when we use **`for each`** loop Java Compiler will convert our c
 
 
 ## `Iterator` Interface
+
+interface delclared in `java.util` package.
+
+<figure><img src="../../.gitbook/assets/java-ad-collections-4-iterator-interface-1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/java-ad-collections-4-iterator-interface-2.png" alt=""><figcaption></figcaption></figure>
+
+4 methods are declared in this Interface; `forEachRemaining()` and `remove()` methods have default implementations. We have to implement **`next()`**, **`hasNext()`** methods.
+
+
+
+### Implement Iterator class as a `private nested class` in the GenericList class
+
+```java
+public class GenericList<T> implements Iterable<T> {
+    private T[] items =  (T[]) new Object[10];
+    private int count;
+
+    public void add(T item) {
+        items[count++] = item;
+    }
+
+    public T get(int index) {
+        return items[index];
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        // Here we are creating a ListIterator for the current GenericList.
+        return new ListIterator(this);
+    }
+
+    // The `T` we define here in Iterator<T> is the same `T` we used in GenericList<T>
+    // Since we want to iterate over the same type parameter as declared on top
+    private class ListIterator implements Iterator<T> {
+
+        //Here we want to iterate over a GenericList<T>; so it should be passed to the constructor
+        private GenericList<T> list;
+        private int index;
+
+        public ListIterator(GenericList<T> list) {
+            this.list = list;
+            // `list.items` is accessible here: it's okay since, this class is part of implementation of a GenericList<T>
+            // Since these details are not exposed to outside
+        }
+
+        @Override
+        public boolean hasNext() {
+            return (index < list.count);
+        }
+
+        @Override
+        public T next() {
+            return list.items[index++];
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        var list = new GenericList<String>();
+        list.add("A");
+        list.add("B");
+        
+        for (var item: list)
+            System.out.println(item);
+    }
+}
+
+/* Output:
+A
+B
+ */
+```
+
+The `T` we define in `Iterator<T>` is the same `T` we used in `GenericList<T>`.
+
+* This is because we want to iterate over the same type parameter that was declared at the beginning in `GenericList<T>` class.
+
+Since we want to iterate over a `GenericList<T>`, it should be passed to the constructor of `Iterator<T>`.
+
+`list.items` is accessible in the `Iterator`` `**`private`` ``inner`**` ``class` because this class is part of the implementation of `GenericList<T>`.
+
+* These details are not exposed externally, so it's acceptable.
+
+
+
+
 
 [^1]: Reference to Iterator.hasNext()
 

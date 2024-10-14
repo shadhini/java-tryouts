@@ -8,7 +8,9 @@ icon: grid-5
 
 We have bunch of interfaces and general purpose implementations in Collections framework.
 
-<figure><img src="../../.gitbook/assets/java-collections.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/java-collections-framework.png" alt="" width="563"><figcaption></figcaption></figure>
+
+
 
 #### **`Iterable`** interface&#x20;
 
@@ -75,7 +77,49 @@ We have bunch of interfaces and general purpose implementations in Collections f
 
 
 
-{% content-ref url="iterables.md" %}
-[iterables.md](iterables.md)
+{% content-ref url="iterable-interfacce.md" %}
+[iterable-interfacce.md](iterable-interfacce.md)
 {% endcontent-ref %}
+
+{% content-ref url="collection-interface.md" %}
+[collection-interface.md](collection-interface.md)
+{% endcontent-ref %}
+
+{% content-ref url="list-interface.md" %}
+[list-interface.md](list-interface.md)
+{% endcontent-ref %}
+
+{% content-ref url="comparable-interface-and-sorting.md" %}
+[comparable-interface-and-sorting.md](comparable-interface-and-sorting.md)
+{% endcontent-ref %}
+
+{% content-ref url="comparator-interface-and-sorting.md" %}
+[comparator-interface-and-sorting.md](comparator-interface-and-sorting.md)
+{% endcontent-ref %}
+
+{% content-ref url="queue-interface.md" %}
+[queue-interface.md](queue-interface.md)
+{% endcontent-ref %}
+
+{% content-ref url="set-interface.md" %}
+[set-interface.md](set-interface.md)
+{% endcontent-ref %}
+
+{% content-ref url="hash-tables.md" %}
+[hash-tables.md](hash-tables.md)
+{% endcontent-ref %}
+
+{% content-ref url="map-interface.md" %}
+[map-interface.md](map-interface.md)
+{% endcontent-ref %}
+
+
+
+|  Interface |                       Implementation                      |
+| :--------: | :-------------------------------------------------------: |
+| Collection | ArrayList, LinkedList, ArrayDeque, PriorityQueue, HashSet |
+|    List    |                   ArrayList, LinkedList                   |
+|    Queue   |                 ArrayDeque, PriorityQueue                 |
+|     Set    |                          HashSet                          |
+|     Map    |                          HashMap                          |
 
