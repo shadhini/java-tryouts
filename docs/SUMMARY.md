@@ -126,6 +126,10 @@
   * [Set Interface](advanced/collections/set-interface.md)
   * [Hash Tables](advanced/collections/hash-tables.md)
   * [Map Interface](advanced/collections/map-interface.md)
+* [Lambda Expressions and Functional Interfaces](advanced/lambda-expressions-and-functional-interfaces/README.md)
+  * [Functional Interfaces](advanced/lambda-expressions-and-functional-interfaces/functional-interfaces.md)
+  * [Anonymous Inner Classes](advanced/lambda-expressions-and-functional-interfaces/anonymous-inner-classes.md)
+  * [Lambda Expressions](advanced/lambda-expressions-and-functional-interfaces/lambda-expressions.md)
 
 ## BEST PRACTICE
 
