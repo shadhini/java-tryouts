@@ -116,6 +116,16 @@
   * [Multiple Type Parameters](advanced/generics/multiple-type-parameters.md)
   * [Generic classes & Inheritance](advanced/generics/generic-classes-and-inheritance.md)
   * [Wildcards](advanced/generics/wildcards.md)
+* [Collections](advanced/collections/README.md)
+  * [Iterable Interfacce](advanced/collections/iterable-interfacce.md)
+  * [Collection Interface](advanced/collections/collection-interface.md)
+  * [List Interface](advanced/collections/list-interface.md)
+  * [Comparable Interface & Sorting](advanced/collections/comparable-interface-and-sorting.md)
+  * [Comparator Interface & Sorting](advanced/collections/comparator-interface-and-sorting.md)
+  * [Queue Interface](advanced/collections/queue-interface.md)
+  * [Set Interface](advanced/collections/set-interface.md)
+  * [Hash Tables](advanced/collections/hash-tables.md)
+  * [Map Interface](advanced/collections/map-interface.md)
 
 ## BEST PRACTICE
 

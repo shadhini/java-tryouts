@@ -29,8 +29,8 @@ Instead of passing values around we should encapsulate these values along with t
 
 
 
-{% content-ref url="https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/encapsulation/getters-and-setters" %}
-[Getters and Setters](https://app.gitbook.com/s/iwMVoASPXjxvpeNiNKj4/oop/encapsulation/getters-and-setters)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 

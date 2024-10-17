@@ -82,6 +82,30 @@ Methods improves readability/ understandability and code reusability.
 <pre class="language-java"><code class="lang-java">sendEmail(<a data-footnote-ref href="#user-content-fn-8">"abc@gmail.com", "Quick Update Request", "Hi Abc, Could you please provide a quick update on Project Y?\nBest, Pqr"</a>)
 </code></pre>
 
+### Parameters & Var args
+
+If a method has a parameter with the type `<PARAM_TYPE>...`, it allows you to pass multiple arguments of that type when calling the method.&#x20;
+
+This is known as **`var args`** meaning variable number of arguments.
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        // Call the method with multiple arguments
+        printNumbers(1, 2, 3, 4);
+    }
+
+    public static void printNumbers(int... numbers) {
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
+    }
+}
+```
+
+Here, `int... numbers` allows you to pass any number of integers (1, 2, 3, 4), and the method can handle them as an **array** internally.
+
 ## main() Method in Main class
 
 > **Entry point for Java programs**
