@@ -14,5 +14,7 @@
 * [Comparable, Comparator Interfaces & Sorting](https://github.com/shadhini/java-tryouts/blob/abe5c6c584e74e69c0b261e1fdc6243ffebf6abd/advanced/src/com/shadhini/java/tryouts/advanced/collections/SortingDemo.java)
 * [Queue Interface](https://github.com/shadhini/java-tryouts/blob/376b3b08d7b0f879c77fb51fafd32874492d289d/advanced/src/com/shadhini/java/tryouts/advanced/collections/QueueDemo.java)
 * [Set Interface](https://github.com/shadhini/java-tryouts/blob/bd1c59a71b9caf67976d334a29d907b95a4cb04d/advanced/src/com/shadhini/java/tryouts/advanced/collections/SetDemo.java)
-* [Hash Tables & Map Interface]()
+* [Hash Tables & Map Interface](https://github.com/shadhini/java-tryouts/blob/4c1e0cb5408f18b341a9018a127220651d48be9d/advanced/src/com/shadhini/java/tryouts/advanced/collections/MapDemo.java)
 
+## Lambda Expressions and Functional Interfaces
+*
