@@ -5,6 +5,14 @@ public class LambdasDemo {
     private static String POSTFIX = "**";
     private String POSTFIX2 = "**2";
 
+    public LambdasDemo() {
+    }
+
+    public LambdasDemo(String message) {
+        // The signature of this constructor(except the name)
+        //      matches the signature of `print` method declared in the `Printer` interface
+    }
+
     public static void show() {
         // Concrete Implementation: Usual method for implementing an interface -----------------------------------------
         greet(new ConsolePrinter());
@@ -50,6 +58,23 @@ public class LambdasDemo {
 
         greet(message -> System.out.println(prefix + message + POSTFIX));
 
+        // Lambda Expression: Method References ------------------------------------------------------------------------
+        System.out.println("=========================================================================================");
+        greet(System.out::println);
+
+        // Reference a static method & pass the params to it
+        // greet(LambdasDemo::print);
+
+        // Reference an instance method & pass the params to it
+        greet(new LambdasDemo()::print);
+
+        var demo = new LambdasDemo();
+        greet(demo::print);
+
+        // Reference a constructor
+        greet(message -> new LambdasDemo(message));
+        greet(LambdasDemo::new);
+
     }
 
     public static void greet(Printer printer) {
@@ -59,4 +84,16 @@ public class LambdasDemo {
     public void show2() {
         greet(message -> System.out.println(message + POSTFIX2));
     }
+
+    /*
+    public static void print(String message) {
+        // The signature of this method matches the signature of method declared in the `Printer` interface
+    }
+
+     */
+
+    public void print(String message) {
+        // The signature of this method matches the signature of method declared in the `Printer` interface
+    }
+
 }
