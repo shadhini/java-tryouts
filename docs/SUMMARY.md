@@ -130,6 +130,9 @@
   * [Functional Interfaces](advanced/lambda-expressions-and-functional-interfaces/functional-interfaces.md)
   * [Anonymous Inner Classes](advanced/lambda-expressions-and-functional-interfaces/anonymous-inner-classes.md)
   * [Lambda Expressions](advanced/lambda-expressions-and-functional-interfaces/lambda-expressions.md)
+  * [Variable Capture](advanced/lambda-expressions-and-functional-interfaces/variable-capture/README.md)
+    * [Anonymous Inner Classes vs Lambda Expressions](advanced/lambda-expressions-and-functional-interfaces/variable-capture/anonymous-inner-classes-vs-lambda-expressions.md)
+  * [Method References](advanced/lambda-expressions-and-functional-interfaces/method-references.md)
 
 ## BEST PRACTICE
 

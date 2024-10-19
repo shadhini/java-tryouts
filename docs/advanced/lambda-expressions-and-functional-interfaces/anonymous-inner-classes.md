@@ -47,6 +47,14 @@ public class Main {
 
 
 
+### **`this` keyword**
+
+In anonymous inner classes `this` keyword reference the current instance of the anonymous inner class.
+
+
+
+### Better Approach
+
 Java 8 introduced a better more concise way to achieve the same result
 
 ╰┈➤ That's called **`Lambda Expressions`**
