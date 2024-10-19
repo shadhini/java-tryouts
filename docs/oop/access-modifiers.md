@@ -10,7 +10,7 @@ icon: shield-check
 >
 > **`protected`** -> public inside the package and accessible from child classes
 >
-> **`default`** \[no access modifier] -> package private; public inside the package,  private outside the package
+> **`default`** \[/no access modifier] -> package private; public inside the package,  private outside the package
 >
 >
 >
