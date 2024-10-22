@@ -11,6 +11,7 @@ public class LambdasDemo {
     public LambdasDemo(String message) {
         // The signature of this constructor(except the name)
         //      matches the signature of `print` method declared in the `Printer` interface
+        System.out.println(message);
     }
 
     public static void show() {
@@ -58,6 +59,8 @@ public class LambdasDemo {
 
         greet(message -> System.out.println(prefix + message + POSTFIX));
 
+        new LambdasDemo().show2();
+
         // Lambda Expression: Method References ------------------------------------------------------------------------
         System.out.println("=========================================================================================");
         greet(System.out::println);
@@ -94,6 +97,7 @@ public class LambdasDemo {
 
     public void print(String message) {
         // The signature of this method matches the signature of method declared in the `Printer` interface
+        System.out.println(message);
     }
 
 }
