@@ -126,6 +126,18 @@
   * [Set Interface](advanced/collections/set-interface.md)
   * [Hash Tables](advanced/collections/hash-tables.md)
   * [Map Interface](advanced/collections/map-interface.md)
+* [Lambda Expressions and Functional Interfaces](advanced/lambda-expressions-and-functional-interfaces/README.md)
+  * [Functional Interfaces](advanced/lambda-expressions-and-functional-interfaces/functional-interfaces.md)
+  * [Anonymous Inner Classes](advanced/lambda-expressions-and-functional-interfaces/anonymous-inner-classes.md)
+  * [Lambda Expressions](advanced/lambda-expressions-and-functional-interfaces/lambda-expressions.md)
+  * [Variable Capture](advanced/lambda-expressions-and-functional-interfaces/variable-capture/README.md)
+    * [Anonymous Inner Classes vs Lambda Expressions](advanced/lambda-expressions-and-functional-interfaces/variable-capture/anonymous-inner-classes-vs-lambda-expressions.md)
+  * [Method References](advanced/lambda-expressions-and-functional-interfaces/method-references.md)
+  * [Built-in Functional Interfaces](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/README.md)
+    * [Consumer Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/consumer-interface.md)
+    * [Supplier Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/supplier-interface.md)
+    * [Function Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/function-interface.md)
+    * [Predicate Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/predicate-interface.md)
 
 ## BEST PRACTICE
 

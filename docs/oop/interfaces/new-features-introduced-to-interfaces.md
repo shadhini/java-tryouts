@@ -16,8 +16,10 @@ icon: message-plus
 
 ```java
 public interface TaxCalculator {
+    // // An abstract method
     double calculateTax();
-    // [not recommended to use]
+    
+    // Static method [not recommended to use]
     static double getTaxableIncome(double income, double expenses) {
         return income - expenses;
     }
@@ -77,3 +79,25 @@ public class TaxCalculator2024 extends AbstractTaxCalculator {
 
 Has been added to Java to enable better code reuse between default and static methods.
 
+
+
+## Default Methods
+
+> \[**`not recommended to use`**]
+>
+> Avoid  all static, private and default methods in interfaces.
+
+```java
+public interface Printer {
+
+    // An abstract method
+    void print(String message);
+
+    // Default method [not recommended to use]
+    default void printTwice(String message) {
+        System.out.println(message);
+        System.out.println(message);
+    }
+}
+
+```
