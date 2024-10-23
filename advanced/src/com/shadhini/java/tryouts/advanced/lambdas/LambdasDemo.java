@@ -1,5 +1,8 @@
 package com.shadhini.java.tryouts.advanced.lambdas;
 
+import java.util.List;
+import java.util.function.Consumer;
+
 public class LambdasDemo {
 
     private static String POSTFIX = "**";
@@ -77,6 +80,48 @@ public class LambdasDemo {
         // Reference a constructor
         greet(message -> new LambdasDemo(message));
         greet(LambdasDemo::new);
+
+        // Consumer Interface ------------------------------------------------------------------------------------------
+        System.out.println("==============Consumer Interface=========================================================");
+
+        List<Integer> list = List.of(1, 2, 3);
+
+        // Imperative Programming: a programming paradigm where we implement logic using instructions
+        // (e.g: for, if/else, switch/case -> Imperative Style)
+        for (var item : list)
+            System.out.print(item);
+
+        System.out.println();
+
+        // Declarative Programming
+        // Instead of using instructions to specify how something should be done, this specifies what needs to be done
+        // Here we don't have a for statement; we are simply saying for each item in this list, print it
+        list.forEach(item -> System.out.print(item));
+
+        System.out.println();
+
+        list.forEach(System.out::print);
+
+        System.out.println();
+
+        // Chaining Consumers ------------------------------------------------------------------------------------------
+        System.out.println("==============Chaining Consumers=========================================================");
+
+        List<String> list2 = List.of("a", "b", "c");
+
+        // Assign lambda expression that matches the abstract method of the consumer interface to a Consumer
+        Consumer<String> print = item -> System.out.print(item);
+        // Here we are declaring an operation called `print` that takes an item and print it on the terminal
+
+        // Declare an operation that prints a string in UPPERCASE
+        Consumer<String> printUppercase = item -> System.out.print(item.toUpperCase());
+
+        // Iterate over list and in each iteration for each item call
+        //      both operations mentioned above (print & printUppercase)
+        //      in the order of print -> printUppercase -> print
+        list2.forEach(print.andThen(printUppercase).andThen(print)); // Output: aAabBbcCc
+
+        System.out.println();
 
     }
 
