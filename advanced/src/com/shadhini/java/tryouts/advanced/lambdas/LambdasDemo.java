@@ -1,5 +1,7 @@
 package com.shadhini.java.tryouts.advanced.lambdas;
 
+import java.util.List;
+
 public class LambdasDemo {
 
     private static String POSTFIX = "**";
@@ -77,6 +79,17 @@ public class LambdasDemo {
         // Reference a constructor
         greet(message -> new LambdasDemo(message));
         greet(LambdasDemo::new);
+
+        // Consumer Interface ------------------------------------------------------------------------------------------
+        System.out.println("==============Consumer Interface=========================================================");
+
+        List<Integer> list = List.of(1, 2, 3);
+
+        for (var item : list)
+            System.out.println(item);
+
+        list.forEach(System.out::println);
+
 
     }
 
