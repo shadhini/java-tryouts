@@ -51,7 +51,19 @@ description: Programming styles; ways of writing programs
 
 
 
+## Imperative Programming
 
+{% content-ref url="imperative-programming.md" %}
+[imperative-programming.md](imperative-programming.md)
+{% endcontent-ref %}
+
+
+
+## Declarative Programming
+
+{% content-ref url="declarative-programming.md" %}
+[declarative-programming.md](declarative-programming.md)
+{% endcontent-ref %}
 
 
 

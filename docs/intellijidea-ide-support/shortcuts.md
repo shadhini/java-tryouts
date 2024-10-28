@@ -172,7 +172,7 @@ OR
 
 
 
-## ℹ️ View Info
+## ℹ️ View Info/ Declarations
 
 Parameter Info:&#x20;
 
@@ -182,7 +182,9 @@ Go to **`documentation`** on element at carrot:&#x20;
 
 ╰┈➤ `fn` + `F1`
 
+View method declarations:
 
+╰┈➤ `command` + `B`
 
 
 
