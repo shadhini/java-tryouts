@@ -1,10 +1,12 @@
 package com.shadhini.java.tryouts.advanced.lambdas;
 
 import java.util.List;
+import java.util.function.BinaryOperator;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import java.util.function.UnaryOperator;
 
 public class LambdasDemo {
 
@@ -125,6 +127,91 @@ public class LambdasDemo {
         list2.forEach(print.andThen(printUppercase).andThen(print)); // Output: aAabBbcCc
 
         System.out.println();
+
+        // Supplier Interface ------------------------------------------------------------------------------------------
+        System.out.println("==============Supplier Interface=========================================================");
+
+        Supplier<Double> getRandom = () -> Math.random();
+        // This lambda expression represent a function;
+        // Lazy evaluation:
+        //      this function is not executed, until we explicitly call it;
+        //      i.e. value is not generated until we explicitly ask for it.
+
+        System.out.println(getRandom.get());
+
+        // Function Interface ------------------------------------------------------------------------------------------
+        System.out.println("==============Function Interface=========================================================");
+
+        // set function to a lambda expression that takes a string and return an integer
+        Function<String, Integer> map = str -> str.length();
+
+        System.out.println(map.apply("Sky")); // Output: 3
+
+        // Composing Functions------------------------------------------------------------------------------------------
+        System.out.println("==============Composing Functions========================================================");
+
+        // 2 transformations
+        /*
+        input: string (e.g: "key:value")
+        1st transformation: replace colon with equal sign (e.g: "key=value")
+        2nd transformation: add braces around the string (e.g: "key=value")
+         */
+        Function<String, String> replaceColonWithEqual = str -> str.replace(":", "=");
+        Function<String, String> surroundWithCurlyBraces = str -> "{" + str + "}";
+
+        // Declarative Programing
+        var value = replaceColonWithEqual
+                        .andThen(surroundWithCurlyBraces)
+                        .apply("key:value");
+        // Here, replaceColonWithEqual.andThen(surroundWithCurlyBraces) returns a Function
+        // If needed we can store this Function in a variable and call apply() on it later
+        System.out.println(value); // Output: {key=value}
+
+        var value2 = surroundWithCurlyBraces
+                        .compose(replaceColonWithEqual)
+                        .apply("key:value");
+        System.out.println(value2); // Output: {key=value}
+
+        // Predicate Interface -----------------------------------------------------------------------------------------
+        System.out.println("==============Predicate Interface========================================================");
+
+        // Check whether a string has more than 5 characters
+        Predicate<String> isLongerThan5 = str -> str.length() > 5;
+        // Here, in the lambda expression we have a boolean expression to return a boolean value
+        System.out.println(isLongerThan5.test("sky")); // Output: false
+
+        // Combining Predicates-----------------------------------------------------------------------------------------
+        System.out.println("=============Combining Predicates========================================================");
+
+        Predicate<String> hasLeftBrace = str -> str.startsWith("{");
+        Predicate<String> hasRightBrace = str -> str.endsWith("}");
+
+        // negate -> NOT
+        // and -> AND
+        // or -> OR
+        System.out.println(hasLeftBrace.and(hasRightBrace).test("key:value}")); // Output: false
+        System.out.println(hasLeftBrace.or(hasRightBrace).test("key:value}")); // Output: true
+        System.out.println(hasLeftBrace.negate().test("key:value}"));
+
+        // BinaryOperator Interface-------------------------------------------------------------------------------------
+        System.out.println("=============BinaryOperator Interface====================================================");
+
+        // a, b -> a+b -> square (a+b)
+        BinaryOperator<Integer> add = (a, b) -> a + b;
+        System.out.println(add.apply(2, 3)); // Output: 5
+
+        Function<Integer, Integer> square = (a) -> a * a;
+
+        var result = add.andThen(square).apply(2, 3);
+        System.out.println(result); // Output: 25
+
+        // UnaryOperator Interface--------------------------------------------------------------------------------------
+        System.out.println("=============UnaryOperator Interface=====================================================");
+
+        UnaryOperator<Integer> add5 = a -> a + 5;
+        UnaryOperator<Integer> decrement = a -> a - 1;
+
+        System.out.println(add5.andThen(decrement).apply(2)); // Output: 6
 
     }
 
