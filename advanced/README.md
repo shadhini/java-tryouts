@@ -17,4 +17,4 @@
 * [Hash Tables & Map Interface](https://github.com/shadhini/java-tryouts/blob/4c1e0cb5408f18b341a9018a127220651d48be9d/advanced/src/com/shadhini/java/tryouts/advanced/collections/MapDemo.java)
 
 ## Lambda Expressions and Functional Interfaces
-*
+[`advanced/src/com/shadhini/java/tryouts/advanced/lambdas`](https://github.com/shadhini/java-tryouts/blob/531c611e24eddaa8cf3e6aa6c2846a9c6a9e9dee/advanced/src/com/shadhini/java/tryouts/advanced/lambdas)
