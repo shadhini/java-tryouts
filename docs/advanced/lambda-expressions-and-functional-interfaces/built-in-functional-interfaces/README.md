@@ -16,8 +16,12 @@ We have 4 types of functional interfaces in Java.
 
 ## 1. Consumers
 
-{% content-ref url="consumer-interface.md" %}
-[consumer-interface.md](consumer-interface.md)
+{% content-ref url="consumer-interface/" %}
+[consumer-interface](consumer-interface/)
+{% endcontent-ref %}
+
+{% content-ref url="consumer-interface/chaining-consumer.md" %}
+[chaining-consumer.md](consumer-interface/chaining-consumer.md)
 {% endcontent-ref %}
 
 
@@ -32,15 +36,41 @@ We have 4 types of functional interfaces in Java.
 
 ## 3. Functions
 
-{% content-ref url="function-interface.md" %}
-[function-interface.md](function-interface.md)
+{% content-ref url="function-interface/" %}
+[function-interface](function-interface/)
+{% endcontent-ref %}
+
+{% content-ref url="function-interface/composing-functions.md" %}
+[composing-functions.md](function-interface/composing-functions.md)
 {% endcontent-ref %}
 
 
 
 ## 4. Predicates
 
-{% content-ref url="predicate-interface.md" %}
-[predicate-interface.md](predicate-interface.md)
+{% content-ref url="predicate-interface/" %}
+[predicate-interface](predicate-interface/)
 {% endcontent-ref %}
+
+{% content-ref url="predicate-interface/combining-predicates.md" %}
+[combining-predicates.md](predicate-interface/combining-predicates.md)
+{% endcontent-ref %}
+
+
+
+## The BinaryOperator Interface
+
+{% content-ref url="the-binaryoperator-interface.md" %}
+[the-binaryoperator-interface.md](the-binaryoperator-interface.md)
+{% endcontent-ref %}
+
+
+
+## The UnaryOperator Interface
+
+{% content-ref url="the-unaryoperator-interface.md" %}
+[the-unaryoperator-interface.md](the-unaryoperator-interface.md)
+{% endcontent-ref %}
+
+
 

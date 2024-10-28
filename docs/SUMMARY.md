@@ -57,6 +57,8 @@
 * [Programming Paradigms](oop/programming-paradigms/README.md)
   * [Object Oriented vs Function](oop/programming-paradigms/object-oriented-vs-function.md)
   * [Procedural Programming](oop/programming-paradigms/procedural-programming.md)
+  * [Imperative Programming](oop/programming-paradigms/imperative-programming.md)
+  * [Declarative Programming](oop/programming-paradigms/declarative-programming.md)
 * [OOP: Object Oriented Programming](oop/oop-object-oriented-programming/README.md)
   * [Benefits of Object Oriented Programming](oop/oop-object-oriented-programming/benefits-of-object-oriented-programming.md)
 * [Classes & Objects](oop/classes-and-objects.md)
@@ -134,10 +136,16 @@
     * [Anonymous Inner Classes vs Lambda Expressions](advanced/lambda-expressions-and-functional-interfaces/variable-capture/anonymous-inner-classes-vs-lambda-expressions.md)
   * [Method References](advanced/lambda-expressions-and-functional-interfaces/method-references.md)
   * [Built-in Functional Interfaces](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/README.md)
-    * [Consumer Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/consumer-interface.md)
+    * [Consumer Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/consumer-interface/README.md)
+      * [Chaining Consumer](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/consumer-interface/chaining-consumer.md)
     * [Supplier Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/supplier-interface.md)
-    * [Function Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/function-interface.md)
-    * [Predicate Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/predicate-interface.md)
+    * [Function Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/function-interface/README.md)
+      * [Composing Functions](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/function-interface/composing-functions.md)
+    * [Predicate Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/predicate-interface/README.md)
+      * [Combining Predicates](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/predicate-interface/combining-predicates.md)
+    * [The BinaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-binaryoperator-interface.md)
+    * [The UnaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-unaryoperator-interface.md)
+* [Lazy Evaluation](advanced/lazy-evaluation.md)
 
 ## BEST PRACTICE
 

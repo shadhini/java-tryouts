@@ -373,6 +373,12 @@ Resources like file handles, database connections, network connections.. are ope
 
 
 
+## Functional Interfaces
+
+✅️  If you are working with primitive values, prefer to use **`primitive specialisations`** of  `Supplier, Consumer, Function, Predicate` interfaces.
+
+* ╰┈➤ Because you don't pay the cost of **auto boxing** primitive value inside a reference type and then **unboxing** it later on.
+
 [^1]: magic number
 
 [^2]: magic number
