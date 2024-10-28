@@ -2,6 +2,9 @@ package com.shadhini.java.tryouts.advanced.lambdas;
 
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class LambdasDemo {
 
@@ -56,7 +59,7 @@ public class LambdasDemo {
         greet(printer2);
 
         // Lambda Expression: Variable Capture -------------------------------------------------------------------------
-        System.out.println("=========================================================================================");
+        System.out.println("===================Variable Capture======================================================");
 
         String prefix = "-";
 
@@ -65,7 +68,7 @@ public class LambdasDemo {
         new LambdasDemo().show2();
 
         // Lambda Expression: Method References ------------------------------------------------------------------------
-        System.out.println("=========================================================================================");
+        System.out.println("====================Method References====================================================");
         greet(System.out::println);
 
         // Reference a static method & pass the params to it
