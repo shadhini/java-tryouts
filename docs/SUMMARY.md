@@ -59,6 +59,7 @@
   * [Procedural Programming](oop/programming-paradigms/procedural-programming.md)
   * [Imperative Programming](oop/programming-paradigms/imperative-programming.md)
   * [Declarative Programming](oop/programming-paradigms/declarative-programming.md)
+  * [Imperative Vs Functional Programming](oop/programming-paradigms/imperative-vs-functional-programming.md)
 * [OOP: Object Oriented Programming](oop/oop-object-oriented-programming/README.md)
   * [Benefits of Object Oriented Programming](oop/oop-object-oriented-programming/benefits-of-object-oriented-programming.md)
 * [Classes & Objects](oop/classes-and-objects.md)
@@ -145,6 +146,7 @@
       * [Combining Predicates](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/predicate-interface/combining-predicates.md)
     * [The BinaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-binaryoperator-interface.md)
     * [The UnaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-unaryoperator-interface.md)
+* [Streams](advanced/streams.md)
 * [Lazy Evaluation](advanced/lazy-evaluation.md)
 
 ## BEST PRACTICE
