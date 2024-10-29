@@ -13,9 +13,11 @@ import com.shadhini.java.tryouts.advanced.generics.GenericList;
 import com.shadhini.java.tryouts.advanced.generics.Instructor;
 import com.shadhini.java.tryouts.advanced.generics.User;
 import com.shadhini.java.tryouts.advanced.generics.Utils;
+import com.shadhini.java.tryouts.advanced.lambdas.LambdasDemo;
  */
 
-import com.shadhini.java.tryouts.advanced.lambdas.LambdasDemo;
+
+import com.shadhini.java.tryouts.advanced.streams.StreamsDemo;
 
 public class Main {
 
@@ -128,7 +130,11 @@ public class Main {
 
         // =============================================================================================================
         // Lambda Expressions and Functional Interfaces ----------------------------------------------------------------
-        LambdasDemo.show();
+        // LambdasDemo.show();
+
+        // =============================================================================================================
+        // Streams -----------------------------------------------------------------------------------------------------
+        StreamsDemo.show();
 
     }
 }
