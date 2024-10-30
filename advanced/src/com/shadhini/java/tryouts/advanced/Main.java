@@ -1,6 +1,5 @@
 package com.shadhini.java.tryouts.advanced;
 
-
 /*
 import com.shadhini.java.tryouts.advanced.collections.CollectionDemo;
 import com.shadhini.java.tryouts.advanced.collections.ListDemo;
@@ -14,10 +13,10 @@ import com.shadhini.java.tryouts.advanced.generics.Instructor;
 import com.shadhini.java.tryouts.advanced.generics.User;
 import com.shadhini.java.tryouts.advanced.generics.Utils;
 import com.shadhini.java.tryouts.advanced.lambdas.LambdasDemo;
+import com.shadhini.java.tryouts.advanced.streams.StreamsDemo;
  */
 
-
-import com.shadhini.java.tryouts.advanced.streams.StreamsDemo;
+import com.shadhini.java.tryouts.advanced.streams.CreatingStreamsDemo;
 
 public class Main {
 
@@ -133,8 +132,10 @@ public class Main {
         // LambdasDemo.show();
 
         // =============================================================================================================
-        // Streams -----------------------------------------------------------------------------------------------------
-        StreamsDemo.show();
+        // Streams: Need for Streams -----------------------------------------------------------------------------------
+        // StreamsDemo.show();
 
+        // Streams: Creating Streams -----------------------------------------------------------------------------------
+        CreatingStreamsDemo.show();
     }
 }
