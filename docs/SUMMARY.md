@@ -146,7 +146,9 @@
       * [Combining Predicates](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/predicate-interface/combining-predicates.md)
     * [The BinaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-binaryoperator-interface.md)
     * [The UnaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-unaryoperator-interface.md)
-* [Streams](advanced/streams.md)
+* [Streams](advanced/streams/README.md)
+  * [Creating Streams](advanced/streams/creating-streams.md)
+* [Page](advanced/page.md)
 * [Lazy Evaluation](advanced/lazy-evaluation.md)
 
 ## BEST PRACTICE

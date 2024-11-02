@@ -16,8 +16,10 @@ icon: wind
 >
 > **Stream** object has bunch of methods:
 >
-> * **filter**(Predicate ..........): used to filter data
-> * **count**(): counts&#x20;
+> * **`filter`**`(Predicate ..........)`: used to filter data in stream based on a given Predicate
+> * **`count`**`():` counts number of elements in the stream&#x20;
+> * **`forEach`**`(Consumer .........)`: used to iterate over the stream and get each object
+> * **`limit`**`(int)`: limit number of times values generated from an infinite stream
 
 
 
@@ -61,4 +63,12 @@ public class StreamsDemo {
     }
 }
 ```
+
+***
+
+
+
+{% content-ref url="creating-streams.md" %}
+[creating-streams.md](creating-streams.md)
+{% endcontent-ref %}
 
