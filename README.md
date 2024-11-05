@@ -8,11 +8,11 @@ Visit [Java Tryouts](https://shadhini-jayatilake.gitbook.io/java-tryouts) for co
 
 # Main Topics Covered
 
-| # | Topic                                                                                                                                              | Path from repository root                                                                                |
-|---|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 1 | [Java Basics](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/basics/README.md)                             | [/basics](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/basics) |
-| 2 | [OOP: Object-Oriented Programming with Java](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/oop/README.md) | [/oop](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/oop)       |
-
+| # | Topic                                                                                                                                              | Path from repository root                                                                                    |
+|---|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| 1 | [Java Basics](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/basics/README.md)                             | [/basics](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/basics)     |
+| 2 | [OOP: Object-Oriented Programming with Java](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/oop/README.md) | [/oop](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/oop)           |
+| 3 | [Java Advanced](https://github.com/shadhini/java-tryouts/blob/948876153eeb5c7ac3fa64500ca442834808cf46/advanced/README.md)                         | [/advanced](https://github.com/shadhini/java-tryouts/blob/948876153eeb5c7ac3fa64500ca442834808cf46/advanced) |
 
 
 

@@ -31,7 +31,7 @@ public class CreatingStreamsDemo {
         // Creating Infinite Streams====================================================================================
         // Creating Infinite Streams: With Stream.generate() -----------------------------------------------------------
         System.out.println("===========Create Infinite Streams: With Stream.generator()==============================");
-        var randomNumbersStream = Stream.generate(() -> (Math.random() * 100) );
+        var randomNumbersStream = Stream.generate(() -> Math.random() );
         // This will generate an infinite stream of random numbers
 
         randomNumbersStream
