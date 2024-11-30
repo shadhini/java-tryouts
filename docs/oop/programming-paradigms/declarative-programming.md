@@ -4,7 +4,9 @@ icon: list
 
 # Declarative Programming
 
-> **Specifies what needs to be done**, instead of specifying how it should be done
+> **Specifies `what` needs to be done**, instead of specifying how it should be done
+>
+> ╰┈➤ express logic in terms of what needs to be done
 
 In declarative programming, instead of using instructions to specify how something should be done,  what needs to be done is specified.
 

@@ -17,7 +17,9 @@ description: Programming styles; ways of writing programs
 
 **`Aspect-Oriented`**
 
+**`Declarative`**
 
+**`Imperative`**
 
 ### Languages that support Single Paradigm and Multiple Paradigms
 
@@ -63,6 +65,14 @@ description: Programming styles; ways of writing programs
 
 {% content-ref url="declarative-programming.md" %}
 [declarative-programming.md](declarative-programming.md)
+{% endcontent-ref %}
+
+
+
+## Imperative Vs Functional(Declarative) Programming
+
+{% content-ref url="imperative-vs-functional-programming.md" %}
+[imperative-vs-functional-programming.md](imperative-vs-functional-programming.md)
 {% endcontent-ref %}
 
 
