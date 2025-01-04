@@ -172,4 +172,8 @@
 ## OSGI
 
 * [Java Class Loading](osgi/java-class-loading.md)
-* [OSGI](osgi/osgi.md)
+* [Problem with JAR Files](osgi/problem-with-jar-files.md)
+* [OSGI](osgi/osgi/README.md)
+  * [Service Layer](osgi/osgi/service-layer/README.md)
+    * [Monitoring Services](osgi/osgi/service-layer/monitoring-services.md)
+  * [Microservices with OSGI](osgi/osgi/microservices-with-osgi.md)
