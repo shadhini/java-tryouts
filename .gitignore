@@ -27,3 +27,6 @@ replay_pid*
 **/out/
 *.iml
 **/.idea/
+
+# MacOS file system related files
+*.DS_Store
