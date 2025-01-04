@@ -4,7 +4,7 @@ icon: t
 
 # Ternary Operator
 
-> VARIABLE **`= (`**CONDITION**`) ?`** EXPRESSION\_TRUE **`:`** EXPRESSION\_FALSE`;`
+> VARIABLE **`= (`**&#x43;ONDITIO&#x4E;**`) ?`** EXPRESSION\_TRUE **`:`** EXPRESSION\_FALSE`;`
 
 
 

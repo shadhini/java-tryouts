@@ -168,3 +168,8 @@
 * [Packaging Java Applications](intellijidea-ide-support/packaging-java-applications.md)
 * [Assigning Directories](intellijidea-ide-support/assigning-directories.md)
 * [View Byte Code](intellijidea-ide-support/view-byte-code.md)
+
+## OSGI
+
+* [Java Class Loading](osgi/java-class-loading.md)
+* [OSGI](osgi/osgi.md)
