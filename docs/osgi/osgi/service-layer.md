@@ -8,7 +8,7 @@ Service Layer: Specifies a mechanism for bundles to collaborate at runtime by sh
 
 * OSGi provides a **in-VM** **publish-find-bind** model for plain old Java objects(**`POJO`**).
 
-<figure><img src="../../../.gitbook/assets/osgi-serive-layer.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/osgi-serive-layer.png" alt="" width="375"><figcaption></figcaption></figure>
 
 > **Service**:
 >
@@ -18,7 +18,7 @@ Service Layer: Specifies a mechanism for bundles to collaborate at runtime by sh
 
 ## Publish Find Bind Model
 
-<figure><img src="../../../.gitbook/assets/osgi-publish-find-bind.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/osgi-publish-find-bind.png" alt="" width="563"><figcaption></figcaption></figure>
 
 🌟 Bundles **register** (**`publish`**) services
 

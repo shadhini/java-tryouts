@@ -55,7 +55,8 @@ Class-Path: lib/library1.jar lib/library2.jar
     java ­classpath log4j.jar:statx­api.jar:woodstox.jar:axis2.jar: carbon.jar:utils.jar:target/classes org.sample.HelloWorld
     ```
 
-
+    * this launches a Java application with `log4j.jar` , `statx­api.jar`, `woodstox.jar`, `axis2.jar`,  `carbon.jar`, `utils.jar` and the `classes` directory on the classpath
+    * The final parameter is the name of the **main** class to execute, which is compiled to the `org/sample/HelloWorld.class` in the `classes` directory per our assumption.
 
 {% hint style="danger" %}
 Java lacks dynamism.

@@ -1,6 +1,6 @@
 ---
-description: Publish Find Bind Model
 icon: diamonds-4
+description: using Publish Find Bind Model
 ---
 
 # Microservices with OSGI
