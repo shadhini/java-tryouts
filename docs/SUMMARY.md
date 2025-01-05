@@ -168,3 +168,13 @@
 * [Packaging Java Applications](intellijidea-ide-support/packaging-java-applications.md)
 * [Assigning Directories](intellijidea-ide-support/assigning-directories.md)
 * [View Byte Code](intellijidea-ide-support/view-byte-code.md)
+
+## OSGI
+
+* [Java Class Loading](osgi/java-class-loading.md)
+* [Problem with JAR Files](osgi/problem-with-jar-files.md)
+* [OSGI](osgi/osgi/README.md)
+  * [Service Layer](osgi/osgi/service-layer.md)
+  * [Monitoring Services](osgi/osgi/monitoring-services.md)
+  * [OSGI Development](osgi/osgi/osgi-development.md)
+  * [Microservices with OSGI](osgi/osgi/microservices-with-osgi.md)

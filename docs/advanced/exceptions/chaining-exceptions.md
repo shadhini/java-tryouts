@@ -63,11 +63,11 @@ Withdrawing money could fail due to many different reasons. So at A we can throw
 
 #### `initCause()` method or Exception class
 
-The exception**`.initCause()`** method accepts **`Throwable`** and it initialises the _cause_ of this throwable to the specified value.&#x20;
+The exceptio&#x6E;**`.initCause()`** method accepts **`Throwable`** and it initialises the _cause_ of this throwable to the specified value.&#x20;
 
 #### `getCause()` method or Exception class
 
-The exception**`.`**`getCause`**`()`** method returns the Exception that caused this exception.
+The exceptio&#x6E;**`.`**`getCause`**`()`** method returns the Exception that caused this exception.
 
 
 
