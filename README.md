@@ -10,9 +10,11 @@ Visit [Java Tryouts](https://shadhini-jayatilake.gitbook.io/java-tryouts) for co
 
 | # | Topic                                                                                                                                              | Path from repository root                                                                                    |
 |---|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| 1 | [Java Basics](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/basics/README.md)                             | [/basics](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/basics)     |
-| 2 | [OOP: Object-Oriented Programming with Java](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/oop/README.md) | [/oop](https://github.com/shadhini/java-tryouts/blob/d3f71c4a89fa1aa702c3d918fce59e6859eeed0b/oop)           |
-| 3 | [Java Advanced](https://github.com/shadhini/java-tryouts/blob/948876153eeb5c7ac3fa64500ca442834808cf46/advanced/README.md)                         | [/advanced](https://github.com/shadhini/java-tryouts/blob/948876153eeb5c7ac3fa64500ca442834808cf46/advanced) |
+| 1 | [Java Basics](https://github.com/shadhini/java-tryouts/blob/main/basics/README.md)                             | [/basics](https://github.com/shadhini/java-tryouts/tree/main/basics)     |
+| 2 | [OOP: Object-Oriented Programming with Java](https://github.com/shadhini/java-tryouts/blob/main/oop/README.md) | [/oop](https://github.com/shadhini/java-tryouts/tree/main/oop)           |
+| 3 | [Java Advanced](https://github.com/shadhini/java-tryouts/blob/main/advanced/README.md)                         | [/advanced](https://github.com/shadhini/java-tryouts/tree/main/advanced) |
+| 4 | Java Class Loading           | [/class-loading](https://github.com/shadhini/java-tryouts/tree/main/class-loading/)|
+| 5 | OSGI  | [/osgi-tryouts](https://github.com/shadhini/java-tryouts/tree/main/osgi-tryouts) |
 
 
 
@@ -20,5 +22,5 @@ Visit [Java Tryouts](https://shadhini-jayatilake.gitbook.io/java-tryouts) for co
 
 | # | Topic                           | Path from repository root                                                                                        |
 |---|---------------------------------|------------------------------------------------------------------------------------------------------------------|
-| 1 | Simple Tools                    | [/tools](https://github.com/shadhini/java-tryouts/blob/0e5c63cf5d9d9e590a05fd7d461a03d3130647e8/tools)           |
-| 2 | `Fun Coding`: Coding challenges | [/fun-coding](https://github.com/shadhini/java-tryouts/blob/b87dd30df0dec30bb4d1164c52c4a2b529179361/fun-coding) |
+| 1 | Simple Tools                    | [/tools](https://github.com/shadhini/java-tryouts/tree/main/tools)           |
+| 2 | `Fun Coding`: Coding challenges | [/fun-coding](https://github.com/shadhini/java-tryouts/tree/main/fun-coding) |
