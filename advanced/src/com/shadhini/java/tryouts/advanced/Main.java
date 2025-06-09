@@ -17,6 +17,7 @@ import com.shadhini.java.tryouts.advanced.streams.StreamsDemo;
  */
 
 import com.shadhini.java.tryouts.advanced.streams.CreatingStreamsDemo;
+import com.shadhini.java.tryouts.advanced.streams.MappingElementsDemo;
 
 public class Main {
 
@@ -137,5 +138,8 @@ public class Main {
 
         // Streams: Creating Streams -----------------------------------------------------------------------------------
         CreatingStreamsDemo.show();
+
+        // Streams: Mapping Elements -----------------------------------------------------------------------------------
+        MappingElementsDemo.show();
     }
 }
