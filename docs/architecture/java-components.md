@@ -1,0 +1,16 @@
+---
+icon: objects-column
+---
+
+# Java Components
+
+## JDK: Java Development Kit
+
+> **A software development environment for building Java applications**
+
+It has&#x20;
+
+1. a `Compiler`
+2. a bunch of code that we can reuse
+3. the Java Runtime Environment (`JRE`)&#x20;
+4. a bunch of other stuff
