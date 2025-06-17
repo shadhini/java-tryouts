@@ -6,17 +6,21 @@
 
 * [Java Components](architecture/java-components.md)
 
+***
+
+* [Java Distributions](java-distributions.md)
+* [How Java Code gets Executed](how-java-code-gets-executed.md)
+
 ## BASICS
 
+* [Interesting Facts about Java](basics/interesting-facts-about-java.md)
 * [Getting Started](basics/getting-started/README.md)
   * [Setting up the Development Environment](basics/getting-started/setting-up-the-development-environment.md)
-  * [Anatomy of a Java Program](basics/getting-started/anatomy-of-a-java-program.md)
   * [First Java Program](basics/getting-started/first-java-program.md)
-  * [How Java Code gets Executed](basics/getting-started/how-java-code-gets-executed.md)
-  * [Interesting Facts about Java](basics/getting-started/interesting-facts-about-java.md)
   * [Textual Data](basics/getting-started/textual-data.md)
   * [Comments](basics/getting-started/comments.md)
   * [\`java.lang\` package](basics/getting-started/java.lang-package.md)
+* [Anatomy of a Java Program](basics/anatomy-of-a-java-program.md)
 * [Variables](basics/variables.md)
 * [Types](basics/types/README.md)
   * [Primitive Types](basics/types/primitive-types.md)

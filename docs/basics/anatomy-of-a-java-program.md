@@ -4,39 +4,15 @@ icon: table-tree
 
 # Anatomy of a Java Program
 
-## Function
-
-> **A block of code that performs a task**
-
-e.g: functions for&#x20;
-
-* sending emails to people&#x20;
-* converting weight in pounds to kg
-* validating user's input
-
-Functions don't exist on their own. Every function should belong to a class.
-
-### Syntax of a Function
-
-<pre class="language-java"><code class="lang-java">&#x3C;ACCESS_MODIFIER> <a data-footnote-ref href="#user-content-fn-1">&#x3C;STATIC></a> &#x3C;<a data-footnote-ref href="#user-content-fn-2">RETURN_TYPE</a>> &#x3C;<a data-footnote-ref href="#user-content-fn-3">NAME</a>>(<a data-footnote-ref href="#user-content-fn-4">&#x3C;PARAMETERS></a>) {
-    // actual java code
-}
-</code></pre>
-
-e.g:
-
-<pre class="language-java"><code class="lang-java">public static void sendEmail(String receiver, String subject, String content) {
-    <a data-footnote-ref href="#user-content-fn-5">// Function Implementation</a>
-}
-</code></pre>
-
 ## Class
 
-> **A container for related functions used to organise the code.**
+> **Class**:
+>
+> — A container for related functions used to organise the code. —&#x20;
 
 ### Syntax of a Class
 
-<pre class="language-java"><code class="lang-java">&#x3C;ACCESS_MODIFIER> class &#x3C;<a data-footnote-ref href="#user-content-fn-6">CLASS_NAME</a>> {
+<pre class="language-java"><code class="lang-java">&#x3C;ACCESS_MODIFIER> class &#x3C;<a data-footnote-ref href="#user-content-fn-1">CLASS_NAME</a>> {
     // implementation
 }
 </code></pre>
@@ -54,19 +30,66 @@ public class TextBox {
 }
 ```
 
+***
+
+## Function
+
+> **Function:**&#x20;
+>
+> **—** A block of code that performs a task **—**&#x20;
+
+e.g: functions for&#x20;
+
+* sending emails to people&#x20;
+* converting weight in pounds to kg
+* validating user's input
+
+
+
 ## Method
 
-> **A function that is part of a class**
+> **Method:**
 >
-> **A function that belongs to a class**
+> — A function that belongs to a class. —&#x20;
+>
+> Functions defined inside a class, belongs to that class. They are referred as `"methods"`.
 
-Functions defined inside a class belongs to that class. They are referred as `"methods"`.
+
+
+Methods improves&#x20;
+
+* readability
+* understandability&#x20;
+* **code reusability**:&#x20;
+  * can reuse code with sending the method different arguments
 
 
 
-Methods improves readability/ understandability and code reusability.
+{% hint style="warning" %}
+**Everything in Java resides within a class:**
 
-* Can reuse code with sending the method different arguments.
+Java is a class-based object-oriented language.&#x20;
+
+You cannot have code/function existing outside of a class definition.
+
+Every code/function belongs to a class.
+{% endhint %}
+
+### Syntax of a Method
+
+<pre class="language-java"><code class="lang-java">&#x3C;ACCESS_MODIFIER> <a data-footnote-ref href="#user-content-fn-2">&#x3C;STATIC></a> &#x3C;<a data-footnote-ref href="#user-content-fn-3">RETURN_TYPE</a>> &#x3C;<a data-footnote-ref href="#user-content-fn-4">NAME</a>>(<a data-footnote-ref href="#user-content-fn-5">&#x3C;PARAMETERS></a>) {
+    // actual java code
+}
+</code></pre>
+
+e.g:
+
+<pre class="language-java"><code class="lang-java">public static void sendEmail(String receiver, String subject, String content) {
+    <a data-footnote-ref href="#user-content-fn-6">// Function Implementation</a>
+}
+</code></pre>
+
+***
 
 ## Arguments vs Parameters
 
@@ -82,7 +105,9 @@ Methods improves readability/ understandability and code reusability.
 <pre class="language-java"><code class="lang-java">sendEmail(<a data-footnote-ref href="#user-content-fn-8">"abc@gmail.com", "Quick Update Request", "Hi Abc, Could you please provide a quick update on Project Y?\nBest, Pqr"</a>)
 </code></pre>
 
-### Parameters & Var args
+***
+
+## Parameters & Var args
 
 If a method has a parameter with the type `<PARAM_TYPE>...`, it allows you to pass multiple arguments of that type when calling the method.&#x20;
 
@@ -92,11 +117,11 @@ This is known as **`var args`** meaning variable number of arguments.
 public class Main {
 
     public static void main(String[] args) {
-        // Call the method with multiple arguments
+        // Calling the method with multiple arguments
         printNumbers(1, 2, 3, 4);
     }
 
-    public static void printNumbers(int... numbers) {
+    public static void printNumbers(int... numbers) { // parameter declaration: var args
         for (int number : numbers) {
             System.out.print(number + " ");
         }
@@ -106,7 +131,9 @@ public class Main {
 
 Here, `int... numbers` allows you to pass any number of integers (1, 2, 3, 4), and the method can handle them as an **array** internally.
 
-## main() Method in Main class
+***
+
+## `main()` Method in `Main` Class
 
 > **Entry point for Java programs**
 
@@ -131,17 +158,23 @@ public class Main {
 
 * Main method in the program should always be `static`.
 
+***
+
 ## Access Modifiers
 
 All classes & methods should have an `access modifier`.
 
+> **Access Modifiers**:
+>
 > A special keyword that determines if other classes and methods in this program can access these classes and methods.
 
 Access Modifiers:
 
-* public
-* private
-* protected
+* **public**:
+* **private**:
+* **protected**:
+
+***
 
 ## Package
 
@@ -174,19 +207,23 @@ e.g:&#x20;
 * `org.wso2.iam`
 * `com.shadhini.java.tryouts.basics`
 
-
+***
 
 ## Module
 
 > **multiple packages can be combined into a module**
 
-
+***
 
 ## Annotation
 
+> **Annotation**:
+>
 > A **`label`** we attach to a class member; with this we give **extra information** to the `Java Compiler.`
 
 These annotations help Java Compiler to double check our code for **correctness**.
+
+***
 
 ## Structure of a Java Program
 
@@ -201,26 +238,26 @@ public class Main { // Main class
 
 
 
-[^1]: * `static`; if a static method&#x20;
+[^1]: use PascalNamingConvention
+
+[^2]: * `static`; if a static method&#x20;
     * nothing otherwise
 
-[^2]: return type; number, DateTime
+[^3]: return type; number, DateTime
 
     e.g:`void` (if don't return anything)
 
-[^3]: use camelNamingConvention
+[^4]: use camelNamingConvention
 
     e.g: sendEmail
 
-[^4]: parameters: used to pass values for the function
+[^5]: parameters: used to pass values for the function
 
     * comma separated list in the format `ReturnType parameterName`
 
     - parameter names in camelCase
 
-[^5]: commented line; don't get executed
-
-[^6]: use PascalNamingConvention
+[^6]: commented line; don't get executed
 
 [^7]: parameters
 
