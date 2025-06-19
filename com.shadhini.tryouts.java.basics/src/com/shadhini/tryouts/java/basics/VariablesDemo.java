@@ -1,10 +1,10 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 /**
  * About declaring and initializing variables.
  */
-public class Variables {
-    public static void main(String[] args) {
+public class VariablesDemo {
+    public static void demo() {
         int age = 29; // initialize the variable
         // we are storing number 30 somewhere in computer's memory, and
         // we are assigning this label `age` to that memory location
@@ -23,5 +23,10 @@ public class Variables {
         int myFriendAge = myAge;
         System.out.println(myFriendAge);
         // Output: 30
+
+        var a = new TextBox(); // `var` keyword: type inference
+        System.out.printf(a.toString());
+        // Output: com.shadhini.tryouts.java.basics.TextBox@<hashcode>
+
     }
 }
