@@ -1,12 +1,12 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.types;
 
 /**
- * About Java String type.
+ * Java String type.
  * [java.lang.String]
  */
 public class StringType {
 
-    public static void main(String[] args) {
+    public static void demo() {
         String message = "Hello World!";
         System.out.println(message);
         /*

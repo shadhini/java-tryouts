@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.types;
 
 import java.awt.*;
 
@@ -7,8 +7,8 @@ import java.awt.*;
  */
 public class PrimitiveVsReference {
 
-    public static void main(String[] args) {
-        // In terms of memory management
+    public static void demo() {
+        // In terms of memory management -------------------------------------------------------------------------------
 
         // Primitive Types
         byte x = 1;
