@@ -22,16 +22,16 @@ icon: list-tree
 [primitive-types-vs-reference-types.md](primitive-types-vs-reference-types.md)
 {% endcontent-ref %}
 
-{% content-ref url="strings-java.lang.string/" %}
-[strings-java.lang.string](strings-java.lang.string/)
+{% content-ref url="strings-java.lang.string.md" %}
+[strings-java.lang.string.md](strings-java.lang.string.md)
 {% endcontent-ref %}
 
-{% content-ref url="arrays.md" %}
-[arrays.md](arrays.md)
+{% content-ref url="../arrays/" %}
+[arrays](../arrays/)
 {% endcontent-ref %}
 
-{% content-ref url="multi-dimensional-arrays.md" %}
-[multi-dimensional-arrays.md](multi-dimensional-arrays.md)
+{% content-ref url="../arrays/multi-dimensional-arrays.md" %}
+[multi-dimensional-arrays.md](../arrays/multi-dimensional-arrays.md)
 {% endcontent-ref %}
 
 

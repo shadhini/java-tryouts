@@ -28,8 +28,6 @@ public class ReferenceTypes {
 * `now` variable is an instance of `Date` class.
 * These classes/objects have `members` we can access using `dot` operator.
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/ReferenceTypes.java" %}
-
 
 
 

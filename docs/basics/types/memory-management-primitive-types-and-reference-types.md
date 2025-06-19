@@ -23,7 +23,9 @@ But, when dealing with **Reference Types**, we should always `allocate` memory.
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/32cd54499f12ceff861f103d42cd48656f3700ed/basics/src/com/shadhini/java/tryouts/basics/PrimitiveVsReference.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/types/PrimitiveVsReference.java" %}
+
+
 
 ## Primitive Types
 
@@ -88,11 +90,9 @@ This means, if this `Point` object is updated through either of these variables,
 
 ## More on Memory Allocation...
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../oop/memory-allocation.md" %}
+[memory-allocation.md](../../oop/memory-allocation.md)
 {% endcontent-ref %}
-
-
 
 
 

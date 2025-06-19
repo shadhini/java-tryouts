@@ -12,17 +12,11 @@ icon: '1'
 [first-java-program.md](first-java-program.md)
 {% endcontent-ref %}
 
-{% content-ref url="../textual-data.md" %}
-[textual-data.md](../textual-data.md)
-{% endcontent-ref %}
 
-{% content-ref url="../comments.md" %}
-[comments.md](../comments.md)
-{% endcontent-ref %}
 
-{% content-ref url="../java.lang-package.md" %}
-[java.lang-package.md](../java.lang-package.md)
-{% endcontent-ref %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/ExampleClass.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/3209ae864bef39eafce9bdcef33cc982b1dcf883/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/Main.java" %}
 
 
 

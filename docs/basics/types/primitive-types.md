@@ -14,9 +14,7 @@ icon: font-case
 
 
 
-
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/PrimitiveTypes.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/types/TypesDemo.java" %}
 
 
 

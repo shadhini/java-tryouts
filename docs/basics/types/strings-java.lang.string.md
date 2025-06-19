@@ -19,13 +19,9 @@ In Java, **`Strings are immutable`**.
 * They cannot be changed.
 * Methods defined in `String` class do not modify the original string. Instead they return new strings
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/51490c23f8c0bd70d937de8d6ab577db5276e77c/basics/src/com/shadhini/java/tryouts/basics/StringType.java" %}
 
 
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/types/StringType.java" %}
 
 
 

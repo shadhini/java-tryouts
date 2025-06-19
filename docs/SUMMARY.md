@@ -18,7 +18,8 @@
   * [Setting up the Development Environment](basics/getting-started/setting-up-the-development-environment.md)
   * [First Java Program](basics/getting-started/first-java-program.md)
 * [Anatomy of a Java Program](basics/anatomy-of-a-java-program.md)
-* [Textual Data](basics/textual-data.md)
+* [Textual Data](basics/textual-data/README.md)
+  * [Escape Sequence](basics/textual-data/escape-sequence.md)
 * [Comments](basics/comments.md)
 * [\`java.lang\` package](basics/java.lang-package.md)
 * [Variables](basics/variables.md)
@@ -27,10 +28,9 @@
   * [Reference Types](basics/types/reference-types.md)
   * [Memory Management: Primitive types & Reference types](basics/types/memory-management-primitive-types-and-reference-types.md)
   * [Primitive Types vs Reference Types](basics/types/primitive-types-vs-reference-types.md)
-  * [Strings \[java.lang.String\]](basics/types/strings-java.lang.string/README.md)
-    * [Escape Sequence](basics/types/strings-java.lang.string/escape-sequence.md)
-  * [Arrays](basics/types/arrays.md)
-  * [Multi-Dimensional Arrays](basics/types/multi-dimensional-arrays.md)
+  * [Strings \[java.lang.String\]](basics/types/strings-java.lang.string.md)
+* [Arrays](basics/arrays/README.md)
+  * [Multi-Dimensional Arrays](basics/arrays/multi-dimensional-arrays.md)
 * [Constants](basics/constants.md)
 * [Arithmetic Expressions](basics/arithmetic-expressions/README.md)
   * [Order of Operations](basics/arithmetic-expressions/order-of-operations.md)
@@ -190,3 +190,7 @@
   * [Monitoring Services](osgi/osgi/monitoring-services.md)
   * [OSGI Development](osgi/osgi/osgi-development.md)
   * [Microservices with OSGI](osgi/osgi/microservices-with-osgi.md)
+
+## ❗ Important
+
+* [Important Pages](important/important-pages.md)
