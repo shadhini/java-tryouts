@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 /**
- * About arithmetic expressions in Java.
+ * Arithmetic expressions in Java.
  */
 public class ArithmeticExpressions {
 
-    public static void main(String[] args) {
+    public static void demo() {
         int additionResult = 10 + 3;
         System.out.println("10 + 3 = " + additionResult);
         int subtractionResult = 10 - 3;

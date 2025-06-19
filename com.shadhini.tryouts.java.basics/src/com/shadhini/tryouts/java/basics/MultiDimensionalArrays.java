@@ -1,15 +1,16 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 import java.util.Arrays;
 
 /**
- * About how to create/declare multidimensional arrays in Java.
+ * Create/declare multidimensional arrays in Java.
  */
 public class MultiDimensionalArrays {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // 1 Dimensional Array
+        // =============================================================================================================
         int[] numbers = new int[5];
         int[] numbersPredefined = {1, 2, 3, 4, 5};
         numbers[0] = 1;
@@ -23,6 +24,7 @@ public class MultiDimensionalArrays {
          */
 
         // 2 Dimensional Array - To store a matrix
+        // =============================================================================================================
         int[][] numbers2Dim = new int[2][3]; // 2 rows , 2 columns
         int[][] numbers2DimPredefined = {{1,2,3},{4,5,6}};
         numbers2Dim[0][0] = 1;
@@ -40,6 +42,7 @@ public class MultiDimensionalArrays {
          */
 
         // 3 Dimensional Array - To store a cube
+        // =============================================================================================================
         int[][][] numbers3Dim = new int[2][3][5];
         // Array design
         // {}

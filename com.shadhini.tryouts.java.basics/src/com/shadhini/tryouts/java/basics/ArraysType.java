@@ -1,14 +1,14 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 import java.util.Arrays;
 
 /**
- * About Java Arrays.
+ * Java Arrays.
  * [java.util.Arrays]
  */
 public class ArraysType {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // Integer Array
         // ============================================================================================================

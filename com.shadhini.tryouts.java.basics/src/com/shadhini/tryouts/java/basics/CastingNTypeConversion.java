@@ -1,13 +1,14 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 /**
- * About Java casting and type conversion.
+ * Java casting and type conversion.
  */
 public class CastingNTypeConversion {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // Implicit Casting
+        // =============================================================================================================
         // byte -> short -> int -> long -> float -> double
         short x = 1;
         int y = x + 2;
@@ -17,7 +18,9 @@ public class CastingNTypeConversion {
         double s = r + 2;
         System.out.println(s); // Output: 3.1
 
+
         // Explicit Casting
+        // =============================================================================================================
         int t = (int) r + 2; // Without explicit casting, you get a CastException here
         System.out.println(t); // Output: 3
 

@@ -1,14 +1,14 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 import java.util.Scanner;
 
 /**
- * About reading user input from terminal in Java.
+ * Reading user input from terminal in Java.
  * [java.util.Scanner]
  */
 public class ReadingInput {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         Scanner scanner = new Scanner(System.in);
         /*

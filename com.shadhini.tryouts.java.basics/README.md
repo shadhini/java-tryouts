@@ -1,7 +1,7 @@
 # Java Basics
 
 ```bash
-    cd ../../../../..
+    cd src
     javac com/shadhini/tryouts/java/basics/Main.java
     java com/shadhini/tryouts/java/basics/Main
 ```

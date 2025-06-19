@@ -11,6 +11,7 @@ public class PrimitiveVsReference {
         // In terms of memory management -------------------------------------------------------------------------------
 
         // Primitive Types
+        // =============================================================================================================
         byte x = 1;
         byte y = x;
         x = 2;
@@ -22,6 +23,7 @@ public class PrimitiveVsReference {
          */
 
         // Reference Types
+        // =============================================================================================================
         Point point1 = new Point(1, 1);
         Point point2 = point1;
         point1.x = 3;

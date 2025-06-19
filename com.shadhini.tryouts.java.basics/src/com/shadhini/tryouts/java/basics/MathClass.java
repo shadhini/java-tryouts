@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 /**
- * About functionalities of [java.lang.Math] class
+ * java.lang.Math class functionalities
  */
 public class MathClass {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // Round
         // ===========================================================================================================

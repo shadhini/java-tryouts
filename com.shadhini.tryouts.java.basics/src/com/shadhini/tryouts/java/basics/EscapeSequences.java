@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics;
 
 /**
- * About Escape ('\') sequences for including special characters.
+ * Escape ('\') sequences for including special characters.
  */
 public class EscapeSequences {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // Double Quotes
         System.out.println("------------Double Quotes-------------");

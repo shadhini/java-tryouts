@@ -15,6 +15,7 @@ public class StringType {
          */
 
         // Concatenate/Join strings
+        // =============================================================================================================
         System.out.println("----------Concatenation------------");
         String part1 = "part1";
         String part2 = "part2";
@@ -25,6 +26,7 @@ public class StringType {
          */
 
         // Ends With
+        // =============================================================================================================
         System.out.println("----------Ends With------------");
         System.out.println(message.endsWith("d!"));
         /* Output:
@@ -33,6 +35,7 @@ public class StringType {
          */
 
         //Starts With
+        // =============================================================================================================
         System.out.println("----------Starts With------------");
         System.out.println(message.startsWith("d!"));
         /* Output:
@@ -41,6 +44,7 @@ public class StringType {
          */
 
         // Length
+        // =============================================================================================================
         System.out.println("-----------Length-----------");
         System.out.println(message.length());
         /* Output:
@@ -49,6 +53,7 @@ public class StringType {
          */
 
         // Index of the first occurrence of a character/substring
+        // =============================================================================================================
         System.out.println("-----------Index Of------------");
         System.out.println(message.indexOf("H"));
         System.out.println(message.indexOf("l"));
@@ -63,6 +68,7 @@ public class StringType {
          */
 
         // Replace
+        // =============================================================================================================
         System.out.println("----------Replace------------");
         System.out.println(message.replace('l', '*'));
         /* Output:
@@ -71,6 +77,7 @@ public class StringType {
          */
 
         // To lowercase
+        // =============================================================================================================
         System.out.println("-----------To Lowercase------------");
         System.out.println(message.toLowerCase());
         /* Output:
@@ -79,6 +86,7 @@ public class StringType {
          */
 
         // To UPPERCASE
+        // =============================================================================================================
         System.out.println("-----------To Uppercase------------");
         System.out.println(message.toUpperCase());
         /* Output:
@@ -87,6 +95,7 @@ public class StringType {
          */
 
         // Trim - can get rid of extra white spaces that are at the beginning or in the end
+        // =============================================================================================================
         System.out.println("-----------Trim------------");
         String userInput = "   butterfly ";
         System.out.println(userInput);
@@ -98,6 +107,7 @@ public class StringType {
          */
 
         // Strings are immutable
+        // =============================================================================================================
         System.out.println("-----------Immutability------------");
         System.out.println(message);
         /* Output:

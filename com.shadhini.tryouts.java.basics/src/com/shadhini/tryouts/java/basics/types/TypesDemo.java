@@ -25,5 +25,9 @@ public class TypesDemo {
         System.out.println("Primitive vs Reference Types: -----------------------------------------------------------");
         PrimitiveVsReference.demo();
 
+    // 4. String Type: -------------------------------------------------------------------------------------------------
+        System.out.println("String Type: ----------------------------------------------------------------------------");
+        StringType.demo();
+
     }
 }

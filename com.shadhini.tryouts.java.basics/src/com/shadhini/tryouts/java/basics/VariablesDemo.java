@@ -24,8 +24,10 @@ public class VariablesDemo {
         System.out.println(myFriendAge);
         // Output: 30
 
-        var a = new TextBox(); // `var` keyword: type inference
-        System.out.printf(a.toString());
+        // `var` keyword: Type Inference
+        // =============================================================================================================
+        var a = new TextBox();
+        System.out.println(a.toString());
         // Output: com.shadhini.tryouts.java.basics.TextBox@<hashcode>
 
     }

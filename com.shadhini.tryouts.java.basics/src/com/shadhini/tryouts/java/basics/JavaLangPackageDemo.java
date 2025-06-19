@@ -9,7 +9,8 @@ public class JavaLangPackageDemo {
 
     // no need for explicit import
     public static void demo() {
-        // `System` class of `java.lang` package -----------------------------------------------------------------------
+        // `System` class of `java.lang` package
+        // =============================================================================================================
         System.out.println("Hello, World!"); // out field: prints to terminal
         // System.out.println method: calls toString() method of the object passed to it
         try {
