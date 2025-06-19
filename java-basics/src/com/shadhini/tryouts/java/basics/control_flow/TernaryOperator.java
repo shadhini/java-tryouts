@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 /**
- * About the Ternary operator
+ * Ternary operator.
  */
 public class TernaryOperator {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         int income = 120_000;
         String className = (income > 100_000) ? "First" : "Economy";

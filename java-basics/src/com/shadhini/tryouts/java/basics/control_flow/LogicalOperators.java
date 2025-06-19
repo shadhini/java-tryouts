@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 /**
- * About Java logical operators.
+ * Java logical operators.
  */
 public class LogicalOperators {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // AND
         int temperature = 12;
@@ -22,8 +22,6 @@ public class LogicalOperators {
         // NOT
         boolean hasCriminalRecord = true;
         boolean isEligibleNew = (hasHighIncome || hasGoodCredit) && hasCriminalRecord;
-
-
 
 
     }

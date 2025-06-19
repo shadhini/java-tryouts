@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class WhileLoops {
 
-    public static void main(String[] args) {
+    public static void demo() {
         int i = 5;
         while (i > 0) {
             System.out.println(i);
@@ -26,5 +26,6 @@ public class WhileLoops {
             userInput = scanner.next().toLowerCase();
             System.out.println(userInput);
         }
+        scanner.close();
     }
 }

@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 /**
- * About Java comparison operators.
+ * Java comparison operators.
  */
 public class ComparisonOperators {
 
-    public static void main(String[] args) {
+    public static void demo() {
         int x = 1;
         int y = 1;
         int z = 2;

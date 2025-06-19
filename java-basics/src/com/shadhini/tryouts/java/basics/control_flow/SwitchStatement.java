@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 /**
- * About Switch statement
+ * Switch statement.
  */
 public class SwitchStatement {
 
-    public static void main(String[] args) {
+    public static void demo() {
         String role = "admin";
 
         // With If statements

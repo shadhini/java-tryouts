@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 /**
- * About If statements:
+ * If statements.
  */
 public class IfStatements {
 
-    public static void main(String[] args) {
+    public static void demo() {
         int temperature = 32;
         if (temperature > 30) { // First clause
             System.out.println("It's a hot day!");
@@ -16,9 +16,12 @@ public class IfStatements {
         else // // Third clause: temperature<=20
             System.out.println("Cold day!");
 
+        // Is income greater than 100,000? High income or not?
+        // =============================================================================================================
         int income = 120_000;
-        boolean hasHighIncome = (income > 100_000);
+        boolean hasHighIncome = (income > 100_000); // Simplified condition
 
+        // Original condition
 //        if (income > 100_000) {
 //            hasHighIncome = true;
 //        }

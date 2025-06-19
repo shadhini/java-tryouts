@@ -1,5 +1,6 @@
 package com.shadhini.tryouts.java.basics;
 
+import com.shadhini.tryouts.java.basics.control_flow.ControlFlowDemo;
 import com.shadhini.tryouts.java.basics.types.TypesDemo;
 
 public class Main {
@@ -88,7 +89,9 @@ public class Main {
         System.out.println("15. Reading Input: ----------------------------------------------------------------------");
         ReadingInput.demo();
 
-
+    // 16. Control Flow: -----------------------------------------------------------------------------------------------
+        System.out.println("16. Control Flow: -----------------------------------------------------------------------");
+        ControlFlowDemo.demo();
 
     }
 
