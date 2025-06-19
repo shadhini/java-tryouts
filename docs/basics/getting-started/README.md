@@ -12,16 +12,16 @@ icon: '1'
 [first-java-program.md](first-java-program.md)
 {% endcontent-ref %}
 
-{% content-ref url="textual-data.md" %}
-[textual-data.md](textual-data.md)
+{% content-ref url="../textual-data.md" %}
+[textual-data.md](../textual-data.md)
 {% endcontent-ref %}
 
-{% content-ref url="comments.md" %}
-[comments.md](comments.md)
+{% content-ref url="../comments.md" %}
+[comments.md](../comments.md)
 {% endcontent-ref %}
 
-{% content-ref url="java.lang-package.md" %}
-[java.lang-package.md](java.lang-package.md)
+{% content-ref url="../java.lang-package.md" %}
+[java.lang-package.md](../java.lang-package.md)
 {% endcontent-ref %}
 
 

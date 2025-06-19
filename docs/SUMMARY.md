@@ -17,10 +17,10 @@
 * [Getting Started](basics/getting-started/README.md)
   * [Setting up the Development Environment](basics/getting-started/setting-up-the-development-environment.md)
   * [First Java Program](basics/getting-started/first-java-program.md)
-  * [Textual Data](basics/getting-started/textual-data.md)
-  * [Comments](basics/getting-started/comments.md)
-  * [\`java.lang\` package](basics/getting-started/java.lang-package.md)
 * [Anatomy of a Java Program](basics/anatomy-of-a-java-program.md)
+* [Textual Data](basics/textual-data.md)
+* [Comments](basics/comments.md)
+* [\`java.lang\` package](basics/java.lang-package.md)
 * [Variables](basics/variables.md)
 * [Types](basics/types/README.md)
   * [Primitive Types](basics/types/primitive-types.md)
@@ -176,6 +176,10 @@
 * [Packaging Java Applications](intellijidea-ide-support/packaging-java-applications.md)
 * [Assigning Directories](intellijidea-ide-support/assigning-directories.md)
 * [View Byte Code](intellijidea-ide-support/view-byte-code.md)
+
+***
+
+* [Troubleshoot](troubleshoot.md)
 
 ## OSGI
 

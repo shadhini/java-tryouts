@@ -4,22 +4,24 @@ icon: square-root-variable
 
 # Variables
 
-> **used to temporarily store data in computer's memory**
+> **Variables:**
 >
-> **have static type**
->
-> **use of `var` keyword is recommended**
+> * used to temporarily store data in computer's memory
+> * have static type
+> * use of `var` keyword is recommended
 
 * We always have to initialise variables before reading them.
 * We can copy value of a variable to another variable.
 * We can only declare variables inside code blocks; i.e. curly braces ( `{ }` ).
+
+
 
 ## Variable Declaration and Initialisation
 
 <pre class="language-java"><code class="lang-java"><a data-footnote-ref href="#user-content-fn-1">int</a> <a data-footnote-ref href="#user-content-fn-2">age</a> <a data-footnote-ref href="#user-content-fn-3">=</a> <a data-footnote-ref href="#user-content-fn-4">30</a>; // Initializing the variable
 </code></pre>
 
-* With this, we are storing number `30` somewhere in computer's memory and we are assigning label \``` age` `` to that memory location.
+* With this, we are storing number `30` somewhere in computer's memory and we are assigning label `age` to that memory location.
 
 
 
@@ -34,10 +36,6 @@ int ageMom = 59, ageDad = 68;
 If we don't initialise a variable of `Reference Type`, they are set to **`null`**. i.e. it doesn't reference a real object in memory.
 
 -> `Nulls` are dangerous, they can crash programs with **`java.lang.NullPointerException.`**
-
-
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/14b32837d8fa81312733418b56815345cdd480c0/basics/src/com/shadhini/java/tryouts/basics/Variables.java" %}
 
 &#x20;
 
