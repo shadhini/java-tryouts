@@ -1,4 +1,5 @@
 ---
+description: java.util.Arrays
 icon: layer-group
 ---
 
@@ -19,13 +20,17 @@ Java arrays have a **`fixed size, fixed length`**.
 
 * Once created, we cannot add or remove additional items to or from the array.
 
-If you want to add. remove items to, from an array, you have to use **`Collection`** classes.
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/51490c23f8c0bd70d937de8d6ab577db5276e77c/basics/src/com/shadhini/java/tryouts/basics/ArraysType.java" %}
+If you want to add/remove items to, from an array, you have to use **`Collection`** classes.
 
 
 
 `toString()` method is implemented multiple times for all primitive types as well as reference types.
+
+
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/ArraysType.java" %}
+
+
 
 
 

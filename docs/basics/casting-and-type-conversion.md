@@ -4,9 +4,7 @@ icon: people-arrows
 
 # Casting & Type Conversion
 
-
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/a5226667431ff6c3a5bf982771a74da30411464c/basics/src/com/shadhini/java/tryouts/basics/CastingNTypeConversion.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/CastingNTypeConversion.java" %}
 
 ## Implicit Casting
 
@@ -58,7 +56,7 @@ System.out.println(y); // 3.1
 
 ## Explicit Casting
 
-> can happen only between compatible types
+> **can happen only between compatible types**
 
 All the following types are compatible, since they are numbers.
 

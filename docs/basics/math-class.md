@@ -7,9 +7,7 @@ icon: sigma
 
 This class is automatically imported as it is from `java.lang` package. Thus, we don't have to explicitly import it.
 
-
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/78ebb90c7b4577759b35fac18fb45a9e38e77270/basics/src/com/shadhini/java/tryouts/basics/MathClass.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/MathClass.java" %}
 
 
 

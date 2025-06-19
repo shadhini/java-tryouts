@@ -19,6 +19,12 @@ If you try to change it, it gives a compilation error.
 
 By convention, we use `all uppercase` letters to name constants and words are separated with underscores (`_`).
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/d5f35587e440304427dd244d513257ad48152c93/basics/src/com/shadhini/java/tryouts/basics/Constants.java" %}
+```java
+final float PI = 3.14F;
+// PI = 1; // --> Compilation Error
+System.out.println(PI);
+```
+
+
 
 [^1]: uppercase letters

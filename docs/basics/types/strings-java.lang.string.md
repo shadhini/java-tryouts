@@ -1,4 +1,5 @@
 ---
+description: java.lang.String
 icon: text-size
 ---
 
