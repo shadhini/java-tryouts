@@ -30,7 +30,9 @@ icon: toggle-on
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/129ed1b5c97f759404f20c2aab3415156117a2d6/basics/src/com/shadhini/java/tryouts/basics/SwitchStatement.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/control_flow/SwitchStatement.java" %}
+
+
 
 
 

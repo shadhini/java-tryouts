@@ -5,6 +5,8 @@ icon: layer-group
 
 # Arrays
 
+## Arrays
+
 > **A reference type used to store list of items.**
 
 <pre class="language-java"><code class="lang-java">int[] numbers = new int[<a data-footnote-ref href="#user-content-fn-1">5</a>];
@@ -28,9 +30,17 @@ If you want to add/remove items to, from an array, you have to use **`Collection
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/ArraysType.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/ArraysType.java" %}
 
 
+
+
+
+## Multi-Dimensional Arrays
+
+{% content-ref url="multi-dimensional-arrays.md" %}
+[multi-dimensional-arrays.md](multi-dimensional-arrays.md)
+{% endcontent-ref %}
 
 
 

@@ -10,12 +10,8 @@ Java `breakpoints` will stop the execution @ the breakpoint before executing tha
 
 ## Using IntelliJIDEA IDE
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../intellijidea-ide-support/debugging.md" %}
+[debugging.md](../../intellijidea-ide-support/debugging.md)
 {% endcontent-ref %}
 
 

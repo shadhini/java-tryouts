@@ -24,7 +24,7 @@ if (income > 100_000)
 
 ⬇&#x20;
 
-\[most professional version]
+<kbd>**\[most professional version]**</kbd>
 
 <pre class="language-java"><code class="lang-java">int income = 120_000;
 boolean hasHighIncome = <a data-footnote-ref href="#user-content-fn-1">(income > 100_000)</a>;

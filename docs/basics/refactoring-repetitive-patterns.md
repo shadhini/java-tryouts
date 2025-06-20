@@ -2,7 +2,7 @@
 icon: rotate-exclamation
 ---
 
-# Refactoring
+# Refactoring: Repetitive patterns
 
 > **Changing the structure of the code, without changing it's behaviour.**
 
@@ -32,7 +32,17 @@ e.g: parts of values need to calculate mortgage and how they are calculated
 
 Problem arise when we need to modify the code.
 
-i.e. If we have repeated same lgic in multiple places, then if we ever need to change that logic, we'll have to modify it in multiple places.
+i.e. If we have repeated same logic in multiple places, then if we ever need to change that logic, we'll have to modify it in multiple places.
 
 If a logic never changes and amount of duplication is little -> then that duplication is not too bad.
+
+
+
+## Refactoring Using IntelliJIDEA
+
+{% content-ref url="../intellijidea-ide-support/refactoring.md" %}
+[refactoring.md](../intellijidea-ide-support/refactoring.md)
+{% endcontent-ref %}
+
+
 

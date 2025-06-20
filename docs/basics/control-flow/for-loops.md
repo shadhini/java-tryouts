@@ -27,9 +27,7 @@ icon: arrow-rotate-left
 
 
 
-
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/ed12da19862cce3c9d031bdd3a70ea3dd1ef740f/basics/src/com/shadhini/java/tryouts/basics/ForLoops.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/control_flow/ForLoops.java" %}
 
 
 

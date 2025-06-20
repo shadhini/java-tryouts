@@ -15,7 +15,7 @@ icon: not-equal
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/f8e74ea5d514f52f462bc6fb63b0610b5b0116b3/basics/src/com/shadhini/java/tryouts/basics/ComparisonOperators.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/control_flow/ComparisonOperators.java" %}
 
 
 
@@ -25,7 +25,7 @@ icon: not-equal
 
 In Strings,
 
-* We can use string equlity function.
+* We can use string equality function.
 
 <pre class="language-java"><code class="lang-java">String userInput = "";
 Sytem.out.println(userInput.<a data-footnote-ref href="#user-content-fn-2">equals</a>("quit"));

@@ -18,15 +18,11 @@ In situations where you don't know exactly how many times you want to repeat som
 
 **``╰┈➤ use `do... while` loop``**
 
-In situations where you simply want to iterate over array of items and don't need the access to idex of each item&#x20;
+In situations where you simply want to iterate over array of items and don't need the access to index of each item&#x20;
 
 **``╰┈➤ use `for each` loop``**
 
-
-
-
-
-
+***
 
 ❌ Don't create unnecessary objects inside loops.
 
@@ -35,3 +31,6 @@ In situations where you simply want to iterate over array of items and don't nee
 **`while (true)`** loops must have a `break` statement
 
 * They are dangerous in terms of memory consumption.
+
+
+

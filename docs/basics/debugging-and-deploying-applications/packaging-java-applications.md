@@ -23,8 +23,8 @@ Anyone who have installed Java Runtime Environment (`JRE`), can execute a `jar` 
 
 ## Using IntelliJIDEA IDE
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../intellijidea-ide-support/packaging-java-applications.md" %}
+[packaging-java-applications.md](../../intellijidea-ide-support/packaging-java-applications.md)
 {% endcontent-ref %}
 
 
@@ -37,4 +37,6 @@ Anyone who have installed Java Runtime Environment (`JRE`), can execute a `jar` 
 2. `java -jar <ARTIFACT_NAME>.jar`
 
 Mac/Linux are `case sensitive`. Thus, be aware of necessary capitalisation of `jar` name.
+
+
 

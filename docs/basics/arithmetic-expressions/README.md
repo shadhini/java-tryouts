@@ -6,7 +6,11 @@ icon: calculator-simple
 
 **Expression**: a piece of code that produces a value
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/ArithmeticExpressions.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/ArithmeticExpressions.java" %}
+
+
+
+
 
 ## Division
 

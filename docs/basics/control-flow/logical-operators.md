@@ -40,7 +40,11 @@ Here,
 * Thus, Java will not evaluate the rest of the expression.
 * However if expression **➀** was `false`, then Java will continue evaluating the expressions, hoing that the next boolean expression is `true`.
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/f8e74ea5d514f52f462bc6fb63b0610b5b0116b3/basics/src/com/shadhini/java/tryouts/basics/LogicalOperators.java" %}
+
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/control_flow/LogicalOperators.java" %}
+
+
 
 
 

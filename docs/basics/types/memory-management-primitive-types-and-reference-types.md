@@ -23,7 +23,7 @@ But, when dealing with **Reference Types**, we should always `allocate` memory.
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/types/PrimitiveVsReference.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/types/PrimitiveVsReference.java" %}
 
 
 

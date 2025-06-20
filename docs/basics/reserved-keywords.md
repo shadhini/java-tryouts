@@ -28,6 +28,8 @@ We cannot use these reserved keywords to name variables, methods and classes.
 
 `final`: cannot be overridden by subclasses
 
+`static`: methods that belong to the class; accessible without instantiating the class
+
 ## Method Return Types
 
 `void`: when there's nothing to return
@@ -37,6 +39,8 @@ We cannot use these reserved keywords to name variables, methods and classes.
 `var`: used in variable declaration, where you let the Java compiler to determine the type of the variable
 
 `final`:  used to declare constants that shouldn't change over time
+
+`static`: fields/methods that belong to the class; accessible without instantiating the class
 
 ## Primitive Types
 
@@ -69,6 +73,20 @@ We cannot use these reserved keywords to name variables, methods and classes.
 `new`: operator used for instantiating
 
 `extends`: keyword used to extend a class from another class
+
+
+
+## Loops Related
+
+`for`: used in for loops
+
+`while`: used in while loops
+
+`do`: used in do... while loops
+
+`break`: to terminate loop & exit from the loop
+
+`continue`: to terminate the current iteration of the loop and to go to next iteration
 
 
 

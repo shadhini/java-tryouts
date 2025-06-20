@@ -4,6 +4,8 @@ icon: diamond-half-stroke
 
 # If Statements
 
+## If Statments
+
 > ```java
 > if () {
 >     // statements
@@ -16,14 +18,16 @@ icon: diamond-half-stroke
 
 We need braces ( `{ }` ) in a if block, only if there are multiple statements in that block.
 
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/control_flow/IfStatements.java" %}
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/129ed1b5c97f759404f20c2aab3415156117a2d6/basics/src/com/shadhini/java/tryouts/basics/IfStatements.java" %}
 
 
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+## Simplifying If Statements
+
+{% content-ref url="simplifying-if-statements.md" %}
+[simplifying-if-statements.md](simplifying-if-statements.md)
 {% endcontent-ref %}
 
 

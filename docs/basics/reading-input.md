@@ -12,9 +12,9 @@ icon: keyboard
 
 **`scanner.nextLine()`** -> reads till next new line (`\n`) character; read all the spaces till new line character too
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/com.shadhini.tryouts.java.basics/src/com/shadhini/tryouts/java/basics/ReadingInput.java" %}
+`scanner.close()` -> close the scanner to free up resources
 
-
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/ReadingInput.java" %}
 
 
 

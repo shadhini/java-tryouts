@@ -4,8 +4,6 @@ icon: arrow-left-from-bracket
 
 # Break & Continue
 
-
-
 > **`break`** -> terminate the loop
 >
 > **`continue`** -> moves control to the beginning of the loop
@@ -37,5 +35,5 @@ while (true) { // runs till the break condition is met
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/b712fd4fa13f6ecb505356f8cc770333d1cefc29/basics/src/com/shadhini/java/tryouts/basics/BreakAndContinueStatements.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/control_flow/BreakAndContinueStatements.java" %}
 

@@ -52,7 +52,7 @@
   * [For Each Loop](basics/control-flow/for-each-loop.md)
   * [Loops Usage Guide](basics/control-flow/loops-usage-guide.md)
 * [Reserved Keywords](basics/reserved-keywords.md)
-* [Refactoring](basics/refactoring.md)
+* [Refactoring: Repetitive patterns](basics/refactoring-repetitive-patterns.md)
 * [Exceptions](basics/exceptions.md)
 * [Debugging and Deploying Applications](basics/debugging-and-deploying-applications/README.md)
   * [Types of Errors](basics/debugging-and-deploying-applications/types-of-errors.md)

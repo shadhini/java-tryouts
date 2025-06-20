@@ -238,6 +238,14 @@ public class Main { // Main class
 
 
 
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/ExampleClass.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-basics/src/com/shadhini/tryouts/java/basics/Main.java" %}
+
+
+
+
+
 [^1]: use PascalNamingConvention
 
 [^2]: * `static`; if a static method&#x20;

@@ -1,4 +1,5 @@
 ---
+description: java.lang.Exception
 icon: square-exclamation
 ---
 
