@@ -1,13 +1,13 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 import java.util.Scanner;
 
 /**
- * About Java `break` and `continue` statements.
+ * Java `break` and `continue` statements.
  */
 public class BreakAndContinueStatements {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         Scanner scanner = new Scanner(System.in);
         String userInput = "";

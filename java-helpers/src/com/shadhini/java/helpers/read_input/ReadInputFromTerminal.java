@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class ReadInputFromTerminal {
 
+    public static void main(String[] args) {
+        // Example usage of the readNextLineTillQuitStatement method
+        readNextLineTillQuitStatement("exit");
+    }
+
     /**
      * Reads input from the terminal until a specific quit statement is entered.
      *
@@ -13,14 +18,11 @@ public class ReadInputFromTerminal {
         Scanner scanner = new Scanner(System.in);
         String input;
 
-        System.out.println("Enter input (type '" + quitStatement + "' to quit):");
-        while (true) {
+        do {
+            System.out.println("Enter input (type '" + quitStatement + "' to quit):");
             input = scanner.nextLine();
-            if (input.equalsIgnoreCase(quitStatement)) {
-                break;
-            }
             System.out.println("You entered: " + input);
-        }
+        } while (!input.equalsIgnoreCase(quitStatement));
 
         System.out.println("Exiting...");
         scanner.close();

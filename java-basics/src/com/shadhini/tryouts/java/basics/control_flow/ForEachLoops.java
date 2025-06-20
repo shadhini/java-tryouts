@@ -1,11 +1,11 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 /**
- * About Java `for each` loops.
+ * Java `for each` loops.
  */
 public class ForEachLoops {
 
-    public static void main(String[] args) {
+    public static void demo() {
         String[] fruits = {"Apple", "Banana", "Orange", "Mango"};
 
         for (String fruit : fruits)

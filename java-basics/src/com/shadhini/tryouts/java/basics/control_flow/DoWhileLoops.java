@@ -1,13 +1,13 @@
-package com.shadhini.java.tryouts.basics;
+package com.shadhini.tryouts.java.basics.control_flow;
 
 import java.util.Scanner;
 
 /**
- * About Java `do..while` loops.
+ * Java `do..while` loops.
  */
 public class DoWhileLoops {
 
-    public static void main(String[] args) {
+    public static void demo() {
         Scanner scanner = new Scanner(System.in);
         String userInput = "";
 

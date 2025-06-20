@@ -18,6 +18,7 @@ public class WhileLoops {
         String userInput = "";
 
         while (!userInput.equals("quit")) {
+            System.out.println("Type 'quit' to exit the loop. Type anything else to continue.");
             System.out.print("Input: ");
             // Scanner scanner = new Scanner(System.in);
             // with this, everytime we are going to create Scanner objects
