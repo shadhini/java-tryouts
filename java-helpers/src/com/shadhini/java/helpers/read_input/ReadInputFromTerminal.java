@@ -20,6 +20,10 @@ public class ReadInputFromTerminal {
 
         do {
             System.out.println("Enter input (type '" + quitStatement + "' to quit):");
+            if (!scanner.hasNextLine()) {
+                System.out.println("No input provided. Exiting loop.");
+                break;
+            }
             input = scanner.nextLine();
             System.out.println("You entered: " + input);
         } while (!input.equalsIgnoreCase(quitStatement));

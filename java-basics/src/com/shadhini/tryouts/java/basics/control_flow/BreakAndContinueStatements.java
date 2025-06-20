@@ -24,6 +24,10 @@ public class BreakAndContinueStatements {
 
         while (true) {
             System.out.print("Input: ");
+            if (!scanner.hasNext()) {
+                System.out.println("No input provided. Exiting loop.");
+                break;
+            }
             userInput = scanner.next().toLowerCase();
             if (userInput.equals("pass"))
                 continue;
