@@ -52,5 +52,8 @@ public class ReadingInput {
 
          */
 
+        // Close the scanner to free up resources
+        scanner.close();
+
     }
 }

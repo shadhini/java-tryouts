@@ -3,7 +3,7 @@ package com.shadhini.tryouts.java.basics.control_flow;
 import java.util.Scanner;
 
 /**
- * About Java `while` loops
+ * Java `while` loops
  */
 public class WhileLoops {
 

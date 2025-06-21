@@ -3,7 +3,7 @@ package com.shadhini.tryouts.java.basics.control_flow;
 import java.util.Scanner;
 
 /**
- * Java `do..while` loops.
+ * Java `do...while` loops.
  */
 public class DoWhileLoops {
 
