@@ -1,13 +1,13 @@
-package com.shadhini.java.tryouts.oop.encapsulation;
+package com.shadhini.tryouts.java.oop.encapsulation;
 
 /**
  * Demonstration of Encapsulation.
  */
-public class Main {
+public class Encapsulation {
 
-    // Main class is dependent on the Employee class
-    // Main class has 4 coupling points to the Employee class
-    public static void main(String[] args) {
+    // Encapsulation class is dependent on the Employee class
+    // Encapsulation class has 4 coupling points to the Employee class
+    public static void demo() {
         var employee = new Employee(); // First coupling point
         // employee.setBaseSalary(-1); // Output: --> java.lang.IllegalArgumentException: Base salary cannot be 0 or less.
         employee.setBaseSalary(50_000);
