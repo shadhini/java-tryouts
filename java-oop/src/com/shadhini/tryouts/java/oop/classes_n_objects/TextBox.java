@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.classes_n_objects;
+package com.shadhini.tryouts.java.oop.classes_n_objects;
 
 /**
  * TextBox class.
@@ -9,6 +9,7 @@ public class TextBox {
     public String text; // Field --  usually we don't define fields as public
 
     public void setText(String text) {
+        // this refers to the current instance of the class
         this.text = text;
     }
 

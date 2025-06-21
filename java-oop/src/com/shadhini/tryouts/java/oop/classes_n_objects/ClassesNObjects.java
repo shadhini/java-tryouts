@@ -1,10 +1,11 @@
-package com.shadhini.java.tryouts.oop.classes_n_objects;
+package com.shadhini.tryouts.java.oop.classes_n_objects;
 
-public class Main {
+public class ClassesNObjects {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // Instantiating TextBox class: Create TextBox object
+        // =============================================================================================================
         var textBox1 = new TextBox();
         textBox1.setText("Box 1"); // -- A
         System.out.println(textBox1.text); // Output: Box 1
@@ -16,7 +17,7 @@ public class Main {
 
         var textBox2 = new TextBox();
         textBox2.setText("Box 2");
-        System.out.println(textBox2.text);
+        System.out.println(textBox2.text); // Output: Box 2
 
     }
 }
