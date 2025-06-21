@@ -6,6 +6,8 @@ icon: square-root-variable
 
 > **Variables:**
 >
+> **— named storage location in memory that holds a value —**&#x20;
+>
 > * used to temporarily store data in computer's memory
 > * have static type
 > * use of `var` keyword is recommended

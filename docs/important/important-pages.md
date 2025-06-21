@@ -8,6 +8,10 @@ icon: sparkles
 [memory-management-primitive-types-and-reference-types.md](../basics/types/memory-management-primitive-types-and-reference-types.md)
 {% endcontent-ref %}
 
+{% content-ref url="../oop/java-memory-management.md" %}
+[java-memory-management.md](../oop/java-memory-management.md)
+{% endcontent-ref %}
+
 {% content-ref url="../basics/types/primitive-types-vs-reference-types.md" %}
 [primitive-types-vs-reference-types.md](../basics/types/primitive-types-vs-reference-types.md)
 {% endcontent-ref %}

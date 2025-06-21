@@ -4,6 +4,8 @@ icon: map
 
 # Classes & Objects
 
+## Classes & Objects
+
 > **`Class`** define **template** or **blueprint** for creating new objects; new instances.
 >
 > **`Object`** is an **instance** of a class.
@@ -35,17 +37,31 @@ These classes/objects have members we can access using dot operator.
 
 ## `this` keyword
 
-In a situation where a name of a (method) parameter is same as the name od (class) field, we can use the **`this`** keyword for clarity.
+In a situation where a name of a (method) parameter is same as the name of (class) field, we can use the **`this`** keyword for clarity.
 
 ╰┈➤ a reference to the current object.
 
-**`this.`** shows declared members of the current class also it shows some other members that comes through inheritance.&#x20;
+**`this.`** &#x20;
 
-* Because, every class we declare in Java, automatically inherits some members from **`Object`** class.
+* shows declared members of the current class&#x20;
+* also it shows some other members that comes through inheritance
+
+{% hint style="success" %}
+Every class we declare in Java, automatically inherits some members from **`Object`** class.
+{% endhint %}
 
 <div align="left"><figure><img src="../.gitbook/assets/java-this-keyword.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-## Fields
+## Fields / Attributes
+
+> **Fields / Attributes:**&#x20;
+>
+> **— Variables declared directly in a class at class level —**&#x20;
+
+{% hint style="info" %}
+* **`Variables`** is a generic term that refers to **named storage location in memory** that holds a value.
+* And variables can be declared inside methods, constructor, blocks or classes.
+{% endhint %}
 
 ❗In Java we should **not** declare fields as **public**.
 
@@ -59,9 +75,9 @@ In a situation where a name of a (method) parameter is same as the name od (clas
 
 **`Instantiating Class`** -> creating an instance of a class with `new` operator
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/bbd8de7cf159f48344a78431d47a41f78787d130/oop/src/com/shadhini/java/tryouts/oop/classes_n_objects/Main.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/classes_n_objects/ClassesNObjects.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/classes_n_objects/TextBox.java" %}
 
 
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/bbd8de7cf159f48344a78431d47a41f78787d130/oop/src/com/shadhini/java/tryouts/oop/classes_n_objects/TextBox.java" %}
 

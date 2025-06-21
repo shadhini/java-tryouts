@@ -4,6 +4,10 @@ icon: capsules
 
 # Encapsulation
 
+## Encapsulation
+
+> **Encapsulation**:
+>
 > Bundle the&#x20;
 >
 > 1. **`data`** and
@@ -23,29 +27,25 @@ Instead of passing values around we should encapsulate these values along with t
 
 
 
-### Benefits:&#x20;
-
-* If we need the same functionality of a class/ methods of that class in another project, we can simply copy the class or put it in a reusable library \[most recommended] .
-
-
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/d5f69f2215554107d87e5e0666da22ca2fc3630a/oop/src/com/shadhini/java/tryouts/oop/encapsulation/Main.java" %}
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/a5bce2c44dac9094e79126048fc91fcaa2427a71/oop/src/com/shadhini/java/tryouts/oop/encapsulation/Employee.java" %}
-
-
-
-## Getters and Settters
+## Getters and Setters
 
 {% content-ref url="getters-and-setters.md" %}
 [getters-and-setters.md](getters-and-setters.md)
 {% endcontent-ref %}
+
+
+
+## Benefits
+
+* If we need the same functionality of a class/ methods of that class in another project, we can simply copy the class or put it in a reusable library _`[most recommended]`_ .
+
+
+
+## Example
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/encapsulation/Employee.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/encapsulation/Encapsulation.java" %}
 
 
 

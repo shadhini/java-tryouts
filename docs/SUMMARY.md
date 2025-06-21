@@ -62,16 +62,9 @@
 
 ## OOP
 
-* [Programming Paradigms](oop/programming-paradigms/README.md)
-  * [Object Oriented vs Function](oop/programming-paradigms/object-oriented-vs-function.md)
-  * [Procedural Programming](oop/programming-paradigms/procedural-programming.md)
-  * [Imperative Programming](oop/programming-paradigms/imperative-programming.md)
-  * [Declarative Programming](oop/programming-paradigms/declarative-programming.md)
-  * [Imperative Vs Functional Programming](oop/programming-paradigms/imperative-vs-functional-programming.md)
-* [OOP: Object Oriented Programming](oop/oop-object-oriented-programming/README.md)
-  * [Benefits of Object Oriented Programming](oop/oop-object-oriented-programming/benefits-of-object-oriented-programming.md)
+* [OOP: Object Oriented Programming](oop/oop-object-oriented-programming.md)
 * [Classes & Objects](oop/classes-and-objects.md)
-* [Memory Allocation](oop/memory-allocation.md)
+* [Java Memory Management](oop/java-memory-management.md)
 * [Encapsulation](oop/encapsulation/README.md)
   * [Getters and Setters](oop/encapsulation/getters-and-setters.md)
 * [Abstraction](oop/abstraction.md)
@@ -162,7 +155,18 @@
 ## BEST PRACTICE
 
 * [Naming Convention](best-practice/naming-convention.md)
-* [Coding](best-practice/coding.md)
+* [Coding](best-practice/coding/README.md)
+  * [Classes](best-practice/coding/classes.md)
+  * [Methods](best-practice/coding/methods.md)
+  * [Interfaces](best-practice/coding/interfaces.md)
+  * [Variables](best-practice/coding/variables.md)
+  * [Data Validation](best-practice/coding/data-validation.md)
+  * [Numbers](best-practice/coding/numbers.md)
+  * [If Statements](best-practice/coding/if-statements.md)
+  * [Loops](best-practice/coding/loops.md)
+  * [Exception Handling](best-practice/coding/exception-handling.md)
+  * [OS Resources](best-practice/coding/os-resources.md)
+  * [Functional Interfaces](best-practice/coding/functional-interfaces.md)
 
 ## IntelliJIDEA IDE SUPPORT
 

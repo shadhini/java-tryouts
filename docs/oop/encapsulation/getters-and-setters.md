@@ -19,7 +19,7 @@ We need to encapsulate these data validation logics also inside the class.&#x20;
 
 Therefore, we can't make these fields directly accessible to the user directly.
 
-* Instead we need to male data members inaccessible from outside the class and declare a method with data validation to set values of data members.
+* Instead we need to make data members inaccessible from outside the class and declare a method with data validation to set values of data members.
 * This method should be accessible/ callable from outside.
 
 
@@ -30,4 +30,9 @@ Therefore, we can't make these fields directly accessible to the user directly.
 
 
 
+{% hint style="warning" %}
 ℹ️ In complex applications, we are not going to declare getters and setters for every field. One method declared might change few fields.
+{% endhint %}
+
+
+

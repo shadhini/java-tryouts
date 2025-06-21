@@ -3,12 +3,14 @@ description: What happens when we create new objects in Java.
 icon: sd-card
 ---
 
-# Memory Allocation
+# Java Memory Management
 
-> Stack is used for storing primitive types and variables that store references to objects in the heap.&#x20;
+## Java Memory Management
+
+> **`Stack`** is used for storing primitive types and variables that store references to objects in the `heap`.&#x20;
 >
 > * Variables stored in the **`stack`** are immediately cleared when they go **`out of scope`** (eg when a method finishes execution).&#x20;
-> * Objects stored in the **`heap`** get removed later on when they’re no longer references.&#x20;
+> * Objects stored in the **`heap`** get removed later on when there are no longer references.&#x20;
 >   * This is done by Java’s garbage collector.
 
 Java manages 2 different areas of memory.
@@ -107,7 +109,7 @@ Here,&#x20;
 
 ## Example
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/584d026dab14e6d489ce33dde7f9e2e7ec3b9ae7/oop/src/com/shadhini/java/tryouts/oop/memory_allocation/MemoryAllocation.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/memory_management/MemoryManagement.java" %}
 
 
 

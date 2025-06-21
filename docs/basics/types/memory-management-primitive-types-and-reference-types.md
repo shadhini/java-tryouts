@@ -90,8 +90,8 @@ This means, if this `Point` object is updated through either of these variables,
 
 ## More on Memory Allocation...
 
-{% content-ref url="../../oop/memory-allocation.md" %}
-[memory-allocation.md](../../oop/memory-allocation.md)
+{% content-ref url="../../oop/java-memory-management.md" %}
+[java-memory-management.md](../../oop/java-memory-management.md)
 {% endcontent-ref %}
 
 
