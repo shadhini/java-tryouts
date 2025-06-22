@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.constructors;
+package com.shadhini.tryouts.java.oop.constructors;
 
 /**
  * Employee class
@@ -11,7 +11,7 @@ public class Employee {
     public Employee(int baseSalary, int hourlyRate) {
 //        this.hourlyRate = hourlyRate;
 //        this.baseSalary = baseSalary;
-        // Above approach is not used bcz with them, still out data validations are missing,
+        // Above approach is not used bcz with them, still data validations are missing,
         // this could lead to invalid initial state of the object
         setBaseSalary(baseSalary);
         setHourlyRate(hourlyRate);

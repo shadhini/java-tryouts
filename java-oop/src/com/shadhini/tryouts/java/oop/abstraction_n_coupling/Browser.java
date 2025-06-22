@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.abstraction_n_coupling;
+package com.shadhini.tryouts.java.oop.abstraction_n_coupling;
 
 /**
  * Browser class

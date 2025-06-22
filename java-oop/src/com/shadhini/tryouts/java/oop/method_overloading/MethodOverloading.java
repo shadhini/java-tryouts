@@ -1,12 +1,12 @@
-package com.shadhini.java.tryouts.oop.method_overloading;
+package com.shadhini.tryouts.java.oop.method_overloading;
 
 /**
  * Demonstration of Method overloading.
  */
-public class Main {
+public class MethodOverloading {
 
     // In this scenario not using method overloading and just passing 0 as in A is better
-    public static void main(String[] args) {
+    public static void demo() {
         var employee = new Employee(50_000, 20);
         var wage = employee.calculateWage(0); // -- A
         var wage2 = employee.calculateWage();

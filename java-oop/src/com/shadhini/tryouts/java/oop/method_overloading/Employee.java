@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.constructor_overloading;
+package com.shadhini.tryouts.java.oop.method_overloading;
 
 /**
  * Employee class
@@ -8,10 +8,6 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
-    public Employee(int baseSalary) {
-        this(baseSalary, 0); // This is better as we are reusing the logic defined here
-    }
-
     public Employee(int baseSalary, int hourlyRate) {
         setBaseSalary(baseSalary);
         setHourlyRate(hourlyRate);
@@ -19,6 +15,10 @@ public class Employee {
 
     public int calculateWage(int extraHours) {
         return baseSalary + hourlyRate * extraHours;
+    }
+
+    public int calculateWage() {
+        return calculateWage(0);
     }
 
     public void setBaseSalary(int baseSalary) {

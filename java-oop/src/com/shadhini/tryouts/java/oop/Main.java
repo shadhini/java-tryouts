@@ -1,8 +1,12 @@
 package com.shadhini.tryouts.java.oop;
 
+import com.shadhini.tryouts.java.oop.abstraction_n_coupling.AbstractionNCoupling;
 import com.shadhini.tryouts.java.oop.classes_n_objects.ClassesNObjects;
+import com.shadhini.tryouts.java.oop.constructor_overloading.ConstructorOverloading;
+import com.shadhini.tryouts.java.oop.constructors.Constructors;
 import com.shadhini.tryouts.java.oop.encapsulation.Encapsulation;
 import com.shadhini.tryouts.java.oop.memory_management.MemoryManagement;
+import com.shadhini.tryouts.java.oop.method_overloading.MethodOverloading;
 
 /**
  * Main class for Java OOP tryouts.
@@ -23,6 +27,22 @@ public class Main {
         // 3. Encapsulation --------------------------------------------------------------------------------------------
         System.out.println("3. Encapsulation ------------------------------------------------------------------------");
         Encapsulation.demo();
+
+        // 4. Abstraction and Coupling ---------------------------------------------------------------------------------
+        System.out.println("4. Abstraction and Coupling -------------------------------------------------------------");
+        AbstractionNCoupling.demo();
+
+        // 5. Constructors ---------------------------------------------------------------------------------------------
+        System.out.println("5. Constructors -------------------------------------------------------------------------");
+        Constructors.demo();
+
+        // 6. Method Overloading ---------------------------------------------------------------------------------------
+        System.out.println("6. Method Overloading -------------------------------------------------------------------");
+        MethodOverloading.demo();
+
+        // 7. Constructor Overloading ----------------------------------------------------------------------------------
+        System.out.println("7. Constructor Overloading --------------------------------------------------------------");
+        ConstructorOverloading.demo();
 
     }
 

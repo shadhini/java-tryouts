@@ -1,13 +1,13 @@
-package com.shadhini.java.tryouts.oop.abstraction_n_coupling;
+package com.shadhini.tryouts.java.oop.abstraction_n_coupling;
 
 /**
  * Demonstration of coupling.
  */
-public class Main {
+public class AbstractionNCoupling {
 
     // Main class is dependent on the Browser class
     // Main class has 2 coupling points to the Browser class
-    public static void main(String[] args) {
+    public static void demo() {
         var browser = new Browser(); // First coupling point
         browser.navigate("http://www.google.com");
 
