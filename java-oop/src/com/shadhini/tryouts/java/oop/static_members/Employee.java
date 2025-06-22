@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.static_members;
+package com.shadhini.tryouts.java.oop.static_members;
 
 /**
  * Employee class

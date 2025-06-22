@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.inheritance;
+package com.shadhini.tryouts.java.oop.inheritance;
 
 public class TextBox2 extends UIControl {
 
@@ -12,7 +12,8 @@ public class TextBox2 extends UIControl {
 
     @Override // Annotation: With this we are telling the Java compiler that
     // we are overriding toString() method declared in the Object class.
-    // With this annotation Java Compiler will make sure that this method has the exact same signature as the inherited method.
+    // With this annotation Java Compiler will make sure that this method has the exact same signature
+    //      as the inherited method.
     public String toString() {
         return text;
     }

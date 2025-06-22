@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.inheritance;
+package com.shadhini.tryouts.java.oop.inheritance;
 
 public class UIControl {
 
