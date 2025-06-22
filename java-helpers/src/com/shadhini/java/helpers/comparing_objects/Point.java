@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.comparing_objects;
+package com.shadhini.java.helpers.comparing_objects;
 
 public class Point {
 

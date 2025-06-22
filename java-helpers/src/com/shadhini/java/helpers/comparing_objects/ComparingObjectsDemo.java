@@ -1,8 +1,11 @@
-package com.shadhini.java.tryouts.oop.comparing_objects;
+package com.shadhini.java.helpers.comparing_objects;
 
-public class Main {
+/**
+ * Demonstration of comparing objects.
+ */
+public class ComparingObjectsDemo {
 
-    public static void main(String[] args) {
+    public static void demo() {
         Point point1 = new Point(1, 2);
         Point point2 = new Point(1, 2);
 
