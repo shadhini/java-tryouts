@@ -12,6 +12,12 @@ icon: square-code
 
 
 
+## Access Modifiers
+
+✅  Only use **`public`** & **`private`** access modifiers.
+
+
+
 ## Downcasting
 
 ✅  Use **`instanceof`** to check whether the object passed in the runtime is actually an instance of the class to which it will be downcasted, to avoid `java.lang.ClassCastException` at runtime.
@@ -29,6 +35,22 @@ icon: square-code
 ## Inheritance
 
 ❗ Inheritance is good up to **`1, and 2 levels.`** Not more than 3 levels.
+
+
+
+
+
+## Method Overloading
+
+❌  Overloading a method too many times is ugly.&#x20;
+
+❗ If the gain of method overloading is tiny, then better to not go for it.
+
+╰┈➤  `Don't over use method overloading.`&#x20;
+
+✅  Overloading is necessary if you are dealing with completely different types of parameters.
+
+
 
 
 

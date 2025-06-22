@@ -4,13 +4,15 @@ icon: family
 
 # Inheritance
 
+## Inheritance
+
 > a mechanism for reusing code
 >
 > **common behaviour -> Super class**
 >
 > sub classes inherit this common behavior by extending the super class.
 >
-> Represents a **`IS-A`** relationship.
+> Represents an **`IS-A`** relationship.
 >
 > With inheritance we can achieve **`polymorphic`** behaviour.
 
@@ -54,20 +56,30 @@ We can use it to access the members (fields and methods) or call the constructor
 
 ## Example&#x20;
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/87f282efb117be75c54d8dae4798c5efe0725390/oop/src/com/shadhini/java/tryouts/oop/inheritance/Main.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/inheritance/InheritanceDemo.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/fb2a27a68469b8ae8fd2fe9fcbffd783a6897869/oop/src/com/shadhini/java/tryouts/oop/inheritance/UIControl.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/inheritance/UIControl.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/fb2a27a68469b8ae8fd2fe9fcbffd783a6897869/oop/src/com/shadhini/java/tryouts/oop/inheritance/TextBox.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/inheritance/TextBox.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/fb2a27a68469b8ae8fd2fe9fcbffd783a6897869/oop/src/com/shadhini/java/tryouts/oop/inheritance/TextBox2.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/inheritance/TextBox2.java" %}
+
+
+
+### Upcasting & Downcasting
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/inheritance/upcasting_n_downcasting/CUIControl.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/inheritance/upcasting_n_downcasting/CTextBox.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/inheritance/upcasting_n_downcasting/CastingDemo.java" %}
 
 
 
 ## More On ...
 
-{% content-ref url="object-class.md" %}
-[object-class.md](object-class.md)
+{% content-ref url="object-class/" %}
+[object-class](object-class/)
 {% endcontent-ref %}
 
 {% content-ref url="constructors.md" %}

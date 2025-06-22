@@ -4,6 +4,8 @@ icon: person-digging
 
 # Constructors
 
+## Constructors
+
 > ❗**Used to initialise instances.**
 >
 > **A special method that is called when we create/construct a new object.**
@@ -39,7 +41,7 @@ icon: person-digging
 }
 </code></pre>
 
-This default constructor is automatically added by `Java Compiler` if we haven't create any constructors.&#x20;
+This default constructor is automatically added by `Java Compiler` if we haven't created any constructors.&#x20;
 
 * Thus, there's no need to add it to the code.
 
@@ -48,8 +50,8 @@ This default constructor is automatically added by `Java Compiler` if we haven't
 ## Constructors
 
 <pre class="language-java"><code class="lang-java">public class &#x3C;CLASS_NAME> {
-    <a data-footnote-ref href="#user-content-fn-2">public &#x3C;CLASS_NAME>(&#x3C;PARAMETER_LIST>)</a> {
-    }
+<strong>    <a data-footnote-ref href="#user-content-fn-2">public &#x3C;CLASS_NAME>(&#x3C;PARAMETER_LIST>)</a> {
+</strong>    }
 }
 </code></pre>
 
@@ -61,9 +63,9 @@ This default constructor is automatically added by `Java Compiler` if we haven't
 
 ## Example
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/a017ce7db15253192612b4a35f7a070487fec4df/oop/src/com/shadhini/java/tryouts/oop/constructors/Main.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/constructors/Constructors.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/a017ce7db15253192612b4a35f7a070487fec4df/oop/src/com/shadhini/java/tryouts/oop/constructors/Employee.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/constructors/Employee.java" %}
 
 
 

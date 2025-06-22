@@ -14,6 +14,8 @@ icon: function
 
 
 
+❗ An abstract class does not need abstract methods. But if we mark a method as abstract, we should mark the class as abstract as well.
+
 ### Utility Methods
 
 ✅️  Utility methods should be declared as static methods, so that they can be called without instantiation.

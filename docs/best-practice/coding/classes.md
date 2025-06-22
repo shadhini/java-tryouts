@@ -24,6 +24,8 @@ icon: c
 
 
 
+❗ An abstract class does not need abstract methods. But if we mark a method as abstract, we should mark the class as abstract as well.
+
 ### Organization of the Class Declaration
 
 1. Fields

@@ -4,6 +4,8 @@ icon: not-equal
 
 # Comparing Objects
 
+## Comparing Objects
+
 > The **default** implementation of **`equals()`** method in `Object` class compares 2 objects based on their **reference**.&#x20;
 >
 > **`hashCode()`** method of `Object` class returns a **numeric value** that is calculated based on the **address** of the object in memory.
@@ -18,13 +20,11 @@ icon: not-equal
 
 ## Example
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/92f35a23a4eb6df0ca852e9a5768d50ca2442b1b/oop/src/com/shadhini/java/tryouts/oop/comparing_objects/Point.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-helpers/src/com/shadhini/java/helpers/comparing_objects/Point.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/92f35a23a4eb6df0ca852e9a5768d50ca2442b1b/oop/src/com/shadhini/java/tryouts/oop/comparing_objects/PointV2.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-helpers/src/com/shadhini/java/helpers/comparing_objects/PointV2.java" %}
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/92f35a23a4eb6df0ca852e9a5768d50ca2442b1b/oop/src/com/shadhini/java/tryouts/oop/comparing_objects/Main.java" %}
-
-
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-helpers/src/com/shadhini/java/helpers/comparing_objects/ComparingObjectsDemo.java" %}
 
 
 

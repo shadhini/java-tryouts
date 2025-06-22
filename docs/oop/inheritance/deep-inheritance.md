@@ -4,6 +4,8 @@ icon: list-tree
 
 # Deep Inheritance
 
+## Deep Inheritance
+
 > **don't create deep inheritance hierarchies**
 >
 > Inheritance is good up to **`1, and 2 levels.`** Not more than 3 levels.
@@ -13,6 +15,8 @@ icon: list-tree
 Classes involved in an inheritance hierarchy are **`tightly coupled`** to each other.
 
 
+
+<figure><img src="../../.gitbook/assets/java-deep-inheritance.png" alt=""><figcaption></figcaption></figure>
 
 Here, Course and User classes are tightly coupled to Entity.
 
@@ -26,6 +30,4 @@ Here, Course and User classes are tightly coupled to Entity.
 
 
 When you breakdown deep hierarchies it might introduce little `bit of duplication`. But then the classes will be **`decoupled`** and they can **`evolve independently`** without impacting each other.
-
-<figure><img src="../../.gitbook/assets/java-deep-inheritance.png" alt=""><figcaption></figcaption></figure>
 

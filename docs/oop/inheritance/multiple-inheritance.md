@@ -4,6 +4,8 @@ icon: list-tree
 
 # Multiple Inheritance
 
+## Multiple Inheritance
+
 > Multiple Inheritance -> Class inheriting from **`multiple parents`**.
 >
 > Java does **`not support`** this feature due to the complexities it brings.

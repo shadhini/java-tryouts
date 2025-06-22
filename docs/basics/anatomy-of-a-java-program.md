@@ -168,11 +168,11 @@ All classes & methods should have an `access modifier`.
 >
 > A special keyword that determines if other classes and methods in this program can access these classes and methods.
 
-Access Modifiers:
+{% content-ref url="access-modifiers.md" %}
+[access-modifiers.md](access-modifiers.md)
+{% endcontent-ref %}
 
-* **public**:
-* **private**:
-* **protected**:
+
 
 ***
 

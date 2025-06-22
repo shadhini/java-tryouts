@@ -4,7 +4,7 @@ icon: nfc-symbol
 
 # Coupling
 
-
+## Coupling
 
 > **About the level of dependency between software entities (eg classes)**
 >
@@ -72,8 +72,11 @@ The more methods a class provides, the more other classes are going to get coupl
 
 ## Example
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/342adcd12be38a038fd2f883c9690742795386a1/oop/src/com/shadhini/java/tryouts/oop/abstraction_n_coupling/Main.java" %}
-
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/342adcd12be38a038fd2f883c9690742795386a1/oop/src/com/shadhini/java/tryouts/oop/abstraction_n_coupling/Browser.java" %}
-
 <figure><img src="../.gitbook/assets/java_access_memebers_of_class.png" alt=""><figcaption></figcaption></figure>
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/abstraction_n_coupling/AbstractionNCoupling.java" %}
+
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-oop/src/com/shadhini/tryouts/java/oop/abstraction_n_coupling/Browser.java" %}
+
+
+

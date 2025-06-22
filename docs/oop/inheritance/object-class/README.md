@@ -4,6 +4,8 @@ icon: o
 
 # Object Class
 
+## Object Class
+
 > Every class we declare in Java is directly or indirectly inherited from the **`Object`** class.
 >
 > declared in **`java.lang`** package
@@ -14,11 +16,11 @@ Every class we declare in Java is directly or indirectly inherited from the **`O
 
 * That's why every class we declare has some additional methods.
 
-<div align="left"><figure><img src="../../.gitbook/assets/java_object_class_inheritance.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/java_object_class_inheritance.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Since Object class is declared in java.lang package, it's available everywhere and no need to import.
 
-<figure><img src="../../.gitbook/assets/java-inheritance.png" alt="" width="326"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/java-inheritance.png" alt="" width="326"><figcaption></figcaption></figure>
 
 Here, `TextBox` inherits from the `UIControl` and UIControl inherits from the `Object` class.
 
@@ -34,7 +36,7 @@ System.out.println(box1.toString()); // Output: com.shadhini.java.tryouts.oop.in
 System.out.println(box1.getClass()); // Output: class com.shadhini.java.tryouts.oop.inheritance.TextBox
 ```
 
-
+## Methods of Object class
 
 ```java
 var obj = new Object();
@@ -44,10 +46,10 @@ obj.getClass()
 -> Returns class object; With this we can find all the fields and methods defined in an object.
 
 ```java
-// Sample Output: class com.shadhini.java.tryouts.oop.inheritance.TextBox
+// Sample Output: class com.shadhini.tryouts.java.java_oop.inheritance.TextBox
 ```
 
-
+***
 
 ```java
 obj.equals(Object obj) 
@@ -55,7 +57,11 @@ obj.equals(Object obj)
 
 -> Used for comparing objects
 
+* by default this compares objects based on reference equality
+  * i.e this evaluates to true if both object variables refer to the same object in memory
+* but this can be overridden to compare objects based on the content
 
+***
 
 ```java
 obj.hashCode()
@@ -65,7 +71,11 @@ obj.hashCode()
 
 -> Used when comparing objects for equality based on the address; hash address.
 
+{% hint style="success" %}
+When you override `equals()`, you **must** also override `hashCode()` so that equal objects have the same hash code.
+{% endhint %}
 
+***
 
 ```java
 obj.toString()
@@ -83,7 +93,7 @@ obj.toString()
 // Sample Output: com.shadhini.java.tryouts.oop.inheritance.TextBox@75bd9247
 ```
 
-
+***
 
 ```java
 notify()
@@ -105,53 +115,17 @@ If there are 2 Point objects and both these point objects has exact coordinates 
 
 ╰┈➤ We want to compare them based on content.
 
-╰┈➤ `Then you can make use of`` `**`obj.equals()`**` ``method.`
+╰┈➤ `Then you can make use of`` `**`obj.equals()`**` ``method`&#x20;
+
+&#x20;            `& override it to compare objects of a class based on the content.`
 
 
 
 ## How we can store primitives in Object array
 
-```java
-// This is a very poor implementation of List
-public class List {
-    private Object[] items = new Object[10];
-    private int count;
+{% content-ref url="how-we-can-store-primitives-in-object-array.md" %}
+[how-we-can-store-primitives-in-object-array.md](how-we-can-store-primitives-in-object-array.md)
+{% endcontent-ref %}
 
-    public void add(Object item) {
-        items[count++] = item;
-    }
 
-    public Object get(int index) {
-        return items[index];
-    }
-}
-
-public class User {
-    // attributes and getters setters
-}
-
-public class Main {
-
-    public static void main(String[] args) {
-        var list = new List();
-        list.add(1); // -----A
-        list.add("2");
-        list.add(new User()); 
-    }
-}
-```
-
-All the reference types are inherited by the `Object` class; However @ A, we are sending a primitive (an int) to be stored at `Object` array. How can it be stored ?
-
-* When this code is compiled `Java Compiler` turns this line to something as follows.
-
-```java
-list.add(Integer.valueOf(1));
-```
-
-Here, the `Integer` class in Java is a reference type and it is derived from `Object` class. The static method `.valueOf` of `Integer` class, returns a new instance of the `Integer` class.&#x20;
-
-Similarly we have a **`wrapper class`** for every primitive type in Java .
-
--> That's why we can pass primitive value to this `list.add()` method which accepts objects of `Object` type.
 

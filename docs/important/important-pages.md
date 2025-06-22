@@ -16,6 +16,10 @@ icon: sparkles
 [primitive-types-vs-reference-types.md](../basics/types/primitive-types-vs-reference-types.md)
 {% endcontent-ref %}
 
+{% content-ref url="../oop/inheritance/object-class/how-we-can-store-primitives-in-object-array.md" %}
+[how-we-can-store-primitives-in-object-array.md](../oop/inheritance/object-class/how-we-can-store-primitives-in-object-array.md)
+{% endcontent-ref %}
+
 ***
 
 {% content-ref url="../basics/control-flow/if-statements/simplifying-if-statements.md" %}
@@ -43,6 +47,16 @@ icon: sparkles
 {% endcontent-ref %}
 
 
+
+***
+
+***
+
+
+
+{% content-ref url="../oop/comparing-objects.md" %}
+[comparing-objects.md](../oop/comparing-objects.md)
+{% endcontent-ref %}
 
 
 
