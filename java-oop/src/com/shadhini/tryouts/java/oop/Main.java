@@ -1,5 +1,6 @@
 package com.shadhini.tryouts.java.oop;
 
+import com.shadhini.tryouts.java.oop.abstract_final_classes_n_methods.AbstractFinalClassesAndMethods;
 import com.shadhini.tryouts.java.oop.abstraction_n_coupling.AbstractionNCoupling;
 import com.shadhini.tryouts.java.oop.classes_n_objects.ClassesNObjects;
 import com.shadhini.tryouts.java.oop.constructor_overloading.ConstructorOverloading;
@@ -8,6 +9,7 @@ import com.shadhini.tryouts.java.oop.encapsulation.Encapsulation;
 import com.shadhini.tryouts.java.oop.inheritance.InheritanceDemo;
 import com.shadhini.tryouts.java.oop.memory_management.MemoryManagement;
 import com.shadhini.tryouts.java.oop.method_overloading.MethodOverloading;
+import com.shadhini.tryouts.java.oop.polymorphism.Polymorphism;
 import com.shadhini.tryouts.java.oop.static_members.StaticMembers;
 
 /**
@@ -53,6 +55,14 @@ public class Main {
         // 9. Inheritance ----------------------------------------------------------------------------------------------
         System.out.println("9. Inheritance --------------------------------------------------------------------------");
         InheritanceDemo.demo();
+
+        // 10. Polymorphism --------------------------------------------------------------------------------------------
+        System.out.println("10. Polymorphism ------------------------------------------------------------------------");
+        Polymorphism.demo();
+
+        // 11. Abstract & Final Classes and Methods --------------------------------------------------------------------
+        System.out.println("11. Abstract & Final Classes and Methods ------------------------------------------------");
+        AbstractFinalClassesAndMethods.demo();
     }
 
 }

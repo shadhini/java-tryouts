@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.oop.polymorphism;
+package com.shadhini.tryouts.java.oop.polymorphism;
 
 public class CheckBox extends UIControl {
 

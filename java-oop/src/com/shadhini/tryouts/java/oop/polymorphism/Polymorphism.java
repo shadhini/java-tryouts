@@ -1,8 +1,11 @@
-package com.shadhini.java.tryouts.oop.polymorphism;
+package com.shadhini.tryouts.java.oop.polymorphism;
 
-public class Main {
+/**
+ * Demonstration of Polymorphism.
+ */
+public class Polymorphism {
 
-    public static void main(String[] args) {
+    public static void demo() {
 
         // We can have different types of ui control objects in a one array and render them
         // without having if else clauses for each control type (e.g: TextBox, CheckBox)
