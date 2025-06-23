@@ -5,8 +5,10 @@ import com.shadhini.tryouts.java.oop.abstraction_n_coupling.AbstractionNCoupling
 import com.shadhini.tryouts.java.oop.classes_n_objects.ClassesNObjects;
 import com.shadhini.tryouts.java.oop.constructor_overloading.ConstructorOverloading;
 import com.shadhini.tryouts.java.oop.constructors.Constructors;
+import com.shadhini.tryouts.java.oop.dependency_injection.DependencyInjectionDemo;
 import com.shadhini.tryouts.java.oop.encapsulation.Encapsulation;
 import com.shadhini.tryouts.java.oop.inheritance.InheritanceDemo;
+import com.shadhini.tryouts.java.oop.interfaces.InterfacesDemo;
 import com.shadhini.tryouts.java.oop.memory_management.MemoryManagement;
 import com.shadhini.tryouts.java.oop.method_overloading.MethodOverloading;
 import com.shadhini.tryouts.java.oop.polymorphism.Polymorphism;
@@ -63,6 +65,14 @@ public class Main {
         // 11. Abstract & Final Classes and Methods --------------------------------------------------------------------
         System.out.println("11. Abstract & Final Classes and Methods ------------------------------------------------");
         AbstractFinalClassesAndMethods.demo();
+
+        // 12. Interfaces ----------------------------------------------------------------------------------------------
+        System.out.println("12. Interfaces --------------------------------------------------------------------------");
+        InterfacesDemo.demo();
+
+        // 13. DI: Dependency Injection --------------------------------------------------------------------------------
+        System.out.println("13. DI: Dependency Injection ------------------------------------------------------------");
+        DependencyInjectionDemo.demo();
     }
 
 }
