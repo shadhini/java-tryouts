@@ -4,6 +4,8 @@ icon: clock
 
 # When to use Interfaces
 
+## When to use Interfaces
+
 > **When you want to `decouple` a class from it's dependencies**
 
 If you extract an interface from every single class, you’ll end up with an explosion of interfaces that don’t necessarily add any values.&#x20;

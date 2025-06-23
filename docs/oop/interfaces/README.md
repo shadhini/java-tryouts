@@ -4,6 +4,8 @@ icon: browsers
 
 # Interfaces
 
+## Interfaces
+
 > Similar to classes, but it **`only includes method declarations`** (without implementation - no code - no fields).
 >
 > ╰┈➤ **`Only defines the capabilities that a class should have.`**
@@ -76,7 +78,7 @@ If something happens to the chef; if he/she doesn't come to work, you can replac
 
 ### Programming Against Interfaces
 
-> We code our classes to work with interfaces, not concrete implementations.
+> **— We code our classes to work with interfaces, not concrete implementations. —**&#x20;
 
 Here, we don't want  class A to be directly dependent; coupled to class B. Because with this, if we change B, A might be affected.&#x20;
 
@@ -97,7 +99,7 @@ Your phone has an input port for the charger. This input defines our interface. 
 * We can use any charger that follows this input/contract. As long as size fits, you can use it to charge your phone.&#x20;
 * If one charger is slow or faulty, you can replace it with another charger.
 
-### Use of Interfaces in Applications&#x20;
+### Use of Interfaces in Applications: Example Usecases
 
 #### Searching Data
 
@@ -134,8 +136,11 @@ In Java,
 
 > Unlike classes, interface can have **`multiple parents`.**
 
-* This won't bring problems with multiple inheritance as in classes.
-  * Because if multiple parents have declared the same method with same method signature, the child class will inherit only one of them since there are no implmentations to choose between.
+*   This won't bring problems with multiple inheritance as in classes.
+
+    * Because if multiple parents have declared the same method with same method signature, the child class will inherit only one of them since there are no implementations to choose between.
+
+
 
 ### Best Practice
 
@@ -161,6 +166,10 @@ In Java,
 
 {% content-ref url="when-to-use-interfaces.md" %}
 [when-to-use-interfaces.md](when-to-use-interfaces.md)
+{% endcontent-ref %}
+
+{% content-ref url="interfaces-glossary.md" %}
+[interfaces-glossary.md](interfaces-glossary.md)
 {% endcontent-ref %}
 
 

@@ -4,6 +4,8 @@ icon: message-plus
 
 # New Features introduced to Interfaces
 
+## New Features introduced to Interfaces
+
 > **Java 8 (2014)**: Default and static methods were introduced
 >
 > **Java 9 (2017)**: Private methods were introduced
@@ -16,7 +18,7 @@ icon: message-plus
 
 ```java
 public interface TaxCalculator {
-    // // An abstract method
+    // An abstract method
     double calculateTax();
     
     // Static method [not recommended to use]
@@ -33,7 +35,13 @@ When static methods are added to an interface,  implementation details are added
 * Interfaces are **`about what's not how's`**.
 * how's don't belong to interfaces, they belong to classes.
 
-╰┈➤ If you need to add some implementation details that needs to be inherited by all children, then use **`abstract classes`**. If you want to make sure only subclasses can inherit the method, then you can declare the static method as a **`protected`** method.
+╰┈➤ If you need to add some implementation details that needs to be inherited by all children,&#x20;
+
+&#x20;          ╰┈➤ then use **`abstract classes`**.&#x20;
+
+╰┈➤ If you want to make sure only subclasses can inherit the method,&#x20;
+
+&#x20;           ╰┈➤ then you can declare the static method as a **`protected`** method.
 
 
 

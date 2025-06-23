@@ -6,6 +6,8 @@ icon: v
 
 ## Variable
 
+ℹ️ `Final variables` -> cannot change once set
+
 ### Variable Naming
 
 ❗Avoid `magic numbers` in code; Always use constants (i.e. `final variables`) to describe them.

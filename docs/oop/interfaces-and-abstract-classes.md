@@ -6,10 +6,10 @@ icon: v
 
 ## Earlier Days
 
-|                               Interfaces                              |              Abstract Classes              |
-| :-------------------------------------------------------------------: | :----------------------------------------: |
-|            <p>[Contracts]<br>No code, no implementation</p>           | \[Partially-completed/implemented Classes] |
-| Use then to build loosely-coupled, extensible, testable applications. |   Used to share code between few classes   |
+|                            Interfaces                            |              Abstract Classes              |
+| :--------------------------------------------------------------: | :----------------------------------------: |
+|         <p>[Contracts]<br>No code, no implementation</p>         | \[Partially-completed/implemented Classes] |
+| Use to build loosely-coupled, extensible, testable applications. |   Used to share code between few classes   |
 
 
 

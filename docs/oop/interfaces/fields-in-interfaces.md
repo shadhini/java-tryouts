@@ -4,6 +4,8 @@ icon: input-text
 
 # Fields in Interfaces
 
+## Fields in Interfaces
+
 > \[**`this feature is not recommended to use]`**
 >
 > Fields in interfaces are required to be **`public static final`** in all Java versions

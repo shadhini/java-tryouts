@@ -10,6 +10,12 @@ icon: bring-front
 
 ✅ An interface should focus on single capability -- separation of concerns.
 
+&#x20;   ╰┈➤ **`Interface Segregation Principle`**
+
+✅ Use **dependency injection** to make classes loose coupled.
+
+✅ Use interfaces to develop loosely-coupled, extensible, testable applications & when you want to swap implementations.
+
 ❗ Theirs no gain in introducing interfaces for classes which are data containers.
 
 * Data container classes

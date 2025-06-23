@@ -30,10 +30,6 @@ icon: sparkles
 [ternary-operator.md](../basics/control-flow/ternary-operator.md)
 {% endcontent-ref %}
 
-{% content-ref url="../basics/control-flow/switch-statements.md" %}
-[switch-statements.md](../basics/control-flow/switch-statements.md)
-{% endcontent-ref %}
-
 ***
 
 {% content-ref url="../basics/control-flow/loops-usage-guide.md" %}
@@ -44,6 +40,24 @@ icon: sparkles
 
 {% content-ref url="../basics/refactoring-repetitive-patterns.md" %}
 [refactoring-repetitive-patterns.md](../basics/refactoring-repetitive-patterns.md)
+{% endcontent-ref %}
+
+***
+
+{% content-ref url="../oop/interfaces/dependency-injection/" %}
+[dependency-injection](../oop/interfaces/dependency-injection/)
+{% endcontent-ref %}
+
+{% content-ref url="../oop/interfaces/interface-segregation-principle.md" %}
+[interface-segregation-principle.md](../oop/interfaces/interface-segregation-principle.md)
+{% endcontent-ref %}
+
+{% content-ref url="../oop/interfaces/when-to-use-interfaces.md" %}
+[when-to-use-interfaces.md](../oop/interfaces/when-to-use-interfaces.md)
+{% endcontent-ref %}
+
+{% content-ref url="../oop/interfaces-and-abstract-classes.md" %}
+[interfaces-and-abstract-classes.md](../oop/interfaces-and-abstract-classes.md)
 {% endcontent-ref %}
 
 

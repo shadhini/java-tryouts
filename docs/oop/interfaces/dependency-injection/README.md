@@ -4,6 +4,8 @@ icon: syringe
 
 # Dependency Injection
 
+## Dependency Injection
+
 > **passing or injecting dependencies of a class**
 >
 > * Our Classes should not instantiate their dependencies.
@@ -14,7 +16,7 @@ Dependency Injection says that
 * One class should not worry about creating an object of another class. It should only use it.
 * Creating an object from another class and using it are 2 different concerns and we need to separate them. ➜ **`Separation of Concerns`**
 * Thus, the responsibility of creating an object should be delegated to another class. That class should provide this class with the object it requires.
-* So, that class will pass or inject a dependency to this class. ➜ **`Dependancy Injection`**
+* So, that class will pass or inject a dependency to this class. ➜ **`Dependency Injection`**
 
 ```java
 public class TaxReport {
@@ -34,12 +36,14 @@ public class TaxReport {
 
 
 
-### Analogy&#x20;
+### Dependency Injection: Analogy&#x20;
 
 In a restaurant each person has a separate role.&#x20;
 
 * We don't want chef to come and take orders.
 * We want these concerns to be separated and everyone to focus on what they are responsible for.
+
+
 
 ## Ways of Dependency Injection
 
@@ -49,6 +53,8 @@ Even with dependency injection, there will be coupling. A class will depend on a
 * Even if a concrete implementation of the interface/contract changes the class that uses would not be affected.
 * However if we modify the contract/interface, then the classes that depend on this contract will be broken.
 * So we should be careful when creating interfaces.
+
+
 
 ✅ Interfaces should be small and lightweight so that they are less likely to change.
 
@@ -74,3 +80,4 @@ Even with dependency injection, there will be coupling. A class will depend on a
 ╰┈➤ We can use **`dependency injection framework`**
 
 &#x20;            e.g: `Spring`&#x20;
+

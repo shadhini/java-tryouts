@@ -6,7 +6,7 @@ icon: c
 
 ## Classes
 
-✅  ✨ A class should have only a single responsibility.
+✅  ✨ A class should have only a **single responsibility**.
 
 ✅️  Extract repetitive patterns and highly related statements into methods and classes.
 
@@ -24,7 +24,15 @@ icon: c
 
 
 
+✅ Use abstract classes to share implementation with only sub classes.
+
 ❗ An abstract class does not need abstract methods. But if we mark a method as abstract, we should mark the class as abstract as well.
+
+
+
+\[`Recommended`] ✅ Use an IDE  for refactoring instead of manual refactoring.
+
+ℹ️ `Static members` are used only when we need a single instance.
 
 ### Organization of the Class Declaration
 

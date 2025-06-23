@@ -4,7 +4,7 @@ icon: plant-wilt
 
 # Interface Segregation Principle
 
-
+## Interface Segregation Principle
 
 > **Segregate/ Divide big interfaces into smaller ones**
 >
