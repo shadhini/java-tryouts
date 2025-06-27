@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.exceptions;
+package com.shadhini.tryouts.java.advanced.exceptions;
 
 // More general purpose exception
 public class AccountException extends Exception {

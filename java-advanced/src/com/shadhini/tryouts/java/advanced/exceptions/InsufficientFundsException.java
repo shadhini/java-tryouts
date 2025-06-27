@@ -1,9 +1,11 @@
-package com.shadhini.java.tryouts.advanced.exceptions;
+package com.shadhini.tryouts.java.advanced.exceptions;
 
 // Checked - Exception
 // Unchecked (runtime) - RuntimeException
 
-// In this case we want this to be a checked exception, as it is a scenario we should anticipate and recover from
+// This is a Custom Checked Exception .....................
+// In this case we want this to be a checked exception,
+//      as it is a scenario we should anticipate and recover from
 public class InsufficientFundsException extends Exception {
 
     // Optional implementation
@@ -12,7 +14,4 @@ public class InsufficientFundsException extends Exception {
         super("Insufficient funds in your account.");
     }
 
-    public InsufficientFundsException(String message) {
-        super(message);
-    }
 }
