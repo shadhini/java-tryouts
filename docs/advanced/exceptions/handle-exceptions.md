@@ -243,6 +243,7 @@ public class ExceptionsDemo {
                 var writer = new FileWriter("...");
         ) {
             var value = reader.read();
+            writer.write(value)
         } catch (IOException e) {
             System.out.println("Could not read data.");
         }
@@ -277,7 +278,7 @@ public class Account {
 }
 ```
 
-### Throwing checked Exceptions
+### Throwing Checked Exceptions
 
 When we throw a checked exception from a method, caller of the method should handle it.
 
@@ -293,6 +294,18 @@ public class Account {
         // This amount has to be a positive value
         if (amount <= 0)
             throw new IOException();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        // Call a method that throw CheckedException
+        try {
+            account.deposit(1);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
 ```
@@ -324,11 +337,11 @@ But, this adds bit of noise to our code.
 
 ## Re-throwing Exceptions
 
-In real applications, when we catch these exceptions quite often we are going to log them somewhere. We are gonna store them in a file or in a database. So sometime in the future we can come back and see what errors we have in our applications.
+Exceptions are often logged to a file or database for future review and debugging.
 
-In situation where we don't print an error message but just catch the exception and do something else, we should re throw it since then, somewhere else in the application we can get it and display it as a generic error message.
+If you catch an exception without handling or displaying it, you should re-throw it so it can be managed elsewhere in the application.
 
-Desktop or mobile applications have a handler that catches all kinds of exceptions and displays a generic error message.
+Many desktop and mobile apps have a global handler that catches any unhandled exceptions and shows a generic error message to the user
 
 ```java
 public class Account {

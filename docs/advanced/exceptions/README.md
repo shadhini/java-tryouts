@@ -4,6 +4,8 @@ icon: circle-exclamation
 
 # Exceptions
 
+## Exceptions
+
 > **Exception is an object that contains information about an Error.**
 
 When an exception occurs, an instance of the particular Exception class with details about the error is thrown.
@@ -19,9 +21,13 @@ When an exception occurs, an instance of the particular Exception class with det
 
 ## How Java Runtime handles an Exception
 
-When an exception occurs in a method, that method throws an exception. Java Runtime then looks for a block of code within that method to handle the exception -> the `Exception Handler.`
+When an exception occurs in a method, that method throws an exception.&#x20;
 
-If no exception handler is found in the current method, Java Runtime moves to the previous method in the call stack and looks for exception handling there. If it's not available, it continues going back through the call stack, checking each method in reverse order of the calls.
+Java Runtime then looks for a block of code within that method to handle the exception -> the `Exception Handler.`
+
+If no exception handler is found in the current method, Java Runtime moves to the previous method in the call stack and looks for exception handling there.&#x20;
+
+If it's not available, it continues going back through the call stack, checking each method in reverse order of the calls.
 
 If no exception handler is found throughout the entire stack, Java Runtime terminates the program and displays the exception.
 
@@ -33,8 +39,8 @@ If no exception handler is found throughout the entire stack, Java Runtime termi
 
 
 
-{% content-ref url="types-of-exceptions/" %}
-[types-of-exceptions](types-of-exceptions/)
+{% content-ref url="types-of-exceptions.md" %}
+[types-of-exceptions.md](types-of-exceptions.md)
 {% endcontent-ref %}
 
 {% content-ref url="exceptions-hierarchy.md" %}

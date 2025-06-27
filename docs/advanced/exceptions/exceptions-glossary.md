@@ -6,6 +6,8 @@ icon: hexagon-exclamation
 
 ## Checked Exceptions
 
+#### java.io.IOException
+
 #### java.io.FileNotFoundException&#x20;
 
 ## Runtime Exceptions
@@ -38,3 +40,4 @@ icon: hexagon-exclamation
 #### StackOverflow
 
 #### OutOfMemory
+

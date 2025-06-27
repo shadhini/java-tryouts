@@ -4,7 +4,7 @@ icon: list-tree
 
 # Types of Exceptions
 
-
+## Types of Exceptions
 
 > 1. **`Checked Exceptions`**: checked by the Java compiler @ compile time, developer should anticipate and handle explicitly&#x20;
 > 2. **`Unchecked / Runtime Exceptions`**: occurs due to programming errors, not detected by Java Compiler at compile time, developer should prevent these by testing and following best practices
@@ -24,7 +24,7 @@ Instead of letting the Java Runtime terminate our program, it's better to displa
 
 ╰┈➤ That's why they are called **`Checked`** Exceptions. Because they get checked at compile time.
 
-<figure><img src="../../../.gitbook/assets/java-ad-exception-2-checked-exceptions.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/java-ad-exception-2-checked-exceptions.png" alt=""><figcaption></figcaption></figure>
 
 
 

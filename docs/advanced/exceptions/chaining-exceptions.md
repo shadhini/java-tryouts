@@ -4,6 +4,8 @@ icon: link-horizontal
 
 # Chaining Exceptions
 
+## Chaining Exceptions
+
 > **Wrapping an exception inside a more general exception**
 
 
@@ -63,7 +65,7 @@ Withdrawing money could fail due to many different reasons. So at A we can throw
 
 #### `initCause()` method or Exception class
 
-The exceptio&#x6E;**`.initCause()`** method accepts **`Throwable`** and it initialises the _cause_ of this throwable to the specified value.&#x20;
+The exception **`.initCause()`** method accepts **`Throwable`** and it initialises the _cause_ of this throwable to the specified value.&#x20;
 
 #### `getCause()` method or Exception class
 
@@ -116,12 +118,12 @@ public class ExceptionsDemo {
 }
 
 /* Output:
-com.shadhini.java.tryouts.advanced.exceptions.InsufficientFundsException: Insufficient funds in your account.
-com.shadhini.java.tryouts.advanced.exceptions.AccountException: com.shadhini.java.tryouts.advanced.exceptions.InsufficientFundsException: Insufficient funds in your account.
-	at com.shadhini.java.tryouts.advanced.exceptions.Account.withdraw(Account.java:34)
-	at com.shadhini.java.tryouts.advanced.exceptions.ExceptionsDemo.show(ExceptionsDemo.java:102)
-	at com.shadhini.java.tryouts.advanced.Main.main(Main.java:11)
-Caused by: com.shadhini.java.tryouts.advanced.exceptions.InsufficientFundsException: Insufficient funds in your account.
+com.shadhini.tryouts.java.advanced.exceptions.InsufficientFundsException: Insufficient funds in your account.
+com.shadhini.tryouts.java.advanced.exceptions.AccountException: com.shadhini.tryouts.java.advanced.exceptions.InsufficientFundsException: Insufficient funds in your account.
+	at com.shadhini.tryouts.java.advanced.exceptions.Account.withdraw(Account.java:34)
+	at com.shadhini.tryouts.java.advanced.exceptions.ExceptionsDemo.show(ExceptionsDemo.java:102)
+	at com.shadhini.tryouts.java.advanced.Main.main(Main.java:11)
+Caused by: com.shadhini.tryouts.java.advanced.exceptions.InsufficientFundsException: Insufficient funds in your account.
 	... 3 more
 */
 ```

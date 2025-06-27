@@ -104,12 +104,12 @@
 ## Advanced
 
 * [Exceptions](advanced/exceptions/README.md)
-  * [Types of Exceptions](advanced/exceptions/types-of-exceptions/README.md)
-    * [Exceptions Glossary](advanced/exceptions/types-of-exceptions/exceptions-glossary.md)
+  * [Types of Exceptions](advanced/exceptions/types-of-exceptions.md)
   * [Exceptions Hierarchy](advanced/exceptions/exceptions-hierarchy.md)
   * [Handle Exceptions](advanced/exceptions/handle-exceptions.md)
   * [Custom Exceptions](advanced/exceptions/custom-exceptions.md)
   * [Chaining Exceptions](advanced/exceptions/chaining-exceptions.md)
+  * [Exceptions Glossary](advanced/exceptions/exceptions-glossary.md)
 * [Generics](advanced/generics/README.md)
   * [Need for Generics](advanced/generics/need-for-generics.md)
   * [Generic Classes](advanced/generics/generic-classes.md)
@@ -150,7 +150,6 @@
     * [The UnaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-unaryoperator-interface.md)
 * [Streams](advanced/streams/README.md)
   * [Creating Streams](advanced/streams/creating-streams.md)
-* [Mapping Elements](advanced/mapping-elements.md)
 * [Lazy Evaluation](advanced/lazy-evaluation.md)
 
 ## BEST PRACTICE
