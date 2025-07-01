@@ -4,7 +4,7 @@ icon: function
 
 # Generic Methods
 
-> Generic methods can be declared in both generic and non-generic classes
+> **Generic methods can be declared in both generic and non-generic classes**
 
 ## Generic methods in generic class
 

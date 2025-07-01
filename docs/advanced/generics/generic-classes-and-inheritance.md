@@ -5,7 +5,7 @@ icon: family-pants
 # Generic classes & Inheritance
 
 ```java
-public class GenericList<T extends Comparable & Cloneable> {
+public class GenericList<T> {
     private T[] items =  (T[]) new Object[10];
     private int count;
 
@@ -35,7 +35,7 @@ public class Utils {
 
 <figure><img src="../../.gitbook/assets/java-ad-generics-11-inheritance-2.png" alt=""><figcaption></figcaption></figure>
 
-Here, we get this compile error because `GenericList` of users is not a subtype of generic list of instructors.
+Here, we get this compile error because `GenericList` of `Instructor` is not a subtype of generic list of `User`.
 
 `This GenericList internally stores a list of`` `**`objects`**` ``no matter what we pass here as the type parameter`. So we have a single generic list of objects. And this class (i.e. `Object` class) is not a subtype of itself.
 

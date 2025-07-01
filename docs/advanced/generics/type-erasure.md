@@ -5,9 +5,14 @@ icon: delete-left
 
 # Type Erasure
 
+## Type Erasure: How generic classes work under the hood
+
 > **`Type Erasure`** -> **Java compiler erases type parameters and replaces them with a class or interface depending on the constraints.**
 >
-> If there are no constraints, all these T's are replaced with the Object class.
+> * If there are no constraints, all these T's are replaced with the Object class by Java Compiler.
+> * Otherwise, Java compiler will replace all the T's based on the constraint we have set.&#x20;
+>
+> **Java Compiler will ensure Compile Time Type Safety.**
 
 ## Internal Implementation of Generics without extends
 
@@ -34,8 +39,8 @@ public class GenericList<T> {
 
 <pre><code>...
 // signature &#x3C;T:Ljava/lang/Object;>Ljava/lang/Object;
-// declaration: com/shadhini/java/tryouts/advanced/generics/GenericList&#x3C;T>
-public class com/shadhini/java/tryouts/advanced/generics/GenericList {
+// declaration: com/shadhini/tryouts/java/advanced/generics/GenericList&#x3C;T>
+public class com/shadhini/tryouts/java/advanced/generics/GenericList {
 
   // compiled from: GenericList.java
   
@@ -80,8 +85,8 @@ public class GenericList<T extends Number> {
 
 <pre><code>...
 // signature &#x3C;T:Ljava/lang/Number;>Ljava/lang/Object;
-// declaration: com/shadhini/java/tryouts/advanced/generics/GenericList&#x3C;T extends java.lang.Number>
-public class com/shadhini/java/tryouts/advanced/generics/GenericList {
+// declaration: com/shadhini/tryouts/java/advanced/generics/GenericList&#x3C;T extends java.lang.Number>
+public class com/shadhini/tryouts/java/advanced/generics/GenericList {
 
   // compiled from: GenericList.java
   
@@ -125,8 +130,8 @@ public class GenericList<T extends Comparable & Cloneable> {
 
 <pre><code>...
 // signature &#x3C;T::Ljava/lang/Comparable;:Ljava/lang/Cloneable;>Ljava/lang/Object;
-// declaration: com/shadhini/java/tryouts/advanced/generics/GenericList&#x3C;T extends java.lang.Comparable, java.lang.Cloneable>
-public class com/shadhini/java/tryouts/advanced/generics/GenericList {
+// declaration: com/shadhini/tryouts/java/advanced/generics/GenericList&#x3C;T extends java.lang.Comparable, java.lang.Cloneable>
+public class com/shadhini/tryouts/java/advanced/generics/GenericList {
 
   // compiled from: GenericList.java
 

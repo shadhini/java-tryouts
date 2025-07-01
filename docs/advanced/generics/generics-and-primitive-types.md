@@ -4,6 +4,8 @@ icon: square-1
 
 # Generics and Primitive Types
 
+## Generics and Primitive Types
+
 > **When creating an instance of a generic type, we can only pass a reference type as generic type argument**.
 
 <figure><img src="../../.gitbook/assets/java-ad-generics-4.png" alt=""><figcaption></figcaption></figure>
@@ -29,9 +31,13 @@ So here Java Compiler is creating an instance of Integer class to wrap this prim
 
 ╰┈➤ This process is called **`Boxing`**
 
+╰┈➤ <kbd>Automatically converting a primitive value to its wrapper object.</kbd>
+
 Here, @ B, Java compiler is gonna extract the value that is stored in that Integer object.
 
 ╰┈➤ This process is called **`Unboxing`**
+
+╰┈➤ <kbd>Automatically converting a wrapper object back to its primitive value.</kbd>
 
 
 

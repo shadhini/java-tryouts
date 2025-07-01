@@ -85,3 +85,15 @@ int value = (int) list.get(0);
 
 > **It would be good if we can catch these issues at compile time -> That's what generics are for.**
 
+
+
+## Why need Generics ?
+
+When dealing with operations common to many types of objects, but not possible between 2 different types, we need to have means to catch issues at compile time rather than running into unexpected issues at runtime.
+
+> **Ensure code that works with different types is&#x20;**<kbd>**type-safe**</kbd>**.**
+>
+> **Generics help catch errors at compile time by preventing operations between incompatible types, reducing unexpected issues at runtime.**
+
+
+

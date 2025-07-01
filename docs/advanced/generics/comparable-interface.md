@@ -1,8 +1,11 @@
 ---
+description: java.lang.Comparable<T>
 icon: not-equal
 ---
 
 # Comparable Interface
+
+## Comparable Interface
 
 A generic interface used to compare 2 objects.
 
@@ -10,13 +13,13 @@ A generic interface used to compare 2 objects.
 
 <figure><img src="../../.gitbook/assets/java-ad-generics-8-comparable-interface-2.png" alt=""><figcaption></figcaption></figure>
 
-## Benefit
+### Benefit
 
 Lot of sorting algorithms are based on comparing objects. With these comparisons we can determine which object should come first.
 
 
 
-## Usage Example
+### Usage Example
 
 To be able to compare 2 `User` objects, we should implement this method in our User class.
 

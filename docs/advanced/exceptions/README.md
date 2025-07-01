@@ -59,3 +59,7 @@ If no exception handler is found throughout the entire stack, Java Runtime termi
 [chaining-exceptions.md](chaining-exceptions.md)
 {% endcontent-ref %}
 
+{% content-ref url="exceptions-glossary.md" %}
+[exceptions-glossary.md](exceptions-glossary.md)
+{% endcontent-ref %}
+

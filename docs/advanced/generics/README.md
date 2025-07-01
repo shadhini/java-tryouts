@@ -4,6 +4,8 @@ icon: code-simple
 
 # Generics
 
+## Generics
+
 > **With generics we can create general purpose classes and methods that can work with different types of objects.**
 
 Many of the collection classes are implemented using generics.

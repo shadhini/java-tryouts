@@ -1,4 +1,5 @@
 ---
+description: Methods with multiple type parameters
 icon: people
 ---
 

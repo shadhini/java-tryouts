@@ -1,8 +1,11 @@
 ---
+description: Contraints on Type Parameter
 icon: triangle
 ---
 
 # Constraints
+
+## Constraints on Type Parameter
 
 > we can add **`constraints/restrictions`** to type parameter by&#x20;
 >
