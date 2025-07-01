@@ -1,5 +1,6 @@
-package com.shadhini.java.tryouts.advanced.generics;
+package com.shadhini.tryouts.java.advanced.generics;
 
+// Generic class with multiple type parameters
 public class KeyValuePair<K,V> {
 
     private K key;

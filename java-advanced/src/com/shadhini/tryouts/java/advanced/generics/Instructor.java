@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.generics;
+package com.shadhini.tryouts.java.advanced.generics;
 
 public class Instructor extends User {
     public Instructor(int points) {

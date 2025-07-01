@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.generics.poor_implementation;
+package com.shadhini.tryouts.java.advanced.generics.poor_implementation;
 
 public class List {
     private Object[] items = new Object[10];

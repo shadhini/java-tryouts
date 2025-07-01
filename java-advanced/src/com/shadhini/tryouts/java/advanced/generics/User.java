@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.generics;
+package com.shadhini.tryouts.java.advanced.generics;
 
 public class User implements Comparable<User>, Cloneable {
 
@@ -18,7 +18,7 @@ public class User implements Comparable<User>, Cloneable {
 
     @Override
     public String toString() {
-        return "Points = " + points;
+        return super.toString() + " ----- Points = " + points;
     }
 }
 
