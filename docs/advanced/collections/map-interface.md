@@ -5,11 +5,13 @@ icon: map-location
 
 # Map Interface
 
+## Map Interface
+
 > **Maps a key to a value**
 >
 > \-- search -> O(1) time complexity
 >
-> \-- doens't gurantee an order of objects
+> \-- doesn't guarantee an order of objects
 
 Part of the Collections framework, but not part of the `java.util.Collection` hierarchy.&#x20;
 
@@ -32,11 +34,11 @@ Rather than iterating over a loop to find a specific object, with `HashMap` we c
 
 
 
-Since `Map` intereface is not an `Iterable`, you cannot use it in a **for each** loop; i.e. cannot iterate over Map object.
+Since `Map` interface is not an `Iterable`, you cannot use it in a **for each** loop; i.e. cannot iterate over Map object.
 
 ╰┈➤  However&#x20;
 
-1. you can retreive **`key set`** as an `Iterable` set and hence can go through the map by iterating over **`keys`** OR
+1. you can retrieve **`key set`** as an `Iterable` set and hence can go through the map by iterating over **`keys`** OR
 2. you can retrieve **`entry set`** as an `Iterable` set and iterate over **`entries`**.
 3. you can retrieve **`values`** as a **`Collection`** and iterate over the objects.
 

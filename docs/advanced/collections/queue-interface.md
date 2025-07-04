@@ -23,7 +23,7 @@ Mostly used implementations of `Queue` interface are&#x20;
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/376b3b08d7b0f879c77fb51fafd32874492d289d/advanced/src/com/shadhini/java/tryouts/advanced/collections/QueueDemo.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-advanced/src/com/shadhini/tryouts/java/advanced/collections/QueueDemo.java" %}
 
 
 

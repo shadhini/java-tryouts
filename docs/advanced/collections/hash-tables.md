@@ -26,10 +26,12 @@ In the worst case, if the customer we are looking for is at the end of the list,
   * Cost -- O(1 000 000)
 * The cost of this algorithm increases **`linearly`**. in direct proportion with the size of the input.
 
+
+
 This is where **`Hash Tables`** comes to rescue.
 
 * The way hash tables store data is different from how List/ArrayList stores data.
-* Because of that, with hash table we can quickly look for an object irrespectiveof how many items we have stored in the hash table.
+* Because of that, with hash table we can quickly look for an object irrespective of how many items we have stored in the hash table.
 * Whether we have stored 100 customers or 1,000,000 customers, we can find the customer we are looking for with just **`1 computation`**.
 * i.e. It has **`O(1)`** `time complexity`.
   * There is not comparison involve when we look up for item in hash table. It's a small computation step.

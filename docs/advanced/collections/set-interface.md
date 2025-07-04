@@ -24,9 +24,7 @@ Most commonly used implementations of the Set interface
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/bd1c59a71b9caf67976d334a29d907b95a4cb04d/advanced/src/com/shadhini/java/tryouts/advanced/collections/SetDemo.java" %}
-
-
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-advanced/src/com/shadhini/tryouts/java/advanced/collections/SetDemo.java" %}
 
 
 

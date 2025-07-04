@@ -29,7 +29,7 @@ Every collection is iterable. i.e. we can use **for each** loop to iterate over 
 
 
 
-{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/0b2bf9689b27275b0bd78780cf6292eca2d708d4/advanced/src/com/shadhini/java/tryouts/advanced/collections/CollectionDemo.java" %}
+{% @github-files/github-code-block url="https://github.com/shadhini/java-tryouts/blob/main/java-advanced/src/com/shadhini/tryouts/java/advanced/collections/CollectionDemo.java" %}
 
 
 
