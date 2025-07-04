@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.collections;
+package com.shadhini.tryouts.java.advanced.collections;
 
 import java.util.ArrayDeque;
 import java.util.Collections;
@@ -12,6 +12,7 @@ public class QueueDemo {
         System.out.println(queue); // Output: [C, A, B] // C at the front of the queue
 
         // Add an item to the end of the queue -------------------------------------------------------------------------
+        System.out.println("Add an item to the end of the queue -----------------------------------------------------");
         queue.offer("D"); // In an ArrayDeque there's no difference between queue.add() and queue.offer()
         // In a different kind of Queue, it depends on the implementation
         // In some cases, Queue might have a specific size. In those cases, if the Queue gets full,
@@ -21,6 +22,7 @@ public class QueueDemo {
         System.out.println(queue); // Output: [C, A, B, D, E]
 
         // Retrieve an item from the front of the queue ----------------------------------------------------------------
+        System.out.println("Retrieve an item from the front of the queue --------------------------------------------");
         System.out.println(queue.peek()); // Output: C
         // queue.peek() returns `null` if queue is empty
         System.out.println(queue.element()); // Output: C
@@ -28,6 +30,7 @@ public class QueueDemo {
         System.out.println(queue); // Output: [C, A, B, D, E]
 
         // Remove an item from the front of the queue ------------------------------------------------------------------
+        System.out.println("Remove an item from the front of the queue ----------------------------------------------");
         System.out.println(queue.remove()); // Output: C
         // queue.remove() throws an exception if queue is empty
         System.out.println(queue); // Output: [A, B, D, E]

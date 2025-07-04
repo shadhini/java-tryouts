@@ -26,48 +26,6 @@ public class Main {
 
 
         // =============================================================================================================
-        // Collections -------------------------------------------------------------------------------------------------
-
-        // Collections: Iterables --------------------------------------------------------------------------------------
-        /*
-        var list = new GenericList<String>();
-        list.add("A");
-        list.add("B");
-        /*
-        var iterator = list.iterator();
-
-        while (iterator.hasNext()) {
-            var current = iterator.next();
-            System.out.println(current);
-        }
-
-         */
-
-        /*
-        for (var item: list)
-            System.out.println(item);
-
-         */
-
-        // Collections: Collection Interface ---------------------------------------------------------------------------
-        // CollectionDemo.show();
-
-        // Collections: List Interface ---------------------------------------------------------------------------------
-        // ListDemo.show();
-
-        // Collections: Comparable Interface & Sorting -----------------------------------------------------------------
-        // SortingDemo.show();
-
-        // Collections: Queue Interface --------------------------------------------------------------------------------
-        // QueueDemo.show();
-
-        // Collections: Set Interface ----------------------------------------------------------------------------------
-        // SetDemo.show();
-
-        // Collections: Map Interface & Hash Tables --------------------------------------------------------------------
-        // MapDemo.show();
-
-        // =============================================================================================================
         // Lambda Expressions and Functional Interfaces ----------------------------------------------------------------
         // LambdasDemo.show();
 

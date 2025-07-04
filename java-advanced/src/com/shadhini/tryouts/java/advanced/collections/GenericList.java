@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.collections;
+package com.shadhini.tryouts.java.advanced.collections;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.collections;
+package com.shadhini.tryouts.java.advanced.collections;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -9,12 +9,14 @@ public class CollectionDemo {
     public static void show() {
         Collection<String> collection = new ArrayList<>();
 
-        // Add elements to the class -----------------------------------------------------------------------------------
+        // Adding elements to the collection ---------------------------------------------------------------------------
+        System.out.println("Adding elements to the collection -------------------------------------------------------");
         collection.add("A");
         collection.add("B");
         collection.add("C");
 
         // Iterate over collection -------------------------------------------------------------------------------------
+        System.out.println("Iterate over collection -----------------------------------------------------------------");
         for (String item : collection)
             System.out.println(item);
         /* Output:
@@ -25,28 +27,36 @@ public class CollectionDemo {
 
         System.out.println(collection); // Output: [A, B, C]
 
-        // Collections util class method to add elements ---------------------------------------------------------------
+        // Collections utility class method to add elements ------------------------------------------------------------
+        System.out.println("Collections utility class method to add elements ----------------------------------------");
         Collections.addAll(collection, "D", "E", "F");
         System.out.println(collection); // Output: [A, B, C, D, E, F]
 
+
         // Size of the collection --------------------------------------------------------------------------------------
+        System.out.println("Size of the collection ------------------------------------------------------------------");
         System.out.println(collection.size()); // Output: 6
 
         // Remove elements from the collection -------------------------------------------------------------------------
+        System.out.println("Remove elements from the collection -----------------------------------------------------");
         collection.remove("D");
         System.out.println(collection); // Output: [A, B, C, E, F]
 
         // Check whether a specific element is present in the collection -----------------------------------------------
+        System.out.println("Check whether a specific element is present in the collection ---------------------------");
         System.out.println(collection.contains("E")); // Output: true
 
         // Clear collection --------------------------------------------------------------------------------------------
+        System.out.println("Clear collection ------------------------------------------------------------------------");
         collection.clear();
         System.out.println(collection); // Output: []
 
         // Check whether the collection is empty -----------------------------------------------------------------------
+        System.out.println("Check whether the collection is empty ---------------------------------------------------");
         System.out.println(collection.isEmpty()); // Output: true
 
         // Convert collection to a regular array -----------------------------------------------------------------------
+        System.out.println("Convert collection to a regular array ---------------------------------------------------");
         Collections.addAll(collection, "A", "B", "C", "D", "E", "F");
         System.out.println(collection);
 
@@ -62,6 +72,7 @@ public class CollectionDemo {
         // If you pass a specific size, a pre-sized array will be created to hold the elements.
 
         // Compare collections for equality ----------------------------------------------------------------------------
+        System.out.println("Compare collections for equality --------------------------------------------------------");
         Collection<String> otherCollection = new ArrayList<>();
         otherCollection.addAll(collection);
 

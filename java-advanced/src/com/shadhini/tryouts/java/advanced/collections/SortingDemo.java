@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.collections;
+package com.shadhini.tryouts.java.advanced.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,11 @@ import java.util.List;
 public class SortingDemo {
 
     public static void show() {
-        // Sorting with Comparable Interface
+        // Sorting Customers
+        // =============================================================================================================
+
+        // Sorting with Comparable Interface ---------------------------------------------------------------------------
+        System.out.println("Sorting with Comparable Interface -------------------------------------------------------");
         List<Customer> customers = new ArrayList<>();
         customers.add(new Customer("Jane"));
         customers.add(new Customer("Alexander"));
@@ -16,7 +20,8 @@ public class SortingDemo {
         Collections.sort(customers);
         System.out.println(customers); // Output: [Customer [name=Alexander], Customer [name=Bob], Customer [name=Jane]]
 
-        // Sorting with Comparator Interface
+        // Sorting with Comparator Interface ---------------------------------------------------------------------------
+        System.out.println("Sorting with Comparator Interface -------------------------------------------------------");
         List<Customer> customerList = new ArrayList<>();
         customerList.add(new Customer("Elizabeth", "b.elizabeth@gmail.com"));
         customerList.add(new Customer("John", "a.john@gmail.com"));
