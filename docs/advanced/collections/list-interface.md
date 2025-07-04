@@ -5,11 +5,11 @@ icon: list
 
 # List Interface
 
+## List Interface
+
 > **Represents an ordered collection or sequence.**
 >
 > * In a list, we can access objects by their **`index`**.
-
-
 
 `List` interface extends the `Collection` interface.
 

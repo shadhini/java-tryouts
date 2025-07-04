@@ -1,17 +1,17 @@
 ---
-description: java.util package
+description: java.util.Comparator<T> interface
 icon: not-equal
 ---
 
 # Comparator Interface & Sorting
 
-Using `Comparable` interface, we can sort objects based on the value of only one field. In case, you want to compare objects based on another field, you have to modify the implemetation of overidden`compareTo`() method.&#x20;
+Using `Comparable` interface, we can sort objects based on the value of only one field. In case, you want to compare objects based on another field, you have to modify the implementation of overridden `compareTo`() method.&#x20;
 
-However with  `Comparator` interface, we can create multipbe comparators for different fields.
+However with  `Comparator` interface, we can create multiple comparators for different fields.
 
-<figure><img src="../../.gitbook/assets/java-ad-collections-6-comparator-interface-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/java-ad-collections-6-comparator-interface-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/java-ad-collections-6-comparator-interface-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/java-ad-collections-6-comparator-interface-2.png" alt=""><figcaption></figcaption></figure>
 
 Here, all the methods have default implementation except the `compare()` method.
 

@@ -1,4 +1,5 @@
 ---
+description: java.util.Collection, java.util.Collections
 icon: grid-5
 ---
 
@@ -85,12 +86,12 @@ We have bunch of interfaces and general purpose implementations in Collections f
 [list-interface.md](list-interface.md)
 {% endcontent-ref %}
 
-{% content-ref url="comparable-interface-and-sorting.md" %}
-[comparable-interface-and-sorting.md](comparable-interface-and-sorting.md)
+{% content-ref url="sorting-elements-in-a-collection/comparable-interface-and-sorting.md" %}
+[comparable-interface-and-sorting.md](sorting-elements-in-a-collection/comparable-interface-and-sorting.md)
 {% endcontent-ref %}
 
-{% content-ref url="comparator-interface-and-sorting.md" %}
-[comparator-interface-and-sorting.md](comparator-interface-and-sorting.md)
+{% content-ref url="sorting-elements-in-a-collection/comparator-interface-and-sorting.md" %}
+[comparator-interface-and-sorting.md](sorting-elements-in-a-collection/comparator-interface-and-sorting.md)
 {% endcontent-ref %}
 
 {% content-ref url="queue-interface.md" %}

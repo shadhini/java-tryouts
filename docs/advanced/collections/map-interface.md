@@ -1,5 +1,5 @@
 ---
-description: java.util package
+description: java.util.Map<K, V> Interface
 icon: map-location
 ---
 

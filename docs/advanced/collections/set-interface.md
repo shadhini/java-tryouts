@@ -1,15 +1,17 @@
 ---
-description: java.util package
+description: java.util.Set<E> Interface
 icon: brackets-curly
 ---
 
 # Set Interface
 
+## Set Interface
+
 > **Represents a collection that contains `no duplicates; a unique list of values`**
 >
 > ╰┈➤ great way for storing a list of unique values
 >
-> Also, **does not gurantee the order of items**. Only gurantees the **`uniqueness`**.
+> Also, **does not guarantee the order of items**. Only guarantees the **`uniqueness`**.
 
 Most commonly used implementations of the Set interface
 

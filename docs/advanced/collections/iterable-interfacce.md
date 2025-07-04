@@ -1,15 +1,15 @@
 ---
-description: java.lang package
+description: java.lang.Iterable<E> Interface
 icon: arrow-rotate-left
 ---
 
 # Iterable Interfacce
 
+## Iterable Interfacce
+
 > **Represents an object that is iterable;** i.e we can iterate or loop over it.
 >
 > ╰┈➤ Allows us to iterate over an object without knowing anything about it's internal implementation details
-
-
 
 `Iterable` interface is not part of the Collections framework.
 
@@ -76,12 +76,12 @@ public class GenericList<T> implements Iterable<T> {
     @Override
     public Iterator<T> iterator() {
         // Implementation ...
-        return null;
+        
     }
 }
 ```
 
-### Iterating over list with expicit `Iterator` object
+### Iterating over list with explicit `Iterator` object
 
 ```java
 public class Main {
@@ -181,7 +181,7 @@ As you can see, when we use **`for each`** loop Java Compiler will convert our c
 
 ## `Iterator` Interface
 
-interface delclared in `java.util` package.
+interface declared in `java.util` package.
 
 <figure><img src="../../.gitbook/assets/java-ad-collections-4-iterator-interface-1.png" alt=""><figcaption></figcaption></figure>
 
@@ -261,7 +261,7 @@ The `T` we define in `Iterator<T>` is the same `T` we used in `GenericList<T>`.
 
 Since we want to iterate over a `GenericList<T>`, it should be passed to the constructor of `Iterator<T>`.
 
-`list.items` is accessible in the `Iterator`` `**`private`` ``inner`**` ``class` because this class is part of the implementation of `GenericList<T>`.
+`list.items` is accessible in the `Iterator`` `**`private inner`**` ``class` because this class is part of the implementation of `GenericList<T>`.
 
 * These details are not exposed externally, so it's acceptable.
 

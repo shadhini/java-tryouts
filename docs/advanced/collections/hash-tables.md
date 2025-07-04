@@ -4,6 +4,8 @@ icon: hashtag
 
 # Hash Tables
 
+## Hash Tables
+
 > A data structure that allows to **`search`** for an object in a collection with `one computation in`` `**`O(1)`**` ``time`.
 
 The following approach to find a specific element with specific attribute is not scalable. Because the more items in the list the more time it is going to take for searching.

@@ -1,5 +1,5 @@
 ---
-description: java.lang package
+description: java.lang.Comparable<T> interface
 icon: arrow-down-1-9
 ---
 
@@ -58,5 +58,5 @@ public class SortingDemo {
 
 Here we sorted the `Customer`s based on the value of only one field. In case, you want to compare objects based on another field, you have to change the implemetation of `compareTo`() method.&#x20;
 
-However with  `Comparator` interface, we can create multipbe comparators for different fields.
+However with  `Comparator` interface, we can create multiple comparators for different fields.
 

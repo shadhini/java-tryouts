@@ -1,9 +1,11 @@
 ---
-description: java.util package
+description: java.util.Collection<E> Interface
 icon: grid-4
 ---
 
 # Collection Interface
+
+## Collection Interface
 
 > **Represents an object that acts as a container for other objects**.
 >

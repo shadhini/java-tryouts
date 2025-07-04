@@ -1,15 +1,15 @@
 ---
-description: java.util package
+description: java.util.Queue<E> Interface
 icon: layer-group
 ---
 
 # Queue Interface
 
+## Queue Interface
+
 > **Used in situations where we need to process jobs in the order we've received them.**
 >
 > e.g: how printer process jobs
-
-
 
 Extends the `Collection` interface
 
