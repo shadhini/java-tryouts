@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.lambdas;
+package com.shadhini.tryouts.java.advanced.lambdas;
 
 import java.util.List;
 import java.util.function.BinaryOperator;
@@ -22,11 +22,33 @@ public class LambdasDemo {
         System.out.println(message);
     }
 
-    public static void show() {
+
+    public static void greet(Printer printer) {
+        printer.print("Hello World!");
+    }
+
+
+    public static void printStaticMethod(String message) {
+        // The signature of this method matches the signature of method declared in the `Printer` interface
+    }
+
+    public void printInstanceMethod(String message) {
+        // The signature of this method matches the signature of method declared in the `Printer` interface
+        System.out.println(message);
+    }
+
+    public static void main(String[] args) {
+        // Concrete Implementation -------------------------------------------------------------------------------------
+        // =============================================================================================================
+
         // Concrete Implementation: Usual method for implementing an interface -----------------------------------------
+        System.out.println("Concrete Implementation: Usual method for implementing an interface ---------------------");
         greet(new ConsolePrinter());
 
+        // Anonymous Inner Classes -------------------------------------------------------------------------------------
+        // =============================================================================================================
         // Anonymous Inner Class: Implementing a functional interface with Anonymous Inner Class -----------------------
+        System.out.println("Anonymous Inner Class: Implementing a functional interface with Anonymous Inner Class ---");
         greet(new Printer() { // Anonymous Inner Class
             @Override
             public void print(String message) {
@@ -34,23 +56,33 @@ public class LambdasDemo {
             }
         });
 
-        // Lambda Expressions: Implementing a functional interface with Lambda Expression ------------------------------
-        greet((String message) -> {
-            System.out.println(message);
-        });
+        // Lambda Expressions ------------------------------------------------------------------------------------------
+        // =============================================================================================================
+        System.out.println("Lambda Expressions: ---------------------------------------------------------------------");
 
-        greet((message) -> {
-            System.out.println(message);
-        });
+        // Lambda Expressions: Notation --------------------------------------------------------------------------------
+        /*
+        // Lambda Expression with no parameters and single line of code
+        greet(() -> System.out.println(""));
+         */
 
-        greet(message -> {
-            System.out.println(message);
+        /*
+        // Lambda Expression with multiple parameters and multiple lines of code
+        greet((a, b) -> {
+            System.out.println(a);
+            System.out.println(b);
         });
+         */
 
-        // Here, we are passing a lambda expression to the method as an argument
+        // Lambda Expression with one parameter and single line of code
+        greet(message -> System.out.println(message));
+
+        // Lambda Expression: Passing a lambda expression to the method as an argument ---------------------------------
+        System.out.println("Lambda Expression: Passing a lambda expression to the method as an argument -------------");
         greet(message -> System.out.println(message));
 
         // Lambda Expression: Store lambda expression in a variable ----------------------------------------------------
+        System.out.println("Lambda Expression: Store lambda expression in a variable --------------------------------");
         // EITHER
         // set variable to a concrete implementation
         Printer printer = new ConsolePrinter();
@@ -61,31 +93,35 @@ public class LambdasDemo {
         greet(printer2);
 
         // Lambda Expression: Variable Capture -------------------------------------------------------------------------
-        System.out.println("===================Variable Capture======================================================");
+        System.out.println("Lambda Expression: Variable Capture -----------------------------------------------------");
 
         String prefix = "-";
 
         greet(message -> System.out.println(prefix + message + POSTFIX));
 
-        new LambdasDemo().show2();
+        new LambdasDemo().demoVariableCapture();
 
         // Lambda Expression: Method References ------------------------------------------------------------------------
-        System.out.println("====================Method References====================================================");
+        System.out.println("Lambda Expression: Method References ----------------------------------------------------");
         greet(System.out::println);
 
-        // Reference a static method & pass the params to it
-        // greet(LambdasDemo::print);
+        // Reference a static method that matches the method signature of the abstract method in functional interface
+        //      & pass the params to it
+        greet(LambdasDemo::printStaticMethod);
 
-        // Reference an instance method & pass the params to it
-        greet(new LambdasDemo()::print);
+        // Reference an instance method that matches the method signature of the abstract method in functional interface
+        //      & pass the params to it
+        greet(new LambdasDemo()::printInstanceMethod);
 
         var demo = new LambdasDemo();
-        greet(demo::print);
+        greet(demo::printInstanceMethod);
 
         // Reference a constructor
         greet(message -> new LambdasDemo(message));
         greet(LambdasDemo::new);
 
+        // Built-in Functional Interfaces ------------------------------------------------------------------------------
+        System.out.println("Built-in Functional Interfaces ----------------------------------------------------------");
         // Consumer Interface ------------------------------------------------------------------------------------------
         System.out.println("==============Consumer Interface=========================================================");
 
@@ -215,24 +251,10 @@ public class LambdasDemo {
 
     }
 
-    public static void greet(Printer printer) {
-        printer.print("Hello World!");
-    }
-
-    public void show2() {
+    // Demonstration of variable capture in lambda expressions with a non-static field
+    public void demoVariableCapture() {
         greet(message -> System.out.println(message + POSTFIX2));
     }
 
-    /*
-    public static void print(String message) {
-        // The signature of this method matches the signature of method declared in the `Printer` interface
-    }
-
-     */
-
-    public void print(String message) {
-        // The signature of this method matches the signature of method declared in the `Printer` interface
-        System.out.println(message);
-    }
 
 }

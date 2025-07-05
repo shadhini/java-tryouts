@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.lambdas;
+package com.shadhini.tryouts.java.advanced.lambdas;
 
 /**
  * Prints message on console/terminal.

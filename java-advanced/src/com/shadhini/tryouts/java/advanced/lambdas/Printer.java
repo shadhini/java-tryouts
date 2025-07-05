@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.advanced.lambdas;
+package com.shadhini.tryouts.java.advanced.lambdas;
 
 // A Functional Interface - has a single abstract method
 public interface Printer {
