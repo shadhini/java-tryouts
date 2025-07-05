@@ -4,6 +4,8 @@ icon: asterisk
 
 # Method References
 
+## Method References
+
 > **enables writing compact, easy to read lambda expressions**
 >
 > <**CLASS\_OR\_OBJECT\_NAME**>`::`<**METHOD\_NAME**>

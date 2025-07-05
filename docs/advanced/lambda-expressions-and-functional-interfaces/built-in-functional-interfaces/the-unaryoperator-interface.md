@@ -1,9 +1,11 @@
 ---
-description: extends the Function<T, R> interface
+description: java.util.function.UnaryOperator<T> extends the Function<T, R> interface
 icon: '1'
 ---
 
 # The UnaryOperator Interface
+
+## UnaryOperator Interface
 
 > extends the `Function<T,T>` interface; a special type of `Function`.
 >

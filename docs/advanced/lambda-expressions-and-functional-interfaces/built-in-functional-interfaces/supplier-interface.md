@@ -1,8 +1,11 @@
 ---
+description: java.util.function.Supplier<T> Interface
 icon: arrow-right-from-bracket
 ---
 
 # Supplier Interface
+
+## Supplier Interface
 
 > **Represents an operation that takes no input and returns a value**
 >
@@ -46,4 +49,6 @@ Like Consumer interface, Supplier interface also has some specialisations for wo
 ✅️ If you are working with primitive values, prefer to use these **`primitive specialisations`** of the `Supplier` interface.
 
 ╰┈➤ Because you don't pay the cost of **auto boxing** primitive value inside a reference type and then **unboxing** it later on.
+
+
 

@@ -1,9 +1,11 @@
 ---
-description: extends the BiFunction<T,​U,​R> Interface
+description: java.util.function.BinaryOperator<T> extends the BiFunction<T,​U,​R> Interface
 icon: '2'
 ---
 
 # The BinaryOperator Interface
+
+## BinaryOperator Interface
 
 > extends the `BiFunction<T,T,T>` interface; a special type of `Function`.
 >
@@ -40,6 +42,8 @@ public class LambdasDemo {
 ```
 
 ❗Here, @A, we are dealing with primitive integers. And these have to be auto boxed inside instances of the Integer class. Thus, if you are dealing with large number of primitive integers, it is more efficient to use **`IntBinaryOperator`** interface.
+
+
 
 ## Variations of `BinaryOperator<T>` Interface
 

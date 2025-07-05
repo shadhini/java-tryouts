@@ -1,14 +1,15 @@
 ---
+description: java.util.function.Function<T, R> Interface
 icon: function
 ---
 
 # Function Interface
 
+## Function Interface
+
 > **Represents a function/operation that can map a value to a different value;**&#x20;
 >
 > operation/function that takes an argument and returns a value
-
-
 
 `Function<T,R>` interface has 2 generic type parameters.
 
@@ -21,7 +22,7 @@ icon: function
 
 {% embed url="https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/function/Function.html" %}
 
-There are 4 methods in this interface and 3 of then have default implementation.&#x20;
+There are 4 methods in this interface and 3 of them have default implementation.&#x20;
 
 The only **abstract method** is the `apply()` method that takes an argument of type `T` and returns a value of type `R`.
 
@@ -71,4 +72,6 @@ We also have **primitive specialisations** and these specialisations falls into 
 {% content-ref url="composing-functions.md" %}
 [composing-functions.md](composing-functions.md)
 {% endcontent-ref %}
+
+
 

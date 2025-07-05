@@ -1,8 +1,11 @@
 ---
+description: java.util.function.Consumer<T> Interface
 icon: arrow-down-to-square
 ---
 
 # Consumer Interface
+
+## Consumer Interface
 
 > **Represents an operation that takes a single argument and doesn't return a value**
 >

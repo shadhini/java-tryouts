@@ -1,8 +1,11 @@
 ---
+description: java.util.function package
 icon: building-circle-check
 ---
 
 # Built-in Functional Interfaces
+
+## Built-in Functional Interfaces
 
 Java provides many pre defined functional interfaces that we can use to perform common tasks.
 
@@ -14,7 +17,7 @@ java.util.function package - JDK 12
 
 We have 4 types of functional interfaces in Java.
 
-## 1. Consumers
+### 1. Consumers
 
 {% content-ref url="consumer-interface/" %}
 [consumer-interface](consumer-interface/)
@@ -26,7 +29,7 @@ We have 4 types of functional interfaces in Java.
 
 
 
-## 2. Suppliers
+### 2. Suppliers
 
 {% content-ref url="supplier-interface.md" %}
 [supplier-interface.md](supplier-interface.md)
@@ -34,7 +37,7 @@ We have 4 types of functional interfaces in Java.
 
 
 
-## 3. Functions
+### 3. Functions
 
 {% content-ref url="function-interface/" %}
 [function-interface](function-interface/)
@@ -46,7 +49,7 @@ We have 4 types of functional interfaces in Java.
 
 
 
-## 4. Predicates
+### 4. Predicates
 
 {% content-ref url="predicate-interface/" %}
 [predicate-interface](predicate-interface/)
@@ -58,7 +61,7 @@ We have 4 types of functional interfaces in Java.
 
 
 
-## The BinaryOperator Interface
+### The BinaryOperator Interface
 
 {% content-ref url="the-binaryoperator-interface.md" %}
 [the-binaryoperator-interface.md](the-binaryoperator-interface.md)
@@ -66,7 +69,7 @@ We have 4 types of functional interfaces in Java.
 
 
 
-## The UnaryOperator Interface
+### The UnaryOperator Interface
 
 {% content-ref url="the-unaryoperator-interface.md" %}
 [the-unaryoperator-interface.md](the-unaryoperator-interface.md)

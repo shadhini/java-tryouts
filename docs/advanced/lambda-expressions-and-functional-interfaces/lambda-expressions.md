@@ -4,6 +4,8 @@ icon: lambda
 
 # Lambda Expressions
 
+## Lambda Expressions
+
 > way to represent functions as **`objects`**, allowing you to write concise, functional-style code.&#x20;
 >
 > a functional interface can be represented / implemented using a lambda expression.
@@ -60,7 +62,7 @@ greet((message) -> { // Lambda Expression without parameter types
 We can also remove parentheses wrapping parameters, if there's only one parameter.
 
 ```java
-greet( message -> { // Lambda Expression without parantheses
+greet( message -> { // Lambda Expression without parenthesis
     System.out.println(message);
 });
 ```
@@ -68,14 +70,14 @@ greet( message -> { // Lambda Expression without parantheses
 We use parentheses only, if there's no parameter or if there are multiple parameters.
 
 ```java
-greet(() -> { // Lambda Expression with parantheses 
+greet(() -> { // Lambda Expression with parenthesis 
 // in case the abstract method of the functional interface has no parameters
-    System.out.println(message);
+    System.out.println("Hello!");
 });
 ```
 
 ```java
-greet((a, b) -> { // Lambda Expression with parantheses 
+greet((a, b) -> { // Lambda Expression with parenthesis 
 // in case the abstract method of the functional interface has multiple parameters
     System.out.println(a+b);
 });
@@ -116,3 +118,6 @@ public class Main {
     }
 }
 ```
+
+
+

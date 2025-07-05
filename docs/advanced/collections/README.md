@@ -86,6 +86,10 @@ We have bunch of interfaces and general purpose implementations in Collections f
 [list-interface.md](list-interface.md)
 {% endcontent-ref %}
 
+{% content-ref url="sorting-elements-in-a-collection/" %}
+[sorting-elements-in-a-collection](sorting-elements-in-a-collection/)
+{% endcontent-ref %}
+
 {% content-ref url="sorting-elements-in-a-collection/comparable-interface-and-sorting.md" %}
 [comparable-interface-and-sorting.md](sorting-elements-in-a-collection/comparable-interface-and-sorting.md)
 {% endcontent-ref %}

@@ -4,6 +4,8 @@ icon: link
 
 # Chaining Consumer
 
+## Chaining Consumer
+
 `Consumer<T>` interface has a default method called `andThen()`. Using this method we can chain consumers.
 
 ╰┈➤ This means that we can run many operations in sequence.
@@ -53,3 +55,6 @@ public class LambdasDemo {
     }
 }
 ```
+
+
+

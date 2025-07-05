@@ -4,7 +4,7 @@ icon: integral
 
 # Functional Interfaces
 
-
+## Functional Interfaces
 
 > Functional Interface
 >
@@ -60,3 +60,6 @@ Sometimes we don't wanna explicitly create a class to implement an interface.&#x
 * Sometimes we may not want to reuse this class.
 
 ╰┈➤ **`Anonymous Inner Classes`** come in handy in this kind of scenarios.
+
+
+

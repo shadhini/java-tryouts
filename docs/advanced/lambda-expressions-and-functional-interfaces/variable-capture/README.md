@@ -4,6 +4,8 @@ icon: square-root-variable
 
 # Variable Capture
 
+## Variable Capture
+
 A lambda expression can access&#x20;
 
 * variables in the enclosing method.
@@ -42,11 +44,29 @@ public class Main {
 `this` keyword in lambda expression references the enclosing object&#x20;
 
 * whereas in anonymous inner classes `this` keyword reference the current instance of the anonymous inner class.
-* i.e. in above example, from the main method we can access `show()` method and `POSTFIX2` non-static field with the this keyword.
+* i.e. in above example, from the main method we can access `show()` method and `POSTFIX2` non-static field with the `this` keyword.
+
+{% hint style="success" %}
+**`this` keyword**&#x20;
+
+in **Anonymous Inner Class**:&#x20;
+
+* references the current instance of the anonymous inner class
+* cannot access the members of the enclosing class with `this` keyword
+
+in **Lambda Expression**:
+
+* references the enclosing object
+* can access the members of the enclosing class with `this` keyword
+{% endhint %}
+
+
 
 {% content-ref url="anonymous-inner-classes-vs-lambda-expressions.md" %}
 [anonymous-inner-classes-vs-lambda-expressions.md](anonymous-inner-classes-vs-lambda-expressions.md)
 {% endcontent-ref %}
+
+
 
 
 

@@ -5,6 +5,8 @@ icon: ampersand
 
 # Combining Predicates
 
+## Combining Predicates
+
 > * negate() -> NOT&#x20;
 > * and(Predicate ......) -> AND&#x20;
 > * or(Predicate .....) -> OR

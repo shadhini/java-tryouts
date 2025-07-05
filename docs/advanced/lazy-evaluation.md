@@ -4,6 +4,8 @@ icon: alarm-exclamation
 
 # Lazy Evaluation
 
+## Lazy Evaluation
+
 > Lazy Evaluation -> **Value is not generated until we explicitly ask for it**
 
 e.g:

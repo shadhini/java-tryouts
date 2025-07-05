@@ -4,6 +4,8 @@ icon: user-ninja
 
 # Anonymous Inner Classes
 
+## Anonymous Inner Classes
+
 > Sometimes we don't wanna explicitly create a class to implement an interface.&#x20;
 >
 > * Perhaps you want to implement an interface only once and use it for a single purpose and you may not want to reuse that class.
@@ -58,3 +60,8 @@ In anonymous inner classes `this` keyword reference the current instance of the 
 Java 8 introduced a better more concise way to achieve the same result
 
 ╰┈➤ That's called **`Lambda Expressions`**
+
+
+
+
+

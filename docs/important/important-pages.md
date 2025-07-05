@@ -74,3 +74,11 @@ icon: sparkles
 
 
 
+***
+
+{% content-ref url="../advanced/lazy-evaluation.md" %}
+[lazy-evaluation.md](../advanced/lazy-evaluation.md)
+{% endcontent-ref %}
+
+
+
