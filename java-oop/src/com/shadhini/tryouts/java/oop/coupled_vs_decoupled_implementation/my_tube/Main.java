@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.tools.my_tube;
+package com.shadhini.tryouts.java.oop.coupled_vs_decoupled_implementation.my_tube;
 
 public class Main {
     public static void main(String[] args) {

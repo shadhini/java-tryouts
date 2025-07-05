@@ -1,4 +1,4 @@
-package com.shadhini.java.tryouts.tools.my_tube_improved;
+package com.shadhini.tryouts.java.oop.coupled_vs_decoupled_implementation.my_tube;
 
 public class Video {
     // Basically a data container

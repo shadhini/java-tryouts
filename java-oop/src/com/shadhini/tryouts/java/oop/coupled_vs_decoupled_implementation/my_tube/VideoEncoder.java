@@ -1,7 +1,6 @@
-package com.shadhini.java.tryouts.tools.my_tube_improved;
+package com.shadhini.tryouts.java.oop.coupled_vs_decoupled_implementation.my_tube;
 
-public class DefaultVideoEncoder implements VideoEncoder {
-    @Override
+public class VideoEncoder {
     public void encode(Video video) {
         System.out.println("Encoding video...");
         System.out.println("Done!\n");
