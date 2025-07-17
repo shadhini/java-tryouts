@@ -2,6 +2,8 @@ package com.shadhini.java.tryouts.fun;
 
 import java.util.Scanner;
 
+// Trade off of repetition and readability
+// If else most specific and generic conditions
 /**
  * Fizz Buzz
  * Input: a number
