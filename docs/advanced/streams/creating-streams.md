@@ -28,13 +28,12 @@ public class CreatingStreamsDemo {
         Arrays.stream(array)
                 .forEach(System.out::print); // Output: 12345
 
-        System.out.println();
 
         // Creating Streams: From arbitrary number of objects ----------------------------------------------------------
         Stream.of(1, 2, 3, 4, 5)
                 .forEach(System.out::print); // Output: 12345
 
-        System.out.println();
+
 
     }
 }
@@ -51,7 +50,9 @@ public class CreatingStreamsDemo {
 
 ### From an arbitrary number of objects&#x20;
 
-* `java.util.stream.Stream` class has a static factory method called **`of`** and it has `var args` parameter; so we can pass as many arguments (objects) as you want.
+* `java.util.stream.Stream` interface has a static factory method called **`of`** and it has `var args` parameter; so we can pass as many arguments (objects) as you want.
+
+
 
 ## Generate infinite streams
 
@@ -119,6 +120,8 @@ public class CreatingStreamsDemo {
 }
 ```
 
+
+
 ## How we work with streams
 
 ```java
@@ -144,6 +147,12 @@ public class CreatingStreamsDemo {
 ```
 
 &#x20;
+
+
+
+
+
+
 
 
 

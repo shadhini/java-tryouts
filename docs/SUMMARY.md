@@ -151,6 +151,16 @@
     * [The UnaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-unaryoperator-interface.md)
 * [Streams](advanced/streams/README.md)
   * [Creating Streams](advanced/streams/creating-streams.md)
+  * [Mapping Elements](advanced/streams/mapping-elements.md)
+  * [Filtering Elements](advanced/streams/filtering-elements.md)
+  * [Slicing a Stream](advanced/streams/slicing-a-stream.md)
+  * [Sorting Streams](advanced/streams/sorting-streams.md)
+  * [Peeking Elements](advanced/streams/peeking-elements.md)
+  * [Reducers & Reducing a Stream](advanced/streams/reducers-and-reducing-a-stream.md)
+  * [Collectors](advanced/streams/collectors/README.md)
+    * [Grouping Elements](advanced/streams/collectors/grouping-elements.md)
+    * [Partitioning Elements](advanced/streams/collectors/partitioning-elements.md)
+  * [Primitive Type Streams](advanced/streams/primitive-type-streams.md)
 * [Lazy Evaluation](advanced/lazy-evaluation.md)
 
 ## BEST PRACTICE
