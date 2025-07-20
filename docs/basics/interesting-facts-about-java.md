@@ -13,7 +13,9 @@ icon: ellipsis-vertical
 
 * Oak
 * Green
-* Java; inspired by Java coffee
+* Java; slang term for `coffee`&#x20;
+
+
 
 
 

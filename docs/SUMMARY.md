@@ -10,6 +10,8 @@
 
 * [Java Distributions](java-distributions.md)
 * [How Java Code gets Executed](how-java-code-gets-executed.md)
+* [Java Caching](java-caching/README.md)
+  * [Caching Values by Threads](java-caching/caching-values-by-threads.md)
 
 ## BASICS
 
@@ -149,6 +151,7 @@
       * [Combining Predicates](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/predicate-interface/combining-predicates.md)
     * [The BinaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-binaryoperator-interface.md)
     * [The UnaryOperator Interface](advanced/lambda-expressions-and-functional-interfaces/built-in-functional-interfaces/the-unaryoperator-interface.md)
+* [Lazy Evaluation](advanced/lazy-evaluation.md)
 * [Streams](advanced/streams/README.md)
   * [Creating Streams](advanced/streams/creating-streams.md)
   * [Mapping Elements](advanced/streams/mapping-elements.md)
@@ -161,7 +164,22 @@
     * [Grouping Elements](advanced/streams/collectors/grouping-elements.md)
     * [Partitioning Elements](advanced/streams/collectors/partitioning-elements.md)
   * [Primitive Type Streams](advanced/streams/primitive-type-streams.md)
-* [Lazy Evaluation](advanced/lazy-evaluation.md)
+* [Concurrency & Multi-threading](advanced/concurrency-and-multi-threading/README.md)
+  * [Runnable interface, Thread class & Runtime classe](advanced/concurrency-and-multi-threading/runnable-interface-thread-class-and-runtime-classe.md)
+  * [Threads: Start, Pause, Join, Interrupt](advanced/concurrency-and-multi-threading/threads-start-pause-join-interrupt.md)
+  * [Thread Signalling](advanced/concurrency-and-multi-threading/thread-signalling.md)
+  * [Concurrency Issues](advanced/concurrency-and-multi-threading/concurrency-issues/README.md)
+    * [Race Conditions](advanced/concurrency-and-multi-threading/concurrency-issues/race-conditions.md)
+  * [Strategies for Thread Safety](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/README.md)
+    * [Confinement](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/confinement.md)
+    * [Immutability](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/immutability.md)
+    * [Synchronization](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/synchronization/README.md)
+      * [Locks](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/synchronization/locks.md)
+      * [The synchronized Keyword, Blocks & Methods](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/synchronization/the-synchronized-keyword-blocks-and-methods.md)
+    * [The volatile Keyword](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/the-volatile-keyword.md)
+    * [Atomic Objects](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/atomic-objects.md)
+    * [Partitioning](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/partitioning.md)
+  * [--](advanced/concurrency-and-multi-threading/undefined.md)
 
 ## BEST PRACTICE
 
@@ -178,6 +196,7 @@
   * [Exception Handling](best-practice/coding/exception-handling.md)
   * [OS Resources](best-practice/coding/os-resources.md)
   * [Functional Interfaces](best-practice/coding/functional-interfaces.md)
+  * [Concurrency](best-practice/coding/concurrency.md)
 
 ## IntelliJIDEA IDE SUPPORT
 
