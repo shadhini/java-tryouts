@@ -8,11 +8,13 @@ icon: square-v
 
 Another way for writing thread safe code, without the overhead of synchronization.
 
+<kbd>Lightweight and simpler alternative to synchronization.</kbd>
+
 Volatile means unstable.
 
 > **`volatile`** keyword:
 >
-> **— gurantees that the changes to a field is visible across threads —**&#x20;
+> **— guarantees that the changes to a field is visible across threads —**&#x20;
 >
 > With `volatile` keyword, we are telling the Java Virtual Machine that&#x20;
 >

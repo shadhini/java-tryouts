@@ -178,8 +178,8 @@
       * [The synchronized Keyword, Blocks & Methods](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/synchronization/the-synchronized-keyword-blocks-and-methods.md)
     * [The volatile Keyword](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/the-volatile-keyword.md)
     * [Atomic Objects](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/atomic-objects.md)
-    * [Partitioning](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/partitioning.md)
-  * [--](advanced/concurrency-and-multi-threading/undefined.md)
+    * [Partitioning](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/partitioning/README.md)
+      * [Collections & Threads](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/partitioning/collections-and-threads.md)
 
 ## BEST PRACTICE
 

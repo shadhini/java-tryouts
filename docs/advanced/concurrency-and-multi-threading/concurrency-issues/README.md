@@ -27,7 +27,7 @@ If they only want to read the shared data, then that' s perfectly fine.
 
 > **Race Conditions**:
 >
-> — multiple threads are racing or competing to modify shared data —&#x20;
+> **— multiple threads are racing or competing to modify shared data —**&#x20;
 >
 > Happens when multiple threads try to modify the same data at the same time.
 
@@ -45,9 +45,9 @@ If they only want to read the shared data, then that' s perfectly fine.
 
 > **Visibility Problem**:
 >
-> — different threads have different views of the shared data —&#x20;
+> **— different threads have different views of the shared data —**&#x20;
 >
-> Happens when one thread changes the shared data, but its changes are not visible to other threads.
+> Happens when one thread changes the shared data, but its changes are not visible to other threads due to caching.
 
 
 

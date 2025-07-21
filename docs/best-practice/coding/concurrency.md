@@ -87,3 +87,26 @@ public class DownloadStatus {
 
 ✅ It's better to **use synchronized block with a dedicate monitor object** rather that synchronized methods. As synchronized method is equivalent to a synchronized block that wraps entire method body and uses the current object as the monitor object.
 
+
+
+## Atomic Objects / Classes
+
+{% hint style="success" %}
+**Atomic Types** are great for **implementing counters.**
+
+If you have **multiple threads updating a value frequently**, it's better to use **Adder Classes**.
+{% endhint %}
+
+✅ So, if you are **dealing with counter variables**, **prefer atomic types** to synchronization, because they are faster and easier to use.
+
+✅ **Adder Classes** are faster than Atomic Types. So, if you have **multiple threads updating a value frequently**, it's better to use **Adder Classes**.
+
+
+
+## Synchronized & Concurrent Collections
+
+✅ When threads and concurrent operations increases, for better performance and scalability use **`Concurrent collections`** instead of `Synchronized Collections`.
+
+* When a thread gets access to a synchronized collection, the entire collection gets locked and other threads have to wait.
+* Concurrent collections use partitioning technique and thus, faster than synchronized collections.
+

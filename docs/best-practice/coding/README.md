@@ -7,6 +7,7 @@ icon: square-code
 * Programming is driven by the basic rule **`"Don't repeat yourself".`**
 * Programming and problem solving is **`all about trade offs`**.
 * We code our classes to work with **`interfaces`**, not concrete implementations.
+  * `Coding against interfaces`, **reduce the impact of changes** in our applications.
 * **`Don't overuse method overloading`**.&#x20;
   * Should not use it, if the gain of method overloading is tiny.
   * But it's necessary if the method parameters are of different types.

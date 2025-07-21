@@ -50,6 +50,16 @@ icon: shield-check
 [locks.md](synchronization/locks.md)
 {% endcontent-ref %}
 
+{% content-ref url="synchronization/the-synchronized-keyword-blocks-and-methods.md" %}
+[the-synchronized-keyword-blocks-and-methods.md](synchronization/the-synchronized-keyword-blocks-and-methods.md)
+{% endcontent-ref %}
+
+#### Alternative for `synchronized` keyword to solve visibility problem with less overhead
+
+{% content-ref url="the-volatile-keyword.md" %}
+[the-volatile-keyword.md](the-volatile-keyword.md)
+{% endcontent-ref %}
+
 
 
 ### **`Atomic Objects`**
@@ -67,8 +77,12 @@ icon: shield-check
 
 * Partitioning data into segments that can be accessed concurrently.&#x20;
 
-{% content-ref url="partitioning.md" %}
-[partitioning.md](partitioning.md)
+{% content-ref url="partitioning/" %}
+[partitioning](partitioning/)
+{% endcontent-ref %}
+
+{% content-ref url="partitioning/collections-and-threads.md" %}
+[collections-and-threads.md](partitioning/collections-and-threads.md)
 {% endcontent-ref %}
 
 
