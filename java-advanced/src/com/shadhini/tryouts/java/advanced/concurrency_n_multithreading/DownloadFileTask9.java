@@ -1,10 +1,14 @@
 package com.shadhini.tryouts.java.advanced.concurrency_n_multithreading;
 
-public class DownloadFileTask7 implements Runnable {
+public class DownloadFileTask9 implements Runnable {
 
-    private final DownloadStatus4 status;
+    private final DownloadStatus5 status;
 
-    public DownloadFileTask7(DownloadStatus4 status) {
+    public DownloadFileTask9() {
+        this.status = new DownloadStatus5();
+    }
+
+    public DownloadFileTask9(DownloadStatus5 status) {
         this.status = status;
     }
 
@@ -12,15 +16,16 @@ public class DownloadFileTask7 implements Runnable {
     public void run() {
         System.out.println("Downloading file in thread: " + Thread.currentThread().getName());
 
-        for (var i = 0; i < 1_000_000; i++) {
+        for (var i = 0; i < 10_000; i++) {
             if (Thread.currentThread().isInterrupted()) return; // exit the run method if the thread is interrupted
             status.incrementTotalBytes();
             System.out.println("Downloading byte " + i + " in thread: " + Thread.currentThread().getName());
         }
 
-        status.done(); // mark the download as done
-
         System.out.println("Download complete: " + Thread.currentThread().getName());
     }
 
+    public DownloadStatus5 getStatus() {
+        return status;
+    }
 }

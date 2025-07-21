@@ -1,7 +1,13 @@
 package com.shadhini.tryouts.java.advanced.concurrency_n_multithreading;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrencyAndMultiThreadingDemo {
 
@@ -75,6 +81,25 @@ public class ConcurrencyAndMultiThreadingDemo {
         System.out.println("Demo 11: Thread signalling with `wait()` and `notify()` methods -------------------------");
         demo11ThreadSignallingWithWaitAndNotify();
 
+        // Strategies for Thread Safety: Atomic Types ------------------------------------------------------------------
+        System.out.println("Demo 12: Strategies for Thread Safety: Atomic Types -------------------------------------");
+        demo12AtomicTypesToPreventRaceConditions();
+
+        // Strategies for Thread Safety: Adders ------------------------------------------------------------------------
+        System.out.println("Demo 13: Strategies for Thread Safety: Adders -------------------------------------------");
+        demo13AddersToPreventRaceConditions();
+
+        // Collections and Threads -------------------------------------------------------------------------------------
+        System.out.println("Demo 14: Collections and Threads --------------------------------------------------------");
+        demo14CollectionsNThreads();
+
+        // Strategies for Thread Safety: Syncnronied Collections -------------------------------------------------------
+        System.out.println("Demo 15: Strategies for Thread Safety: Synchronized Collections -------------------------");
+        demo15SynchronizedCollections();
+
+        // Strategies for Thread Safety: Concurrent Collections --------------------------------------------------------
+        System.out.println("Demo 16: Strategies for Thread Safety: Concurrent Collections ---------------------------");
+        demo16ConcurrentCollections();
     }
 
 
@@ -338,7 +363,7 @@ public class ConcurrencyAndMultiThreadingDemo {
 
     // Use volatile keyword to prevent visibility issues
     private static void demo10VolatileKeywordToPreventVisibilityProblem() {
-        var status = new DownloadStatus();
+        var status = new DownloadStatus4();
 
         // thread for downloading a file
         var thread1 = new Thread(new DownloadFileTask7(status));
@@ -363,10 +388,10 @@ public class ConcurrencyAndMultiThreadingDemo {
 
     // Thread signalling with wait() and notify() methods
     private static void demo11ThreadSignallingWithWaitAndNotify() {
-        var status = new DownloadStatus();
+        var status = new DownloadStatus4();
 
         // thread for downloading a file
-        var thread1 = new Thread(new DownloadFileTask(status));
+        var thread1 = new Thread(new DownloadFileTask8(status));
 
         // thread for checking the download status
         var thread2 = new Thread(() -> { // lambda expression that represents a Runnable
@@ -392,6 +417,140 @@ public class ConcurrencyAndMultiThreadingDemo {
             Download complete: Thread-0
             Download complete: Total Bytes 1000000
          */
+    }
+
+    // Use atomic types to prevent race conditions
+    private static void demo12AtomicTypesToPreventRaceConditions() {
+        // All download threads report to a single DownloadStatus5 object
+        var status = new DownloadStatus5();
+
+        List<Thread> threads = new ArrayList<>();
+
+        for (var i = 0; i < 10; i++) {
+            var thread = new Thread(new DownloadFileTask9(status));
+            thread.start();
+            threads.add(thread);
+        }
+
+        // wait for all threads to finish
+        for (var thread : threads) {
+            try {
+                thread.join(); // Wait for each thread to finish
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        System.out.println("Total bytes downloaded: " + status.getTotalBytes());
+        /* Output:
+        ......
+        Download complete: Thread-4
+        Total bytes downloaded: 100000
+         */
+    }
+
+    // Use adder classes to prevent race conditions
+    private static void demo13AddersToPreventRaceConditions() {
+        // All download threads report to a single DownloadStatus object
+        var status = new DownloadStatus();
+
+        List<Thread> threads = new ArrayList<>();
+
+        for (var i = 0; i < 10; i++) {
+            var thread = new Thread(new DownloadFileTask(status));
+            thread.start();
+            threads.add(thread);
+        }
+
+        // wait for all threads to finish
+        for (var thread : threads) {
+            try {
+                thread.join(); // Wait for each thread to finish
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        System.out.println("Total bytes downloaded: " + status.getTotalBytes());
+        /* Output:
+        ......
+        Download complete: Thread-9
+        Total bytes downloaded: 100000
+         */
+    }
+
+    // Problem with multiple threads accessing a collection
+    private static void demo14CollectionsNThreads() {
+        Collection<Integer> collection = new ArrayList<>();
+
+        var thread1 = new Thread(() -> {
+            collection.addAll(Arrays.asList(1, 2, 3));
+        });
+
+        var thread2 = new Thread(() -> {
+            collection.addAll(Arrays.asList(4, 5, 6));
+        });
+
+        thread1.start();
+        thread2.start();
+
+        try {
+            thread1.join();
+            thread2.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        System.out.println(collection);
+        /* Output:
+        [4, 5, 6]
+         */
+
+    }
+
+    // Use synchronized collections to prevent race conditions with collections
+    private static void demo15SynchronizedCollections() {
+
+        Collection<Integer> collection = Collections.synchronizedCollection(new ArrayList<>());
+
+        var thread1 = new Thread(() -> {
+            collection.addAll(Arrays.asList(1, 2, 3));
+        });
+
+        var thread2 = new Thread(() -> {
+            collection.addAll(Arrays.asList(4, 5, 6));
+        });
+
+        thread1.start();
+        thread2.start();
+
+        try {
+            thread1.join();
+            thread2.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        System.out.println(collection);
+        /* Output:
+        [1, 2, 3, 4, 5, 6]
+         */
+
+    }
+
+    // Use concurrent collections to make collections thread-safe
+    private static void demo16ConcurrentCollections() {
+        // Regular HashMap is not thread-safe
+        Map<Integer, String> map = new HashMap<>();
+        // key: Integer, value: String
+
+        map.put(1, "a");
+        System.out.println(map.get(1));
+
+        // Thread safe ConcurrentHashMap
+        Map<Integer, String> concurrentMap = new ConcurrentHashMap<>();
+        concurrentMap.put(1, "a");
+        System.out.println(concurrentMap.get(1));
     }
 
 }

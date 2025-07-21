@@ -18,12 +18,10 @@ public class DownloadFileTask implements Runnable {
             System.out.println("Downloading byte " + i + " in thread: " + Thread.currentThread().getName());
         }
 
-        status.done(); // mark the download as done
-        synchronized (status) {
-            status.notifyAll(); // notify any waiting threads that the state of the status object has changed
-        }
-
         System.out.println("Download complete: " + Thread.currentThread().getName());
     }
 
+    public DownloadStatus getStatus() {
+        return status;
+    }
 }

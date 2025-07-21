@@ -1,26 +1,17 @@
 package com.shadhini.tryouts.java.advanced.concurrency_n_multithreading;
 
+import java.util.concurrent.atomic.LongAdder;
+
 public class DownloadStatus {
-
-    private volatile boolean isDone;
-    private int totalBytes;
-    private final Object totalBytesLock = new Object(); // lock for totalBytes
-
-    public void incrementTotalBytes() {
-        synchronized (totalBytesLock) { // synchronized block
-            totalBytes++;
-        }
-    }
+    private LongAdder totalBytes = new LongAdder();
 
     public int getTotalBytes() {
-        return totalBytes;
+        return totalBytes.intValue();
+        // internally this method called sum() which returns the sum of all counter values added to this LongAdder,
+        //      and then it converts the result into an integer
     }
 
-    public boolean isDone() {
-        return isDone;
-    }
-
-    public void done() {
-        isDone = true;
+    public void incrementTotalBytes() {
+        totalBytes.increment();
     }
 }
