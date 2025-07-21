@@ -10,3 +10,16 @@ Dive into a collection of my Java experiments, presented in a concise, engaging,
 
 
 
+## Java
+
+* High level&#x20;
+* Class-based
+* Object-oriented
+* `WORA`: **"Write Once, Run Anywhere"** philosophy
+  * platform independence
+* **Garbage Collector**: Automatic application memory cleaning unlike `C`/`C++`
+* Known for
+  * robustness
+  * security
+  * simplicity
+
