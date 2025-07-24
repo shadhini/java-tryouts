@@ -93,6 +93,11 @@ public class Main {
         System.out.println("16. Control Flow: -----------------------------------------------------------------------");
         ControlFlowDemo.demo();
 
+    // 17. Floating Point Types: ---------------------------------------------------------------------------------------
+        System.out.println("17. Floating Point Types: ----------------------------------------------------------------");
+        FloatingPointTypesDemo.demo();
+
+
     }
 
 

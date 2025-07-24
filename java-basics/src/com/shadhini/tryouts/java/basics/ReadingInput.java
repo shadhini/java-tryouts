@@ -1,5 +1,6 @@
 package com.shadhini.tryouts.java.basics;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -53,6 +54,20 @@ public class ReadingInput {
          */
 
         // Close the scanner to free up resources
+        scanner.close();
+
+        // Reading floating-point numbers
+        demo2ReadingFloatingPointNumbers();
+
+    }
+
+    private static void demo2ReadingFloatingPointNumbers() {
+        // To enable dot character as a decimal separator, from different locales
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+        float f = scanner.nextFloat();
+        double d = scanner.nextDouble(); // recommended for better precision
+
         scanner.close();
 
     }
