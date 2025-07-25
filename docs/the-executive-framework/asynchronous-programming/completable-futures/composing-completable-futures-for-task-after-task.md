@@ -27,7 +27,10 @@ methods
 
 * `.thenCompose(Function<? super T, ? extends CompletionStage<U>)`:&#x20;
   * from the Function passed here we should return a new CompletableFuture that represents a new asynchronous task
-  * returns a new CompletableFuture
+  * returns a new CompletableFuture that is same as the one returned from the given Function
+  * executed using the main thread
+* `.thenComposeAsync(Function<? super T, ? extends CompletionStage<U>)`:&#x20;
+  * executed using this stage's default asynchronous execution facility
 {% endhint %}
 
 

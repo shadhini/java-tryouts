@@ -11,6 +11,8 @@ icon: ampersand
 > **`||  ->  OR`**;   true if at least one expression is true
 >
 > **`!   ->  NOT`**;   reverse the value of the boolean expression
+>
+> **`^   ->  XOR (exclusive OR)`**; true only if operands/expressions have different values&#x20;
 
 ❗**Java evaluates expressions from left to right.**
 
@@ -39,6 +41,17 @@ Here,
 * Since expression **➀** is `true`, it doesn't matter what we have afterwards.
 * Thus, Java will not evaluate the rest of the expression.
 * However if expression **➀** was `false`, then Java will continue evaluating the expressions, hoing that the next boolean expression is `true`.
+
+
+
+### Precedence of Logical Operators <a href="#the-precedence-of-logical-operators" id="the-precedence-of-logical-operators"></a>
+
+sorted in order of decreasing priorities in expressions:
+
+* `!` -> NOT
+* `^`  -> XOR
+* `&&`  -> AND&#x20;
+* `||`  -> OR
 
 
 
