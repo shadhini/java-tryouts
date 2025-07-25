@@ -8,9 +8,7 @@ icon: arrows-spin
 
 > **Asynchronous Programming:**
 >
-> — non-blocking code —&#x20;
-
-
+> **— non-blocking code —**&#x20;
 
 #### Issue with Callable Tasks&#x20;
 
@@ -49,9 +47,21 @@ In real world, quite often an **asynchronous operation involves many steps**.
   * Step 2: Transform that data into a different structure
   * Step 3: Write that data into a database
 
+
+
 ## Completable Futures
 
+{% content-ref url="completable-futures/" %}
+[completable-futures](completable-futures/)
+{% endcontent-ref %}
 
+
+
+## Implementing an Asynchronous API
+
+{% content-ref url="implementing-an-asynchronous-api.md" %}
+[implementing-an-asynchronous-api.md](implementing-an-asynchronous-api.md)
+{% endcontent-ref %}
 
 
 

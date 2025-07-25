@@ -18,6 +18,14 @@ e.g:
 sendEmail()
 ```
 
+#### Asynchronous Method Naming
+
+We should add the `Async` postfix to method name:
+
+* E.g: sendAsync(), getAsync()
+
+
+
 ## Class Names
 
 * **`PascalNamingConvention`**: first letter of every word should be uppercase
@@ -61,3 +69,6 @@ MAXIMUM_INTEREST_RATE
 
 * **`PascalNamingConvention`**: first letter of every word should be uppercase
 * use **`Exception`** postfix always&#x20;
+
+
+
