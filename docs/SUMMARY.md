@@ -40,6 +40,7 @@
 * [Casting & Type Conversion](basics/casting-and-type-conversion.md)
 * [\`Math\` Class](basics/math-class.md)
 * [Formatting Numbers](basics/formatting-numbers.md)
+* [Floating-point Types and Operations](basics/floating-point-types-and-operations.md)
 * [Reading Input](basics/reading-input.md)
 * [Control Flow](basics/control-flow/README.md)
   * [Comparison Operators](basics/control-flow/comparison-operators.md)
@@ -181,6 +182,25 @@
     * [Partitioning](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/partitioning/README.md)
       * [Collections & Threads](advanced/concurrency-and-multi-threading/strategies-for-thread-safety/partitioning/collections-and-threads.md)
 
+***
+
+* [The Executive Framework](the-executive-framework/README.md)
+  * [Thread Pools](the-executive-framework/thread-pools/README.md)
+    * [Executors](the-executive-framework/thread-pools/executors.md)
+    * [Callables & Futures](the-executive-framework/thread-pools/callables-and-futures.md)
+  * [Asynchronous Programming](the-executive-framework/asynchronous-programming/README.md)
+    * [Completable Futures](the-executive-framework/asynchronous-programming/completable-futures/README.md)
+      * [Creating a Completable Future Object](the-executive-framework/asynchronous-programming/completable-futures/creating-a-completable-future-object.md)
+      * [Running Code upon Completion](the-executive-framework/asynchronous-programming/completable-futures/running-code-upon-completion.md)
+      * [Handling Exceptions](the-executive-framework/asynchronous-programming/completable-futures/handling-exceptions.md)
+      * [Transforming a Completable Future](the-executive-framework/asynchronous-programming/completable-futures/transforming-a-completable-future.md)
+      * [Composing Completable Futures for Task after Task](the-executive-framework/asynchronous-programming/completable-futures/composing-completable-futures-for-task-after-task.md)
+      * [Combining Completable Futures](the-executive-framework/asynchronous-programming/completable-futures/combining-completable-futures.md)
+      * [Waiting for Many Tasks to Complete](the-executive-framework/asynchronous-programming/completable-futures/waiting-for-many-tasks-to-complete.md)
+      * [Waiting for the First Task](the-executive-framework/asynchronous-programming/completable-futures/waiting-for-the-first-task.md)
+      * [Handling Timeouts](the-executive-framework/asynchronous-programming/completable-futures/handling-timeouts.md)
+    * [Implementing an Asynchronous API](the-executive-framework/asynchronous-programming/implementing-an-asynchronous-api.md)
+
 ## BEST PRACTICE
 
 * [Naming Convention](best-practice/naming-convention.md)
@@ -197,6 +217,8 @@
   * [OS Resources](best-practice/coding/os-resources.md)
   * [Functional Interfaces](best-practice/coding/functional-interfaces.md)
   * [Concurrency](best-practice/coding/concurrency.md)
+  * [Thread Pools](best-practice/coding/thread-pools.md)
+  * [Asynchronous Programming](best-practice/coding/asynchronous-programming.md)
 
 ## IntelliJIDEA IDE SUPPORT
 
