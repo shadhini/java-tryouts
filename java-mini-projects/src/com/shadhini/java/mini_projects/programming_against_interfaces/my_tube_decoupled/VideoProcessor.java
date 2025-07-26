@@ -1,4 +1,4 @@
-package com.shadhini.tryouts.java.oop.coupled_vs_decoupled_implementation.my_tube_decoupled;
+package com.shadhini.java.mini_projects.programming_against_interfaces.my_tube_decoupled;
 
 public class VideoProcessor {
     // With this decoupled version of VideoProcessor we can implement unit testing for this component

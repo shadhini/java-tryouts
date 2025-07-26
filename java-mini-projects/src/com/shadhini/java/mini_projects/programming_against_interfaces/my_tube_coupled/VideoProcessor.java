@@ -1,4 +1,4 @@
-package com.shadhini.tryouts.java.oop.coupled_vs_decoupled_implementation.my_tube;
+package com.shadhini.java.mini_projects.programming_against_interfaces.my_tube_coupled;
 
 public class VideoProcessor {
     // Tightly coupled to classes Video, VideoEncoder, VideoDatabase, EmailService

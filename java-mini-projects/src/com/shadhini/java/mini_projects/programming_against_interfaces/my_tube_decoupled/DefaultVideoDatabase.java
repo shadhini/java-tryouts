@@ -1,6 +1,7 @@
-package com.shadhini.tryouts.java.oop.coupled_vs_decoupled_implementation.my_tube;
+package com.shadhini.java.mini_projects.programming_against_interfaces.my_tube_decoupled;
 
-public class VideoDatabase {
+public class DefaultVideoDatabase implements VideoDatabase {
+    @Override
     public void store(Video video) {
         System.out.println("Storing video metadata in a SQL database...");
         System.out.println("Title: " + video.getTitle());
