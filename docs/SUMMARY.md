@@ -200,6 +200,7 @@
       * [Waiting for the First Task](the-executive-framework/asynchronous-programming/completable-futures/waiting-for-the-first-task.md)
       * [Handling Timeouts](the-executive-framework/asynchronous-programming/completable-futures/handling-timeouts.md)
     * [Implementing an Asynchronous API](the-executive-framework/asynchronous-programming/implementing-an-asynchronous-api.md)
+* [Optional Class](optional-class.md)
 
 ## BEST PRACTICE
 
