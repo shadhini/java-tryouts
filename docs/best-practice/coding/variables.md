@@ -6,7 +6,7 @@ icon: v
 
 ## Variable
 
-ℹ️ `Final variables` -> cannot change once set
+ℹ️ `Final variables` -> can be set only inside a constructor and cannot be changed thereafter
 
 ### Variable Naming
 

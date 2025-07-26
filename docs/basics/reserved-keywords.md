@@ -38,7 +38,7 @@ We cannot use these reserved keywords to name variables, methods and classes.
 
 `var`: used in variable declaration, where you let the Java compiler to determine the type of the variable
 
-`final`:  used to declare constants that shouldn't change over time
+`final`:  used to declare constants that shouldn't change over time, can be set only inside a constructor and cannot be changed thereafter
 
 `static`: fields/methods that belong to the class; accessible without instantiating the class
 
