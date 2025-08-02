@@ -206,6 +206,7 @@
 
 * [Naming Convention](best-practice/naming-convention.md)
 * [Coding](best-practice/coding/README.md)
+  * [Comments](best-practice/coding/comments.md)
   * [Classes](best-practice/coding/classes.md)
   * [Methods](best-practice/coding/methods.md)
   * [Interfaces](best-practice/coding/interfaces.md)

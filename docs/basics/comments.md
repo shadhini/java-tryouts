@@ -19,3 +19,8 @@ Line 3
  */
 ```
 
+{% hint style="success" %}
+**Comments** should be used to explain **why's and how's** ... not what's.
+
+What we are doing should be self explanatory from the code.
+{% endhint %}
